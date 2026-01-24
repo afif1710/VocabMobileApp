@@ -1,0 +1,1562 @@
+[
+    {
+        "word": "boarding pass",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "ticket for plane",
+            "entry document"
+        ],
+        "exampleSentences": [
+            "Show your boarding pass.",
+            "Print your boarding pass."
+        ]
+    },
+    {
+        "word": "departure",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "leaving",
+            "start of journey"
+        ],
+        "exampleSentences": [
+            "Flight departure at 3pm.",
+            "Departure gate B12."
+        ]
+    },
+    {
+        "word": "arrival",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "reaching destination",
+            "coming"
+        ],
+        "exampleSentences": [
+            "Expected arrival time.",
+            "Arrivals hall."
+        ]
+    },
+    {
+        "word": "terminal",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "airport building",
+            "station"
+        ],
+        "exampleSentences": [
+            "Terminal 2.",
+            "Bus terminal."
+        ]
+    },
+    {
+        "word": "customs",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "border control",
+            "import check"
+        ],
+        "exampleSentences": [
+            "Go through customs.",
+            "Customs declaration."
+        ]
+    },
+    {
+        "word": "immigration",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "border entry",
+            "passport control"
+        ],
+        "exampleSentences": [
+            "Immigration line.",
+            "Pass through immigration."
+        ]
+    },
+    {
+        "word": "luggage",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "bags",
+            "suitcases"
+        ],
+        "exampleSentences": [
+            "Check your luggage.",
+            "Luggage claim."
+        ]
+    },
+    {
+        "word": "baggage",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "travel bags",
+            "belongings"
+        ],
+        "exampleSentences": [
+            "Baggage allowance.",
+            "Lost baggage."
+        ]
+    },
+    {
+        "word": "passport",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "identity document",
+            "travel ID"
+        ],
+        "exampleSentences": [
+            "Valid passport.",
+            "Passport expired."
+        ]
+    },
+    {
+        "word": "visa",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "entry permit",
+            "travel authorization"
+        ],
+        "exampleSentences": [
+            "Apply for a visa.",
+            "Tourist visa."
+        ]
+    },
+    {
+        "word": "reservation",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "booking",
+            "advance arrangement"
+        ],
+        "exampleSentences": [
+            "Make a reservation.",
+            "Confirm your reservation."
+        ]
+    },
+    {
+        "word": "itinerary",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "travel plan",
+            "schedule"
+        ],
+        "exampleSentences": [
+            "Send me the itinerary.",
+            "Detailed itinerary."
+        ]
+    },
+    {
+        "word": "destination",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "end point",
+            "target place"
+        ],
+        "exampleSentences": [
+            "Popular destination.",
+            "Final destination."
+        ]
+    },
+    {
+        "word": "layover",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "stopover",
+            "waiting time"
+        ],
+        "exampleSentences": [
+            "Long layover.",
+            "Three-hour layover."
+        ]
+    },
+    {
+        "word": "transfer",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "change",
+            "switch"
+        ],
+        "exampleSentences": [
+            "Airport transfer.",
+            "Transfer flight."
+        ]
+    },
+    {
+        "word": "delay",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "postponement",
+            "lateness"
+        ],
+        "exampleSentences": [
+            "Flight delay.",
+            "Unexpected delay."
+        ]
+    },
+    {
+        "word": "cancellation",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "calling off",
+            "termination"
+        ],
+        "exampleSentences": [
+            "Flight cancellation.",
+            "Cancellation policy."
+        ]
+    },
+    {
+        "word": "turbulence",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "air disturbance",
+            "bumpy flight"
+        ],
+        "exampleSentences": [
+            "Expect turbulence.",
+            "Light turbulence."
+        ]
+    },
+    {
+        "word": "aisle",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "walkway",
+            "passage"
+        ],
+        "exampleSentences": [
+            "Aisle seat.",
+            "Walk down the aisle."
+        ]
+    },
+    {
+        "word": "cabin",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "aircraft interior",
+            "room"
+        ],
+        "exampleSentences": [
+            "Cabin crew.",
+            "First class cabin."
+        ]
+    },
+    {
+        "word": "overhead",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "above",
+            "upper"
+        ],
+        "exampleSentences": [
+            "Overhead compartment.",
+            "Overhead bin."
+        ]
+    },
+    {
+        "word": "seatbelt",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "safety strap",
+            "restraint"
+        ],
+        "exampleSentences": [
+            "Fasten your seatbelt.",
+            "Seatbelt sign."
+        ]
+    },
+    {
+        "word": "crew",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "staff",
+            "team"
+        ],
+        "exampleSentences": [
+            "Flight crew.",
+            "Cabin crew."
+        ]
+    },
+    {
+        "word": "pilot",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "airplane driver",
+            "captain"
+        ],
+        "exampleSentences": [
+            "The pilot announced.",
+            "Experienced pilot."
+        ]
+    },
+    {
+        "word": "runway",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "landing strip",
+            "takeoff area"
+        ],
+        "exampleSentences": [
+            "On the runway.",
+            "Clear the runway."
+        ]
+    },
+    {
+        "word": "takeoff",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "departure",
+            "leaving ground"
+        ],
+        "exampleSentences": [
+            "Prepare for takeoff.",
+            "Smooth takeoff."
+        ]
+    },
+    {
+        "word": "landing",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "arrival",
+            "touching down"
+        ],
+        "exampleSentences": [
+            "Prepare for landing.",
+            "Safe landing."
+        ]
+    },
+    {
+        "word": "altitude",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "height",
+            "elevation"
+        ],
+        "exampleSentences": [
+            "Cruising altitude.",
+            "High altitude."
+        ]
+    },
+    {
+        "word": "schedule",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "timetable",
+            "plan"
+        ],
+        "exampleSentences": [
+            "Flight schedule.",
+            "Check the schedule."
+        ]
+    },
+    {
+        "word": "shuttle",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "transport service",
+            "bus"
+        ],
+        "exampleSentences": [
+            "Airport shuttle.",
+            "Hotel shuttle."
+        ]
+    },
+    {
+        "word": "accommodation",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "lodging",
+            "place to stay"
+        ],
+        "exampleSentences": [
+            "Book accommodation.",
+            "Comfortable accommodation."
+        ]
+    },
+    {
+        "word": "reception",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "front desk",
+            "check-in area"
+        ],
+        "exampleSentences": [
+            "Hotel reception.",
+            "Ask at reception."
+        ]
+    },
+    {
+        "word": "check-in",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "registration",
+            "arrival process"
+        ],
+        "exampleSentences": [
+            "Check-in time.",
+            "Online check-in."
+        ]
+    },
+    {
+        "word": "checkout",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "departure process",
+            "leaving"
+        ],
+        "exampleSentences": [
+            "Checkout time.",
+            "Late checkout."
+        ]
+    },
+    {
+        "word": "vacancy",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "available room",
+            "opening"
+        ],
+        "exampleSentences": [
+            "Any vacancies?",
+            "No vacancy."
+        ]
+    },
+    {
+        "word": "suite",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "luxury room",
+            "set of rooms"
+        ],
+        "exampleSentences": [
+            "Executive suite.",
+            "Book a suite."
+        ]
+    },
+    {
+        "word": "amenities",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "facilities",
+            "conveniences"
+        ],
+        "exampleSentences": [
+            "Hotel amenities.",
+            "Room amenities."
+        ]
+    },
+    {
+        "word": "concierge",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "hotel assistant",
+            "guest services"
+        ],
+        "exampleSentences": [
+            "Ask the concierge.",
+            "Concierge desk."
+        ]
+    },
+    {
+        "word": "bellhop",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "porter",
+            "luggage carrier"
+        ],
+        "exampleSentences": [
+            "Call the bellhop.",
+            "Tip the bellhop."
+        ]
+    },
+    {
+        "word": "housekeeping",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "cleaning service",
+            "room service"
+        ],
+        "exampleSentences": [
+            "Call housekeeping.",
+            "Daily housekeeping."
+        ]
+    },
+    {
+        "word": "lobby",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "entrance hall",
+            "waiting area"
+        ],
+        "exampleSentences": [
+            "Meet in the lobby.",
+            "Hotel lobby."
+        ]
+    },
+    {
+        "word": "elevator",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "lift",
+            "vertical transport"
+        ],
+        "exampleSentences": [
+            "Take the elevator.",
+            "Elevator to floor 5."
+        ]
+    },
+    {
+        "word": "balcony",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "outdoor platform",
+            "terrace"
+        ],
+        "exampleSentences": [
+            "Room with balcony.",
+            "Sit on the balcony."
+        ]
+    },
+    {
+        "word": "complimentary",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "free",
+            "included"
+        ],
+        "exampleSentences": [
+            "Complimentary breakfast.",
+            "Complimentary wifi."
+        ]
+    },
+    {
+        "word": "deposit",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "advance payment",
+            "security"
+        ],
+        "exampleSentences": [
+            "Pay a deposit.",
+            "Refundable deposit."
+        ]
+    },
+    {
+        "word": "invoice",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "bill",
+            "receipt"
+        ],
+        "exampleSentences": [
+            "Request an invoice.",
+            "Final invoice."
+        ]
+    },
+    {
+        "word": "rate",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "price",
+            "cost"
+        ],
+        "exampleSentences": [
+            "Room rate.",
+            "Daily rate."
+        ]
+    },
+    {
+        "word": "occupancy",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "capacity",
+            "usage"
+        ],
+        "exampleSentences": [
+            "Maximum occupancy.",
+            "Full occupancy."
+        ]
+    },
+    {
+        "word": "twin",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "double",
+            "two beds"
+        ],
+        "exampleSentences": [
+            "Twin room.",
+            "Twin beds."
+        ]
+    },
+    {
+        "word": "single",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "one",
+            "for one person"
+        ],
+        "exampleSentences": [
+            "Single room.",
+            "Single occupancy."
+        ]
+    },
+    {
+        "word": "intersection",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "crossroads",
+            "junction"
+        ],
+        "exampleSentences": [
+            "At the intersection.",
+            "Busy intersection."
+        ]
+    },
+    {
+        "word": "landmark",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "notable place",
+            "reference point"
+        ],
+        "exampleSentences": [
+            "Famous landmark.",
+            "Use as a landmark."
+        ]
+    },
+    {
+        "word": "pedestrian",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "walker",
+            "person on foot"
+        ],
+        "exampleSentences": [
+            "Pedestrian crossing.",
+            "Pedestrian area."
+        ]
+    },
+    {
+        "word": "detour",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "alternate route",
+            "diversion"
+        ],
+        "exampleSentences": [
+            "Take a detour.",
+            "Road detour."
+        ]
+    },
+    {
+        "word": "shortcut",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "quick route",
+            "faster way"
+        ],
+        "exampleSentences": [
+            "Know a shortcut.",
+            "Take a shortcut."
+        ]
+    },
+    {
+        "word": "roundabout",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "traffic circle",
+            "rotary"
+        ],
+        "exampleSentences": [
+            "Enter the roundabout.",
+            "Exit the roundabout."
+        ]
+    },
+    {
+        "word": "boulevard",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "wide street",
+            "avenue"
+        ],
+        "exampleSentences": [
+            "Walk down the boulevard.",
+            "Sunset Boulevard."
+        ]
+    },
+    {
+        "word": "alley",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "narrow street",
+            "back street"
+        ],
+        "exampleSentences": [
+            "Down the alley.",
+            "Dark alley."
+        ]
+    },
+    {
+        "word": "suburb",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "outskirts",
+            "residential area"
+        ],
+        "exampleSentences": [
+            "Live in the suburbs.",
+            "Quiet suburb."
+        ]
+    },
+    {
+        "word": "downtown",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "city center",
+            "central area"
+        ],
+        "exampleSentences": [
+            "Go downtown.",
+            "Downtown area."
+        ]
+    },
+    {
+        "word": "uptown",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "upper city",
+            "residential area"
+        ],
+        "exampleSentences": [
+            "Head uptown.",
+            "Uptown neighborhood."
+        ]
+    },
+    {
+        "word": "district",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "area",
+            "zone"
+        ],
+        "exampleSentences": [
+            "Business district.",
+            "Shopping district."
+        ]
+    },
+    {
+        "word": "vicinity",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "nearby area",
+            "surroundings"
+        ],
+        "exampleSentences": [
+            "In the vicinity.",
+            "Restaurants in the vicinity."
+        ]
+    },
+    {
+        "word": "adjacent",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "next to",
+            "neighboring"
+        ],
+        "exampleSentences": [
+            "Adjacent building.",
+            "Adjacent to the park."
+        ]
+    },
+    {
+        "word": "opposite",
+        "partOfSpeech": "preposition",
+        "meanings": [
+            "across from",
+            "facing"
+        ],
+        "exampleSentences": [
+            "Opposite the station.",
+            "On the opposite side."
+        ]
+    },
+    {
+        "word": "parallel",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "running alongside",
+            "equal distance"
+        ],
+        "exampleSentences": [
+            "Parallel streets.",
+            "Run parallel."
+        ]
+    },
+    {
+        "word": "perpendicular",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "at right angle",
+            "crossing"
+        ],
+        "exampleSentences": [
+            "Perpendicular streets.",
+            "Turn perpendicular."
+        ]
+    },
+    {
+        "word": "northbound",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "heading north",
+            "going north"
+        ],
+        "exampleSentences": [
+            "Northbound train.",
+            "Northbound traffic."
+        ]
+    },
+    {
+        "word": "southbound",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "heading south",
+            "going south"
+        ],
+        "exampleSentences": [
+            "Southbound lane.",
+            "Southbound bus."
+        ]
+    },
+    {
+        "word": "eastbound",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "heading east",
+            "going east"
+        ],
+        "exampleSentences": [
+            "Eastbound highway.",
+            "Eastbound train."
+        ]
+    },
+    {
+        "word": "cuisine",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "style of cooking",
+            "food tradition"
+        ],
+        "exampleSentences": [
+            "Italian cuisine.",
+            "Local cuisine."
+        ]
+    },
+    {
+        "word": "appetizer",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "starter",
+            "first course"
+        ],
+        "exampleSentences": [
+            "Order an appetizer.",
+            "Shared appetizers."
+        ]
+    },
+    {
+        "word": "entree",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "main course",
+            "main dish"
+        ],
+        "exampleSentences": [
+            "Choose an entree.",
+            "Today's entree."
+        ]
+    },
+    {
+        "word": "dessert",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "sweet course",
+            "final course"
+        ],
+        "exampleSentences": [
+            "Save room for dessert.",
+            "Dessert menu."
+        ]
+    },
+    {
+        "word": "beverage",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "drink",
+            "liquid refreshment"
+        ],
+        "exampleSentences": [
+            "Beverage included.",
+            "Hot beverages."
+        ]
+    },
+    {
+        "word": "gratuity",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "tip",
+            "service charge"
+        ],
+        "exampleSentences": [
+            "Gratuity included.",
+            "Leave a gratuity."
+        ]
+    },
+    {
+        "word": "portion",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "serving",
+            "amount"
+        ],
+        "exampleSentences": [
+            "Large portion.",
+            "Portion size."
+        ]
+    },
+    {
+        "word": "specialty",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "signature dish",
+            "special item"
+        ],
+        "exampleSentences": [
+            "House specialty.",
+            "Local specialty."
+        ]
+    },
+    {
+        "word": "vegetarian",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "no meat",
+            "plant-based"
+        ],
+        "exampleSentences": [
+            "Vegetarian options.",
+            "Vegetarian menu."
+        ]
+    },
+    {
+        "word": "allergy",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "sensitivity",
+            "adverse reaction"
+        ],
+        "exampleSentences": [
+            "Food allergy.",
+            "Allergy information."
+        ]
+    },
+    {
+        "word": "ingredients",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "components",
+            "contents"
+        ],
+        "exampleSentences": [
+            "Fresh ingredients.",
+            "List of ingredients."
+        ]
+    },
+    {
+        "word": "reservation",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "booking",
+            "table booking"
+        ],
+        "exampleSentences": [
+            "Dinner reservation.",
+            "Make a reservation."
+        ]
+    },
+    {
+        "word": "waiter",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "server",
+            "attendant"
+        ],
+        "exampleSentences": [
+            "Call the waiter.",
+            "Friendly waiter."
+        ]
+    },
+    {
+        "word": "menu",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "food list",
+            "options"
+        ],
+        "exampleSentences": [
+            "See the menu.",
+            "Lunch menu."
+        ]
+    },
+    {
+        "word": "bill",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "check",
+            "payment due"
+        ],
+        "exampleSentences": [
+            "Ask for the bill.",
+            "Split the bill."
+        ]
+    },
+    {
+        "word": "receipt",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "proof of payment",
+            "record"
+        ],
+        "exampleSentences": [
+            "Keep the receipt.",
+            "Need a receipt."
+        ]
+    },
+    {
+        "word": "dine",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to eat",
+            "to have a meal"
+        ],
+        "exampleSentences": [
+            "Dine out.",
+            "Fine dining."
+        ]
+    },
+    {
+        "word": "takeout",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "food to go",
+            "carry-out"
+        ],
+        "exampleSentences": [
+            "Order takeout.",
+            "Takeout menu."
+        ]
+    },
+    {
+        "word": "buffet",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "self-service meal",
+            "spread"
+        ],
+        "exampleSentences": [
+            "Breakfast buffet.",
+            "Buffet style."
+        ]
+    },
+    {
+        "word": "banquet",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "formal dinner",
+            "feast"
+        ],
+        "exampleSentences": [
+            "Wedding banquet.",
+            "Banquet hall."
+        ]
+    },
+    {
+        "word": "monument",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "memorial",
+            "statue"
+        ],
+        "exampleSentences": [
+            "Historic monument.",
+            "Visit the monument."
+        ]
+    },
+    {
+        "word": "museum",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "exhibition space",
+            "gallery"
+        ],
+        "exampleSentences": [
+            "Art museum.",
+            "Museum entrance."
+        ]
+    },
+    {
+        "word": "gallery",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "art space",
+            "exhibition hall"
+        ],
+        "exampleSentences": [
+            "Photo gallery.",
+            "Gallery opening."
+        ]
+    },
+    {
+        "word": "cathedral",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "large church",
+            "religious building"
+        ],
+        "exampleSentences": [
+            "Gothic cathedral.",
+            "Visit the cathedral."
+        ]
+    },
+    {
+        "word": "temple",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "religious building",
+            "shrine"
+        ],
+        "exampleSentences": [
+            "Ancient temple.",
+            "Buddhist temple."
+        ]
+    },
+    {
+        "word": "palace",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "royal residence",
+            "grand building"
+        ],
+        "exampleSentences": [
+            "Royal palace.",
+            "Palace tour."
+        ]
+    },
+    {
+        "word": "castle",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "fortress",
+            "medieval building"
+        ],
+        "exampleSentences": [
+            "Medieval castle.",
+            "Castle ruins."
+        ]
+    },
+    {
+        "word": "ruins",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "remains",
+            "ancient structures"
+        ],
+        "exampleSentences": [
+            "Roman ruins.",
+            "Explore the ruins."
+        ]
+    },
+    {
+        "word": "heritage",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "cultural legacy",
+            "tradition"
+        ],
+        "exampleSentences": [
+            "World heritage.",
+            "Cultural heritage."
+        ]
+    },
+    {
+        "word": "exhibit",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "display",
+            "show"
+        ],
+        "exampleSentences": [
+            "New exhibit.",
+            "Permanent exhibit."
+        ]
+    },
+    {
+        "word": "artifact",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "historical object",
+            "relic"
+        ],
+        "exampleSentences": [
+            "Ancient artifact.",
+            "Museum artifact."
+        ]
+    },
+    {
+        "word": "souvenir",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "memento",
+            "keepsake"
+        ],
+        "exampleSentences": [
+            "Buy a souvenir.",
+            "Souvenir shop."
+        ]
+    },
+    {
+        "word": "guidebook",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "travel guide",
+            "information book"
+        ],
+        "exampleSentences": [
+            "Travel guidebook.",
+            "Consult the guidebook."
+        ]
+    },
+    {
+        "word": "brochure",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "pamphlet",
+            "information leaflet"
+        ],
+        "exampleSentences": [
+            "Tourist brochure.",
+            "Pick up a brochure."
+        ]
+    },
+    {
+        "word": "excursion",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "day trip",
+            "outing"
+        ],
+        "exampleSentences": [
+            "Shore excursion.",
+            "Group excursion."
+        ]
+    },
+    {
+        "word": "expedition",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "journey",
+            "adventure"
+        ],
+        "exampleSentences": [
+            "Wildlife expedition.",
+            "Expedition team."
+        ]
+    },
+    {
+        "word": "tour",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "guided visit",
+            "trip"
+        ],
+        "exampleSentences": [
+            "City tour.",
+            "Walking tour."
+        ]
+    },
+    {
+        "word": "guide",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "tour leader",
+            "escort"
+        ],
+        "exampleSentences": [
+            "Tour guide.",
+            "Local guide."
+        ]
+    },
+    {
+        "word": "admission",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "entry fee",
+            "entrance"
+        ],
+        "exampleSentences": [
+            "Admission free.",
+            "Admission ticket."
+        ]
+    },
+    {
+        "word": "attraction",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "point of interest",
+            "draw"
+        ],
+        "exampleSentences": [
+            "Tourist attraction.",
+            "Main attraction."
+        ]
+    },
+    {
+        "word": "phenomenon",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "occurrence",
+            "event"
+        ],
+        "exampleSentences": [
+            "Natural phenomenon.",
+            "Cultural phenomenon."
+        ]
+    },
+    {
+        "word": "significant",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "important",
+            "notable"
+        ],
+        "exampleSentences": [
+            "Significant improvement.",
+            "Statistically significant."
+        ]
+    },
+    {
+        "word": "demonstrate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to show",
+            "to prove"
+        ],
+        "exampleSentences": [
+            "Demonstrate knowledge.",
+            "The study demonstrates."
+        ]
+    },
+    {
+        "word": "establish",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to found",
+            "to set up"
+        ],
+        "exampleSentences": [
+            "Establish a connection.",
+            "Well established."
+        ]
+    },
+    {
+        "word": "maintain",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to keep",
+            "to preserve"
+        ],
+        "exampleSentences": [
+            "Maintain standards.",
+            "Maintain contact."
+        ]
+    },
+    {
+        "word": "obtain",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to get",
+            "to acquire"
+        ],
+        "exampleSentences": [
+            "Obtain permission.",
+            "Obtain results."
+        ]
+    },
+    {
+        "word": "occur",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to happen",
+            "to take place"
+        ],
+        "exampleSentences": [
+            "Errors occur.",
+            "When did it occur?"
+        ]
+    },
+    {
+        "word": "participate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to take part",
+            "to join"
+        ],
+        "exampleSentences": [
+            "Participate in activities.",
+            "Active participation."
+        ]
+    },
+    {
+        "word": "perceive",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to notice",
+            "to understand"
+        ],
+        "exampleSentences": [
+            "Perceive differences.",
+            "How do you perceive this?"
+        ]
+    },
+    {
+        "word": "pursue",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to follow",
+            "to seek"
+        ],
+        "exampleSentences": [
+            "Pursue a goal.",
+            "Pursue education."
+        ]
+    },
+    {
+        "word": "rely",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to depend on",
+            "to trust"
+        ],
+        "exampleSentences": [
+            "Rely on data.",
+            "You can rely on me."
+        ]
+    },
+    {
+        "word": "require",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to need",
+            "to demand"
+        ],
+        "exampleSentences": [
+            "Skills required.",
+            "This requires attention."
+        ]
+    },
+    {
+        "word": "respond",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to answer",
+            "to react"
+        ],
+        "exampleSentences": [
+            "Respond quickly.",
+            "How did she respond?"
+        ]
+    },
+    {
+        "word": "retain",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to keep",
+            "to remember"
+        ],
+        "exampleSentences": [
+            "Retain information.",
+            "Retain customers."
+        ]
+    },
+    {
+        "word": "reveal",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to show",
+            "to disclose"
+        ],
+        "exampleSentences": [
+            "Reveal the truth.",
+            "Studies reveal."
+        ]
+    },
+    {
+        "word": "seek",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to look for",
+            "to try to find"
+        ],
+        "exampleSentences": [
+            "Seek advice.",
+            "Seek opportunities."
+        ]
+    },
+    {
+        "word": "select",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to choose",
+            "to pick"
+        ],
+        "exampleSentences": [
+            "Select an option.",
+            "Carefully selected."
+        ]
+    },
+    {
+        "word": "specify",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to state exactly",
+            "to detail"
+        ],
+        "exampleSentences": [
+            "Specify requirements.",
+            "Please specify."
+        ]
+    },
+    {
+        "word": "submit",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to present",
+            "to hand in"
+        ],
+        "exampleSentences": [
+            "Submit your work.",
+            "Submit an application."
+        ]
+    },
+    {
+        "word": "sufficient",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "enough",
+            "adequate"
+        ],
+        "exampleSentences": [
+            "Sufficient evidence.",
+            "Not sufficient."
+        ]
+    }
+]

@@ -1,0 +1,2282 @@
+[
+    {
+        "word": "accept",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to receive willingly",
+            "to agree to"
+        ],
+        "exampleSentences": [
+            "Please accept my apology.",
+            "She accepted the job offer."
+        ]
+    },
+    {
+        "word": "achieve",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to accomplish",
+            "to succeed in reaching"
+        ],
+        "exampleSentences": [
+            "He achieved his goal.",
+            "She achieved great success."
+        ]
+    },
+    {
+        "word": "add",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to join or combine",
+            "to include"
+        ],
+        "exampleSentences": [
+            "Add some sugar to the coffee.",
+            "Can you add me to the list?"
+        ]
+    },
+    {
+        "word": "agree",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to have the same opinion",
+            "to consent"
+        ],
+        "exampleSentences": [
+            "I agree with you.",
+            "They agreed to meet tomorrow."
+        ]
+    },
+    {
+        "word": "allow",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to permit",
+            "to give permission"
+        ],
+        "exampleSentences": [
+            "Please allow me to explain.",
+            "Dogs are not allowed here."
+        ]
+    },
+    {
+        "word": "answer",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to respond",
+            "to reply"
+        ],
+        "exampleSentences": [
+            "Please answer the question.",
+            "She answered the phone."
+        ]
+    },
+    {
+        "word": "appear",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to become visible",
+            "to seem"
+        ],
+        "exampleSentences": [
+            "The sun appeared.",
+            "He appears to be tired."
+        ]
+    },
+    {
+        "word": "apply",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to request formally",
+            "to put into use"
+        ],
+        "exampleSentences": [
+            "Apply for the job online.",
+            "Apply the cream twice daily."
+        ]
+    },
+    {
+        "word": "arrive",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to reach a destination",
+            "to come"
+        ],
+        "exampleSentences": [
+            "The train will arrive soon.",
+            "We arrived at the hotel."
+        ]
+    },
+    {
+        "word": "ask",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to inquire",
+            "to request"
+        ],
+        "exampleSentences": [
+            "May I ask a question?",
+            "He asked for help."
+        ]
+    },
+    {
+        "word": "avoid",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to stay away from",
+            "to prevent"
+        ],
+        "exampleSentences": [
+            "Avoid eating too much sugar.",
+            "She avoided the topic."
+        ]
+    },
+    {
+        "word": "become",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to begin to be",
+            "to grow into"
+        ],
+        "exampleSentences": [
+            "She became a doctor.",
+            "It became dark outside."
+        ]
+    },
+    {
+        "word": "begin",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to start",
+            "to commence"
+        ],
+        "exampleSentences": [
+            "Let's begin the lesson.",
+            "The movie begins at 8."
+        ]
+    },
+    {
+        "word": "believe",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to accept as true",
+            "to have faith in"
+        ],
+        "exampleSentences": [
+            "I believe in you.",
+            "Do you believe this story?"
+        ]
+    },
+    {
+        "word": "belong",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to be owned by",
+            "to be a member of"
+        ],
+        "exampleSentences": [
+            "This book belongs to me.",
+            "I belong to a gym."
+        ]
+    },
+    {
+        "word": "break",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to damage",
+            "to separate into pieces"
+        ],
+        "exampleSentences": [
+            "Don't break the glass.",
+            "He broke his promise."
+        ]
+    },
+    {
+        "word": "bring",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to carry toward",
+            "to cause to come"
+        ],
+        "exampleSentences": [
+            "Please bring me water.",
+            "Bring your friends along."
+        ]
+    },
+    {
+        "word": "build",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to construct",
+            "to create"
+        ],
+        "exampleSentences": [
+            "They built a new house.",
+            "Build your vocabulary daily."
+        ]
+    },
+    {
+        "word": "buy",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to purchase",
+            "to acquire by payment"
+        ],
+        "exampleSentences": [
+            "I need to buy groceries.",
+            "She bought a new car."
+        ]
+    },
+    {
+        "word": "call",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to phone",
+            "to name"
+        ],
+        "exampleSentences": [
+            "Call me tomorrow.",
+            "They call him Mike."
+        ]
+    },
+    {
+        "word": "carry",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to transport",
+            "to hold while moving"
+        ],
+        "exampleSentences": [
+            "Can you carry this bag?",
+            "She carried the baby."
+        ]
+    },
+    {
+        "word": "catch",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to capture",
+            "to grab"
+        ],
+        "exampleSentences": [
+            "Catch the ball!",
+            "I caught a cold."
+        ]
+    },
+    {
+        "word": "cause",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make happen",
+            "to bring about"
+        ],
+        "exampleSentences": [
+            "What caused the accident?",
+            "Stress can cause illness."
+        ]
+    },
+    {
+        "word": "change",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to alter",
+            "to become different"
+        ],
+        "exampleSentences": [
+            "Can I change my order?",
+            "The weather changed."
+        ]
+    },
+    {
+        "word": "check",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to examine",
+            "to verify"
+        ],
+        "exampleSentences": [
+            "Check your email.",
+            "Let me check the time."
+        ]
+    },
+    {
+        "word": "choose",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to select",
+            "to pick"
+        ],
+        "exampleSentences": [
+            "Choose your favorite color.",
+            "She chose the red dress."
+        ]
+    },
+    {
+        "word": "clean",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to remove dirt",
+            "to make tidy"
+        ],
+        "exampleSentences": [
+            "Clean your room.",
+            "I cleaned the kitchen."
+        ]
+    },
+    {
+        "word": "close",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to shut",
+            "to end"
+        ],
+        "exampleSentences": [
+            "Close the door.",
+            "The store closes at 9."
+        ]
+    },
+    {
+        "word": "come",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to move toward",
+            "to arrive"
+        ],
+        "exampleSentences": [
+            "Come here please.",
+            "Spring is coming."
+        ]
+    },
+    {
+        "word": "compare",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to examine similarities",
+            "to contrast"
+        ],
+        "exampleSentences": [
+            "Compare these two products.",
+            "Don't compare yourself to others."
+        ]
+    },
+    {
+        "word": "complete",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to finish",
+            "to make whole"
+        ],
+        "exampleSentences": [
+            "Complete the form.",
+            "She completed the project."
+        ]
+    },
+    {
+        "word": "consider",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to think about",
+            "to regard as"
+        ],
+        "exampleSentences": [
+            "Consider all options.",
+            "I consider him a friend."
+        ]
+    },
+    {
+        "word": "contain",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to hold within",
+            "to include"
+        ],
+        "exampleSentences": [
+            "This box contains books.",
+            "The report contains errors."
+        ]
+    },
+    {
+        "word": "continue",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to go on",
+            "to persist"
+        ],
+        "exampleSentences": [
+            "Please continue reading.",
+            "The rain continued all day."
+        ]
+    },
+    {
+        "word": "control",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to direct",
+            "to regulate"
+        ],
+        "exampleSentences": [
+            "Control your emotions.",
+            "Who controls this machine?"
+        ]
+    },
+    {
+        "word": "cook",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to prepare food",
+            "to heat food"
+        ],
+        "exampleSentences": [
+            "I cook dinner every day.",
+            "She cooked a delicious meal."
+        ]
+    },
+    {
+        "word": "copy",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to duplicate",
+            "to imitate"
+        ],
+        "exampleSentences": [
+            "Copy this document.",
+            "Don't copy my work."
+        ]
+    },
+    {
+        "word": "cost",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to have a price of",
+            "to require payment"
+        ],
+        "exampleSentences": [
+            "How much does it cost?",
+            "This mistake cost him his job."
+        ]
+    },
+    {
+        "word": "count",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to number",
+            "to matter"
+        ],
+        "exampleSentences": [
+            "Count the apples.",
+            "Every vote counts."
+        ]
+    },
+    {
+        "word": "cover",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to place something over",
+            "to include"
+        ],
+        "exampleSentences": [
+            "Cover the pot.",
+            "The book covers many topics."
+        ]
+    },
+    {
+        "word": "create",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make",
+            "to produce"
+        ],
+        "exampleSentences": [
+            "Create a new account.",
+            "Artists create beautiful works."
+        ]
+    },
+    {
+        "word": "cut",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to divide with a sharp tool",
+            "to reduce"
+        ],
+        "exampleSentences": [
+            "Cut the paper in half.",
+            "They cut the budget."
+        ]
+    },
+    {
+        "word": "decide",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to choose",
+            "to determine"
+        ],
+        "exampleSentences": [
+            "Decide quickly.",
+            "She decided to stay."
+        ]
+    },
+    {
+        "word": "deliver",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to bring to a destination",
+            "to hand over"
+        ],
+        "exampleSentences": [
+            "Deliver the package today.",
+            "She delivered a great speech."
+        ]
+    },
+    {
+        "word": "describe",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to explain",
+            "to tell about"
+        ],
+        "exampleSentences": [
+            "Describe your experience.",
+            "Can you describe the suspect?"
+        ]
+    },
+    {
+        "word": "design",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to create a plan",
+            "to devise"
+        ],
+        "exampleSentences": [
+            "Design a new logo.",
+            "She designed her own dress."
+        ]
+    },
+    {
+        "word": "develop",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to grow",
+            "to create over time"
+        ],
+        "exampleSentences": [
+            "Develop your skills.",
+            "The company developed new software."
+        ]
+    },
+    {
+        "word": "die",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to cease living",
+            "to stop functioning"
+        ],
+        "exampleSentences": [
+            "Plants die without water.",
+            "The battery died."
+        ]
+    },
+    {
+        "word": "discover",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to find",
+            "to learn about"
+        ],
+        "exampleSentences": [
+            "Discover new places.",
+            "She discovered the truth."
+        ]
+    },
+    {
+        "word": "discuss",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to talk about",
+            "to consider"
+        ],
+        "exampleSentences": [
+            "Let's discuss this later.",
+            "We discussed the problem."
+        ]
+    },
+    {
+        "word": "ability",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "skill",
+            "capability"
+        ],
+        "exampleSentences": [
+            "She has great ability.",
+            "Test your abilities."
+        ]
+    },
+    {
+        "word": "action",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "deed",
+            "activity"
+        ],
+        "exampleSentences": [
+            "Take action now.",
+            "Actions speak louder than words."
+        ]
+    },
+    {
+        "word": "activity",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "pursuit",
+            "pastime"
+        ],
+        "exampleSentences": [
+            "Physical activity is important.",
+            "What activities do you enjoy?"
+        ]
+    },
+    {
+        "word": "advice",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "guidance",
+            "recommendation"
+        ],
+        "exampleSentences": [
+            "Give me some advice.",
+            "She followed his advice."
+        ]
+    },
+    {
+        "word": "age",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "years lived",
+            "era"
+        ],
+        "exampleSentences": [
+            "What is your age?",
+            "The digital age has begun."
+        ]
+    },
+    {
+        "word": "air",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "atmosphere",
+            "manner"
+        ],
+        "exampleSentences": [
+            "Fresh air is healthy.",
+            "He had an air of confidence."
+        ]
+    },
+    {
+        "word": "amount",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "quantity",
+            "sum"
+        ],
+        "exampleSentences": [
+            "A large amount of money.",
+            "What amount do you need?"
+        ]
+    },
+    {
+        "word": "answer",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "response",
+            "solution"
+        ],
+        "exampleSentences": [
+            "What's the answer?",
+            "Find the right answer."
+        ]
+    },
+    {
+        "word": "area",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "region",
+            "space"
+        ],
+        "exampleSentences": [
+            "A quiet area.",
+            "The kitchen area is small."
+        ]
+    },
+    {
+        "word": "arm",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "upper limb",
+            "weapon"
+        ],
+        "exampleSentences": [
+            "She broke her arm.",
+            "Open arms welcome."
+        ]
+    },
+    {
+        "word": "art",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "creative expression",
+            "skill"
+        ],
+        "exampleSentences": [
+            "Modern art is interesting.",
+            "The art of cooking."
+        ]
+    },
+    {
+        "word": "attention",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "focus",
+            "notice"
+        ],
+        "exampleSentences": [
+            "Pay attention.",
+            "He attracted attention."
+        ]
+    },
+    {
+        "word": "baby",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "infant",
+            "very young child"
+        ],
+        "exampleSentences": [
+            "The baby is sleeping.",
+            "She had a baby girl."
+        ]
+    },
+    {
+        "word": "back",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "rear part",
+            "spine area"
+        ],
+        "exampleSentences": [
+            "The back of the house.",
+            "My back hurts."
+        ]
+    },
+    {
+        "word": "ball",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "round object",
+            "formal dance"
+        ],
+        "exampleSentences": [
+            "Throw the ball.",
+            "A costume ball."
+        ]
+    },
+    {
+        "word": "bank",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "financial institution",
+            "riverside"
+        ],
+        "exampleSentences": [
+            "Go to the bank.",
+            "Sit by the river bank."
+        ]
+    },
+    {
+        "word": "base",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "foundation",
+            "headquarters"
+        ],
+        "exampleSentences": [
+            "The base of the mountain.",
+            "Return to base."
+        ]
+    },
+    {
+        "word": "bed",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "furniture for sleeping",
+            "garden plot"
+        ],
+        "exampleSentences": [
+            "Go to bed.",
+            "A flower bed."
+        ]
+    },
+    {
+        "word": "beginning",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "start",
+            "origin"
+        ],
+        "exampleSentences": [
+            "From the beginning.",
+            "A new beginning."
+        ]
+    },
+    {
+        "word": "bird",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "flying animal",
+            "fowl"
+        ],
+        "exampleSentences": [
+            "The bird sang.",
+            "Many birds migrate."
+        ]
+    },
+    {
+        "word": "blood",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "red fluid in body",
+            "lineage"
+        ],
+        "exampleSentences": [
+            "Blood is essential.",
+            "Royal blood."
+        ]
+    },
+    {
+        "word": "board",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "flat piece of wood",
+            "committee"
+        ],
+        "exampleSentences": [
+            "Write on the board.",
+            "The board of directors."
+        ]
+    },
+    {
+        "word": "boat",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "watercraft",
+            "ship"
+        ],
+        "exampleSentences": [
+            "Sail the boat.",
+            "A fishing boat."
+        ]
+    },
+    {
+        "word": "body",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "physical form",
+            "main part"
+        ],
+        "exampleSentences": [
+            "Healthy body.",
+            "The body of the text."
+        ]
+    },
+    {
+        "word": "book",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "written work",
+            "record"
+        ],
+        "exampleSentences": [
+            "Read a book.",
+            "Book a table."
+        ]
+    },
+    {
+        "word": "bottom",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "lowest part",
+            "base"
+        ],
+        "exampleSentences": [
+            "The bottom of the page.",
+            "Start from the bottom."
+        ]
+    },
+    {
+        "word": "box",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "container",
+            "enclosure"
+        ],
+        "exampleSentences": [
+            "Open the box.",
+            "A cardboard box."
+        ]
+    },
+    {
+        "word": "boy",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "male child",
+            "young man"
+        ],
+        "exampleSentences": [
+            "The boy plays.",
+            "A delivery boy."
+        ]
+    },
+    {
+        "word": "brain",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "organ of thought",
+            "intelligence"
+        ],
+        "exampleSentences": [
+            "Use your brain.",
+            "Brain power."
+        ]
+    },
+    {
+        "word": "bread",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "baked food",
+            "staple food"
+        ],
+        "exampleSentences": [
+            "Fresh bread.",
+            "Daily bread."
+        ]
+    },
+    {
+        "word": "able",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "capable",
+            "having ability"
+        ],
+        "exampleSentences": [
+            "She is able to help.",
+            "An able leader."
+        ]
+    },
+    {
+        "word": "afraid",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "scared",
+            "fearful"
+        ],
+        "exampleSentences": [
+            "Don't be afraid.",
+            "I'm afraid of spiders."
+        ]
+    },
+    {
+        "word": "angry",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "mad",
+            "furious"
+        ],
+        "exampleSentences": [
+            "He looks angry.",
+            "Don't get angry."
+        ]
+    },
+    {
+        "word": "available",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "accessible",
+            "obtainable"
+        ],
+        "exampleSentences": [
+            "Is this seat available?",
+            "Available in all sizes."
+        ]
+    },
+    {
+        "word": "bad",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "not good",
+            "poor quality"
+        ],
+        "exampleSentences": [
+            "Bad weather today.",
+            "That's a bad idea."
+        ]
+    },
+    {
+        "word": "basic",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "fundamental",
+            "elementary"
+        ],
+        "exampleSentences": [
+            "Basic knowledge.",
+            "Learn the basics."
+        ]
+    },
+    {
+        "word": "beautiful",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "attractive",
+            "lovely"
+        ],
+        "exampleSentences": [
+            "A beautiful sunset.",
+            "She's beautiful."
+        ]
+    },
+    {
+        "word": "best",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "most excellent",
+            "top"
+        ],
+        "exampleSentences": [
+            "The best choice.",
+            "Do your best."
+        ]
+    },
+    {
+        "word": "better",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "improved",
+            "superior"
+        ],
+        "exampleSentences": [
+            "This is better.",
+            "Feel better soon."
+        ]
+    },
+    {
+        "word": "big",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "large",
+            "significant"
+        ],
+        "exampleSentences": [
+            "A big house.",
+            "Big news!"
+        ]
+    },
+    {
+        "word": "black",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "darkest color",
+            "without light"
+        ],
+        "exampleSentences": [
+            "A black cat.",
+            "Black coffee."
+        ]
+    },
+    {
+        "word": "blue",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "sky color",
+            "sad"
+        ],
+        "exampleSentences": [
+            "Blue eyes.",
+            "Feeling blue."
+        ]
+    },
+    {
+        "word": "bright",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "shining",
+            "intelligent"
+        ],
+        "exampleSentences": [
+            "Bright sunlight.",
+            "A bright student."
+        ]
+    },
+    {
+        "word": "busy",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "occupied",
+            "active"
+        ],
+        "exampleSentences": [
+            "I'm busy now.",
+            "A busy street."
+        ]
+    },
+    {
+        "word": "careful",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "cautious",
+            "attentive"
+        ],
+        "exampleSentences": [
+            "Be careful!",
+            "Careful planning."
+        ]
+    },
+    {
+        "word": "certain",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "sure",
+            "specific"
+        ],
+        "exampleSentences": [
+            "I'm certain.",
+            "A certain amount."
+        ]
+    },
+    {
+        "word": "cheap",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "inexpensive",
+            "low cost"
+        ],
+        "exampleSentences": [
+            "A cheap flight.",
+            "Cheap and cheerful."
+        ]
+    },
+    {
+        "word": "clean",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "not dirty",
+            "pure"
+        ],
+        "exampleSentences": [
+            "Clean water.",
+            "A clean room."
+        ]
+    },
+    {
+        "word": "clear",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "transparent",
+            "obvious"
+        ],
+        "exampleSentences": [
+            "Clear water.",
+            "A clear explanation."
+        ]
+    },
+    {
+        "word": "close",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "near",
+            "intimate"
+        ],
+        "exampleSentences": [
+            "Close friends.",
+            "Stay close."
+        ]
+    },
+    {
+        "word": "cold",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "low temperature",
+            "unfriendly"
+        ],
+        "exampleSentences": [
+            "Cold weather.",
+            "A cold response."
+        ]
+    },
+    {
+        "word": "comfortable",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "at ease",
+            "cozy"
+        ],
+        "exampleSentences": [
+            "A comfortable chair.",
+            "Feel comfortable."
+        ]
+    },
+    {
+        "word": "common",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "ordinary",
+            "frequent"
+        ],
+        "exampleSentences": [
+            "A common mistake.",
+            "Common sense."
+        ]
+    },
+    {
+        "word": "complete",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "whole",
+            "finished"
+        ],
+        "exampleSentences": [
+            "A complete set.",
+            "Complete silence."
+        ]
+    },
+    {
+        "word": "correct",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "right",
+            "accurate"
+        ],
+        "exampleSentences": [
+            "The correct answer.",
+            "Correct behavior."
+        ]
+    },
+    {
+        "word": "current",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "present",
+            "contemporary"
+        ],
+        "exampleSentences": [
+            "Current events.",
+            "The current situation."
+        ]
+    },
+    {
+        "word": "dangerous",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "hazardous",
+            "risky"
+        ],
+        "exampleSentences": [
+            "A dangerous road.",
+            "Dangerous animals."
+        ]
+    },
+    {
+        "word": "dark",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "without light",
+            "gloomy"
+        ],
+        "exampleSentences": [
+            "A dark room.",
+            "Dark clouds."
+        ]
+    },
+    {
+        "word": "dead",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "not alive",
+            "inactive"
+        ],
+        "exampleSentences": [
+            "A dead plant.",
+            "Dead battery."
+        ]
+    },
+    {
+        "word": "deep",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "extending far down",
+            "profound"
+        ],
+        "exampleSentences": [
+            "Deep water.",
+            "Deep thoughts."
+        ]
+    },
+    {
+        "word": "actually",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "in fact",
+            "really"
+        ],
+        "exampleSentences": [
+            "I actually like it.",
+            "Actually, you're right."
+        ]
+    },
+    {
+        "word": "again",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "once more",
+            "another time"
+        ],
+        "exampleSentences": [
+            "Try again.",
+            "Come again."
+        ]
+    },
+    {
+        "word": "almost",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "nearly",
+            "not quite"
+        ],
+        "exampleSentences": [
+            "Almost ready.",
+            "Almost there."
+        ]
+    },
+    {
+        "word": "already",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "by now",
+            "previously"
+        ],
+        "exampleSentences": [
+            "Already done.",
+            "I already know."
+        ]
+    },
+    {
+        "word": "also",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "too",
+            "in addition"
+        ],
+        "exampleSentences": [
+            "I also agree.",
+            "Also available."
+        ]
+    },
+    {
+        "word": "always",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "at all times",
+            "forever"
+        ],
+        "exampleSentences": [
+            "Always remember.",
+            "I always try."
+        ]
+    },
+    {
+        "word": "away",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "at a distance",
+            "absent"
+        ],
+        "exampleSentences": [
+            "Go away.",
+            "Far away."
+        ]
+    },
+    {
+        "word": "back",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "in return",
+            "to previous place"
+        ],
+        "exampleSentences": [
+            "Come back.",
+            "Look back."
+        ]
+    },
+    {
+        "word": "badly",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "poorly",
+            "seriously"
+        ],
+        "exampleSentences": [
+            "Badly hurt.",
+            "I want it badly."
+        ]
+    },
+    {
+        "word": "carefully",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "with care",
+            "cautiously"
+        ],
+        "exampleSentences": [
+            "Drive carefully.",
+            "Listen carefully."
+        ]
+    },
+    {
+        "word": "certainly",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "definitely",
+            "surely"
+        ],
+        "exampleSentences": [
+            "Certainly!",
+            "Most certainly."
+        ]
+    },
+    {
+        "word": "clearly",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "obviously",
+            "distinctly"
+        ],
+        "exampleSentences": [
+            "Speak clearly.",
+            "Clearly visible."
+        ]
+    },
+    {
+        "word": "completely",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "entirely",
+            "wholly"
+        ],
+        "exampleSentences": [
+            "Completely agree.",
+            "Completely wrong."
+        ]
+    },
+    {
+        "word": "correctly",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "accurately",
+            "rightly"
+        ],
+        "exampleSentences": [
+            "Answer correctly.",
+            "Spelled correctly."
+        ]
+    },
+    {
+        "word": "daily",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "every day",
+            "each day"
+        ],
+        "exampleSentences": [
+            "Exercise daily.",
+            "Check daily."
+        ]
+    },
+    {
+        "word": "directly",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "straight",
+            "immediately"
+        ],
+        "exampleSentences": [
+            "Go directly.",
+            "Speak directly."
+        ]
+    },
+    {
+        "word": "easily",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "without difficulty",
+            "simply"
+        ],
+        "exampleSentences": [
+            "Easily done.",
+            "Break easily."
+        ]
+    },
+    {
+        "word": "enough",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "sufficiently",
+            "adequately"
+        ],
+        "exampleSentences": [
+            "Good enough.",
+            "Fast enough."
+        ]
+    },
+    {
+        "word": "especially",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "particularly",
+            "chiefly"
+        ],
+        "exampleSentences": [
+            "Especially you.",
+            "Especially important."
+        ]
+    },
+    {
+        "word": "even",
+        "partOfSpeech": "adverb",
+        "meanings": [
+            "to a greater degree",
+            "surprisingly"
+        ],
+        "exampleSentences": [
+            "Even better.",
+            "Even I know."
+        ]
+    },
+    {
+        "word": "draw",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make a picture",
+            "to pull"
+        ],
+        "exampleSentences": [
+            "Draw a circle.",
+            "Draw the curtains."
+        ]
+    },
+    {
+        "word": "drink",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to consume liquid",
+            "to absorb"
+        ],
+        "exampleSentences": [
+            "Drink water.",
+            "Drink in the view."
+        ]
+    },
+    {
+        "word": "drive",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to operate a vehicle",
+            "to motivate"
+        ],
+        "exampleSentences": [
+            "Drive carefully.",
+            "What drives you?"
+        ]
+    },
+    {
+        "word": "drop",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to let fall",
+            "to decrease"
+        ],
+        "exampleSentences": [
+            "Don't drop it.",
+            "Prices dropped."
+        ]
+    },
+    {
+        "word": "eat",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to consume food",
+            "to erode"
+        ],
+        "exampleSentences": [
+            "Eat breakfast.",
+            "Rust eats metal."
+        ]
+    },
+    {
+        "word": "end",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to finish",
+            "to conclude"
+        ],
+        "exampleSentences": [
+            "End the meeting.",
+            "The movie ended."
+        ]
+    },
+    {
+        "word": "enjoy",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to take pleasure in",
+            "to experience"
+        ],
+        "exampleSentences": [
+            "Enjoy your meal.",
+            "She enjoys reading."
+        ]
+    },
+    {
+        "word": "enter",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to go into",
+            "to join"
+        ],
+        "exampleSentences": [
+            "Enter the room.",
+            "Enter the contest."
+        ]
+    },
+    {
+        "word": "examine",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to inspect",
+            "to test"
+        ],
+        "exampleSentences": [
+            "Examine the evidence.",
+            "The doctor examined her."
+        ]
+    },
+    {
+        "word": "exist",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to be",
+            "to live"
+        ],
+        "exampleSentences": [
+            "Ghosts don't exist.",
+            "We exist to help."
+        ]
+    },
+    {
+        "word": "expect",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to anticipate",
+            "to suppose"
+        ],
+        "exampleSentences": [
+            "I expect results.",
+            "What do you expect?"
+        ]
+    },
+    {
+        "word": "explain",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to clarify",
+            "to describe"
+        ],
+        "exampleSentences": [
+            "Explain the problem.",
+            "Let me explain."
+        ]
+    },
+    {
+        "word": "express",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to communicate",
+            "to show"
+        ],
+        "exampleSentences": [
+            "Express yourself.",
+            "Express gratitude."
+        ]
+    },
+    {
+        "word": "face",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to confront",
+            "to look toward"
+        ],
+        "exampleSentences": [
+            "Face the truth.",
+            "Face forward."
+        ]
+    },
+    {
+        "word": "fail",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to not succeed",
+            "to disappoint"
+        ],
+        "exampleSentences": [
+            "Don't fail me.",
+            "He failed the test."
+        ]
+    },
+    {
+        "word": "fall",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to drop",
+            "to decrease"
+        ],
+        "exampleSentences": [
+            "Don't fall.",
+            "Prices fell."
+        ]
+    },
+    {
+        "word": "fear",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to be afraid of",
+            "to worry"
+        ],
+        "exampleSentences": [
+            "Fear nothing.",
+            "I fear the worst."
+        ]
+    },
+    {
+        "word": "feel",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to sense",
+            "to experience emotion"
+        ],
+        "exampleSentences": [
+            "Feel the fabric.",
+            "I feel happy."
+        ]
+    },
+    {
+        "word": "fight",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to combat",
+            "to struggle"
+        ],
+        "exampleSentences": [
+            "Fight for justice.",
+            "They fought bravely."
+        ]
+    },
+    {
+        "word": "fill",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make full",
+            "to occupy"
+        ],
+        "exampleSentences": [
+            "Fill the glass.",
+            "Fill the position."
+        ]
+    },
+    {
+        "word": "brother",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "male sibling",
+            "fellow member"
+        ],
+        "exampleSentences": [
+            "My brother's keeper.",
+            "Band of brothers."
+        ]
+    },
+    {
+        "word": "building",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "structure",
+            "construction"
+        ],
+        "exampleSentences": [
+            "Tall building.",
+            "Office building."
+        ]
+    },
+    {
+        "word": "business",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "company",
+            "commerce"
+        ],
+        "exampleSentences": [
+            "Start a business.",
+            "Business is good."
+        ]
+    },
+    {
+        "word": "car",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "automobile",
+            "vehicle"
+        ],
+        "exampleSentences": [
+            "New car.",
+            "Car accident."
+        ]
+    },
+    {
+        "word": "care",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "attention",
+            "concern"
+        ],
+        "exampleSentences": [
+            "Take care.",
+            "Health care."
+        ]
+    },
+    {
+        "word": "case",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "instance",
+            "container"
+        ],
+        "exampleSentences": [
+            "In that case.",
+            "A court case."
+        ]
+    },
+    {
+        "word": "center",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "middle",
+            "main point"
+        ],
+        "exampleSentences": [
+            "City center.",
+            "The center of attention."
+        ]
+    },
+    {
+        "word": "century",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "100 years",
+            "era"
+        ],
+        "exampleSentences": [
+            "21st century.",
+            "Centuries ago."
+        ]
+    },
+    {
+        "word": "chance",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "opportunity",
+            "possibility"
+        ],
+        "exampleSentences": [
+            "Take a chance.",
+            "By chance."
+        ]
+    },
+    {
+        "word": "change",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "alteration",
+            "coins"
+        ],
+        "exampleSentences": [
+            "Time for change.",
+            "Keep the change."
+        ]
+    },
+    {
+        "word": "character",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "personality",
+            "fictional person"
+        ],
+        "exampleSentences": [
+            "Good character.",
+            "Main character."
+        ]
+    },
+    {
+        "word": "child",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "young person",
+            "offspring"
+        ],
+        "exampleSentences": [
+            "A happy child.",
+            "Only child."
+        ]
+    },
+    {
+        "word": "choice",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "option",
+            "selection"
+        ],
+        "exampleSentences": [
+            "Good choice.",
+            "Multiple choices."
+        ]
+    },
+    {
+        "word": "church",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "place of worship",
+            "religious group"
+        ],
+        "exampleSentences": [
+            "Go to church.",
+            "Church members."
+        ]
+    },
+    {
+        "word": "city",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "urban area",
+            "municipality"
+        ],
+        "exampleSentences": [
+            "Big city.",
+            "City life."
+        ]
+    },
+    {
+        "word": "class",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "group of students",
+            "category"
+        ],
+        "exampleSentences": [
+            "In class.",
+            "First class."
+        ]
+    },
+    {
+        "word": "club",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "organization",
+            "nightclub"
+        ],
+        "exampleSentences": [
+            "Join a club.",
+            "Golf club."
+        ]
+    },
+    {
+        "word": "college",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "educational institution",
+            "university"
+        ],
+        "exampleSentences": [
+            "Go to college.",
+            "College student."
+        ]
+    },
+    {
+        "word": "color",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "hue",
+            "pigment"
+        ],
+        "exampleSentences": [
+            "Favorite color.",
+            "True colors."
+        ]
+    },
+    {
+        "word": "community",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "neighborhood",
+            "group"
+        ],
+        "exampleSentences": [
+            "Local community.",
+            "Community center."
+        ]
+    },
+    {
+        "word": "different",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "not the same",
+            "various"
+        ],
+        "exampleSentences": [
+            "Different colors.",
+            "Think different."
+        ]
+    },
+    {
+        "word": "difficult",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "hard",
+            "challenging"
+        ],
+        "exampleSentences": [
+            "Difficult task.",
+            "A difficult choice."
+        ]
+    },
+    {
+        "word": "direct",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "straight",
+            "frank"
+        ],
+        "exampleSentences": [
+            "Direct route.",
+            "Be direct."
+        ]
+    },
+    {
+        "word": "dry",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "not wet",
+            "boring"
+        ],
+        "exampleSentences": [
+            "Dry weather.",
+            "Dry humor."
+        ]
+    },
+    {
+        "word": "early",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "before expected time",
+            "initial"
+        ],
+        "exampleSentences": [
+            "Early morning.",
+            "Early stages."
+        ]
+    },
+    {
+        "word": "easy",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "not difficult",
+            "simple"
+        ],
+        "exampleSentences": [
+            "Easy question.",
+            "Take it easy."
+        ]
+    },
+    {
+        "word": "economic",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "financial",
+            "relating to economy"
+        ],
+        "exampleSentences": [
+            "Economic growth.",
+            "Economic crisis."
+        ]
+    },
+    {
+        "word": "effective",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "successful",
+            "working"
+        ],
+        "exampleSentences": [
+            "Effective solution.",
+            "Very effective."
+        ]
+    },
+    {
+        "word": "empty",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "containing nothing",
+            "vacant"
+        ],
+        "exampleSentences": [
+            "Empty room.",
+            "Empty promises."
+        ]
+    },
+    {
+        "word": "entire",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "whole",
+            "complete"
+        ],
+        "exampleSentences": [
+            "Entire day.",
+            "The entire team."
+        ]
+    },
+    {
+        "word": "environmental",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "relating to environment",
+            "ecological"
+        ],
+        "exampleSentences": [
+            "Environmental issues.",
+            "Environmental protection."
+        ]
+    },
+    {
+        "word": "equal",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "same",
+            "balanced"
+        ],
+        "exampleSentences": [
+            "Equal rights.",
+            "Equal parts."
+        ]
+    },
+    {
+        "word": "essential",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "necessary",
+            "vital"
+        ],
+        "exampleSentences": [
+            "Essential items.",
+            "Absolutely essential."
+        ]
+    },
+    {
+        "word": "excellent",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "outstanding",
+            "superior"
+        ],
+        "exampleSentences": [
+            "Excellent work.",
+            "Excellent choice."
+        ]
+    },
+    {
+        "word": "exciting",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "thrilling",
+            "stimulating"
+        ],
+        "exampleSentences": [
+            "Exciting news.",
+            "How exciting!"
+        ]
+    },
+    {
+        "word": "expensive",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "costly",
+            "high-priced"
+        ],
+        "exampleSentences": [
+            "Expensive car.",
+            "Too expensive."
+        ]
+    },
+    {
+        "word": "fair",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "just",
+            "reasonable"
+        ],
+        "exampleSentences": [
+            "Fair price.",
+            "Fair treatment."
+        ]
+    },
+    {
+        "word": "false",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "untrue",
+            "fake"
+        ],
+        "exampleSentences": [
+            "False statement.",
+            "False alarm."
+        ]
+    },
+    {
+        "word": "familiar",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "well-known",
+            "recognized"
+        ],
+        "exampleSentences": [
+            "Familiar face.",
+            "Looks familiar."
+        ]
+    },
+    {
+        "word": "famous",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "well-known",
+            "celebrated"
+        ],
+        "exampleSentences": [
+            "Famous actor.",
+            "World famous."
+        ]
+    }
+]

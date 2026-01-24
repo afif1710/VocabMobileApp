@@ -1,0 +1,1562 @@
+[
+    {
+        "word": "abstract",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "theoretical",
+            "not concrete"
+        ],
+        "exampleSentences": [
+            "Abstract concepts are hard to understand.",
+            "The abstract art was intriguing."
+        ]
+    },
+    {
+        "word": "academic",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "scholarly",
+            "educational"
+        ],
+        "exampleSentences": [
+            "Academic performance improved.",
+            "She has academic interests."
+        ]
+    },
+    {
+        "word": "accomplish",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to achieve",
+            "to complete successfully"
+        ],
+        "exampleSentences": [
+            "She accomplished her goals.",
+            "What did you accomplish today?"
+        ]
+    },
+    {
+        "word": "accumulate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to gather",
+            "to collect over time"
+        ],
+        "exampleSentences": [
+            "Knowledge accumulates over years.",
+            "Dust accumulated on the shelf."
+        ]
+    },
+    {
+        "word": "accurate",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "precise",
+            "correct"
+        ],
+        "exampleSentences": [
+            "The data must be accurate.",
+            "An accurate measurement."
+        ]
+    },
+    {
+        "word": "acknowledge",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to recognize",
+            "to admit"
+        ],
+        "exampleSentences": [
+            "Acknowledge your mistakes.",
+            "She acknowledged his contribution."
+        ]
+    },
+    {
+        "word": "acquire",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to obtain",
+            "to gain"
+        ],
+        "exampleSentences": [
+            "Acquire new skills.",
+            "The company acquired a startup."
+        ]
+    },
+    {
+        "word": "adapt",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to adjust",
+            "to modify"
+        ],
+        "exampleSentences": [
+            "Adapt to new situations.",
+            "Animals adapt to their environment."
+        ]
+    },
+    {
+        "word": "adequate",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "sufficient",
+            "enough"
+        ],
+        "exampleSentences": [
+            "Adequate preparation is key.",
+            "The resources were adequate."
+        ]
+    },
+    {
+        "word": "adjacent",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "next to",
+            "neighboring"
+        ],
+        "exampleSentences": [
+            "The adjacent room was quiet.",
+            "Adjacent angles share a side."
+        ]
+    },
+    {
+        "word": "affect",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to influence",
+            "to impact"
+        ],
+        "exampleSentences": [
+            "Weather affects mood.",
+            "How does this affect you?"
+        ]
+    },
+    {
+        "word": "allocate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to distribute",
+            "to assign"
+        ],
+        "exampleSentences": [
+            "Allocate resources wisely.",
+            "Time was allocated for discussion."
+        ]
+    },
+    {
+        "word": "alternative",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "another option",
+            "substitute"
+        ],
+        "exampleSentences": [
+            "Consider alternatives.",
+            "There's no alternative."
+        ]
+    },
+    {
+        "word": "ambiguous",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "unclear",
+            "open to interpretation"
+        ],
+        "exampleSentences": [
+            "The statement was ambiguous.",
+            "Avoid ambiguous language."
+        ]
+    },
+    {
+        "word": "amend",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to modify",
+            "to correct"
+        ],
+        "exampleSentences": [
+            "Amend the constitution.",
+            "Please amend your report."
+        ]
+    },
+    {
+        "word": "analogous",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "similar",
+            "comparable"
+        ],
+        "exampleSentences": [
+            "This is analogous to that situation.",
+            "Find analogous examples."
+        ]
+    },
+    {
+        "word": "analyze",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to examine",
+            "to study closely"
+        ],
+        "exampleSentences": [
+            "Analyze the data.",
+            "Let's analyze this problem."
+        ]
+    },
+    {
+        "word": "annotate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to add notes",
+            "to comment"
+        ],
+        "exampleSentences": [
+            "Annotate your textbook.",
+            "Annotate the document."
+        ]
+    },
+    {
+        "word": "annual",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "yearly",
+            "occurring every year"
+        ],
+        "exampleSentences": [
+            "Annual report.",
+            "Annual meeting."
+        ]
+    },
+    {
+        "word": "anticipate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to expect",
+            "to predict"
+        ],
+        "exampleSentences": [
+            "Anticipate problems.",
+            "We anticipate growth."
+        ]
+    },
+    {
+        "word": "apparent",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "obvious",
+            "clear"
+        ],
+        "exampleSentences": [
+            "It's apparent now.",
+            "The apparent cause."
+        ]
+    },
+    {
+        "word": "appendix",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "supplementary material",
+            "additional section"
+        ],
+        "exampleSentences": [
+            "See the appendix for details.",
+            "The appendix contains data tables."
+        ]
+    },
+    {
+        "word": "approach",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "method",
+            "way of dealing with"
+        ],
+        "exampleSentences": [
+            "A new approach to learning.",
+            "Take a different approach."
+        ]
+    },
+    {
+        "word": "appropriate",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "suitable",
+            "proper"
+        ],
+        "exampleSentences": [
+            "Appropriate behavior.",
+            "Is this appropriate?"
+        ]
+    },
+    {
+        "word": "arbitrary",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "random",
+            "based on chance"
+        ],
+        "exampleSentences": [
+            "An arbitrary decision.",
+            "Arbitrary rules."
+        ]
+    },
+    {
+        "word": "assess",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to evaluate",
+            "to judge"
+        ],
+        "exampleSentences": [
+            "Assess the situation.",
+            "Teachers assess students."
+        ]
+    },
+    {
+        "word": "assign",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to allocate",
+            "to give a task"
+        ],
+        "exampleSentences": [
+            "Assign homework.",
+            "Tasks were assigned."
+        ]
+    },
+    {
+        "word": "assume",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to suppose",
+            "to take for granted"
+        ],
+        "exampleSentences": [
+            "Don't assume anything.",
+            "I assumed you knew."
+        ]
+    },
+    {
+        "word": "attribute",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to credit",
+            "to assign cause"
+        ],
+        "exampleSentences": [
+            "Attribute success to hard work.",
+            "This is attributed to stress."
+        ]
+    },
+    {
+        "word": "authority",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "power",
+            "expert"
+        ],
+        "exampleSentences": [
+            "The authority on this topic.",
+            "Local authorities."
+        ]
+    },
+    {
+        "word": "bibliography",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "list of sources",
+            "reference list"
+        ],
+        "exampleSentences": [
+            "Include a bibliography.",
+            "Check the bibliography."
+        ]
+    },
+    {
+        "word": "bias",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "prejudice",
+            "unfair preference"
+        ],
+        "exampleSentences": [
+            "Avoid bias in research.",
+            "Media bias is common."
+        ]
+    },
+    {
+        "word": "cite",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to quote",
+            "to reference"
+        ],
+        "exampleSentences": [
+            "Cite your sources.",
+            "The paper cited several studies."
+        ]
+    },
+    {
+        "word": "clarify",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make clear",
+            "to explain"
+        ],
+        "exampleSentences": [
+            "Please clarify your point.",
+            "Let me clarify."
+        ]
+    },
+    {
+        "word": "classify",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to categorize",
+            "to organize"
+        ],
+        "exampleSentences": [
+            "Classify the animals.",
+            "Data was classified."
+        ]
+    },
+    {
+        "word": "coherent",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "logical",
+            "consistent"
+        ],
+        "exampleSentences": [
+            "A coherent argument.",
+            "Be more coherent."
+        ]
+    },
+    {
+        "word": "coincide",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to occur together",
+            "to match"
+        ],
+        "exampleSentences": [
+            "The events coincided.",
+            "Our views coincide."
+        ]
+    },
+    {
+        "word": "collapse",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to fall down",
+            "to fail suddenly"
+        ],
+        "exampleSentences": [
+            "The building collapsed.",
+            "The economy collapsed."
+        ]
+    },
+    {
+        "word": "commence",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to begin",
+            "to start"
+        ],
+        "exampleSentences": [
+            "Commence the experiment.",
+            "Class will commence."
+        ]
+    },
+    {
+        "word": "comment",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "remark",
+            "observation"
+        ],
+        "exampleSentences": [
+            "Add a comment.",
+            "No comment."
+        ]
+    },
+    {
+        "word": "commission",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "committee",
+            "task assignment"
+        ],
+        "exampleSentences": [
+            "A research commission.",
+            "Commission a study."
+        ]
+    },
+    {
+        "word": "commit",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to pledge",
+            "to dedicate"
+        ],
+        "exampleSentences": [
+            "Commit to learning.",
+            "He committed an error."
+        ]
+    },
+    {
+        "word": "commodity",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "product",
+            "raw material"
+        ],
+        "exampleSentences": [
+            "Oil is a commodity.",
+            "Commodity prices rose."
+        ]
+    },
+    {
+        "word": "communicate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to convey",
+            "to share information"
+        ],
+        "exampleSentences": [
+            "Communicate clearly.",
+            "Learn to communicate."
+        ]
+    },
+    {
+        "word": "community",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "group",
+            "society"
+        ],
+        "exampleSentences": [
+            "Academic community.",
+            "Local community."
+        ]
+    },
+    {
+        "word": "compatible",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "harmonious",
+            "able to coexist"
+        ],
+        "exampleSentences": [
+            "Compatible software.",
+            "Are they compatible?"
+        ]
+    },
+    {
+        "word": "compensate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make up for",
+            "to pay"
+        ],
+        "exampleSentences": [
+            "Compensate for losses.",
+            "Workers were compensated."
+        ]
+    },
+    {
+        "word": "compile",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to gather",
+            "to assemble"
+        ],
+        "exampleSentences": [
+            "Compile a list.",
+            "Data was compiled."
+        ]
+    },
+    {
+        "word": "complement",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to complete",
+            "to enhance"
+        ],
+        "exampleSentences": [
+            "Colors complement each other.",
+            "Skills that complement."
+        ]
+    },
+    {
+        "word": "complex",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "complicated",
+            "intricate"
+        ],
+        "exampleSentences": [
+            "A complex problem.",
+            "Complex systems."
+        ]
+    },
+    {
+        "word": "component",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "part",
+            "element"
+        ],
+        "exampleSentences": [
+            "Key component.",
+            "Component parts."
+        ]
+    },
+    {
+        "word": "compound",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "mixture",
+            "combination"
+        ],
+        "exampleSentences": [
+            "Chemical compound.",
+            "Compound interest."
+        ]
+    },
+    {
+        "word": "comprehensive",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "thorough",
+            "complete"
+        ],
+        "exampleSentences": [
+            "Comprehensive review.",
+            "Comprehensive exam."
+        ]
+    },
+    {
+        "word": "comprise",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to consist of",
+            "to include"
+        ],
+        "exampleSentences": [
+            "The team comprises experts.",
+            "What does it comprise?"
+        ]
+    },
+    {
+        "word": "compute",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to calculate",
+            "to figure out"
+        ],
+        "exampleSentences": [
+            "Compute the total.",
+            "Data was computed."
+        ]
+    },
+    {
+        "word": "conceive",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to imagine",
+            "to devise"
+        ],
+        "exampleSentences": [
+            "Conceive an idea.",
+            "Hard to conceive."
+        ]
+    },
+    {
+        "word": "concentrate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to focus",
+            "to gather"
+        ],
+        "exampleSentences": [
+            "Concentrate on studies.",
+            "Concentrate your efforts."
+        ]
+    },
+    {
+        "word": "concept",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "idea",
+            "notion"
+        ],
+        "exampleSentences": [
+            "A new concept.",
+            "Grasp the concept."
+        ]
+    },
+    {
+        "word": "conclude",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to end",
+            "to decide"
+        ],
+        "exampleSentences": [
+            "Conclude the experiment.",
+            "We can conclude that..."
+        ]
+    },
+    {
+        "word": "concurrent",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "simultaneous",
+            "happening together"
+        ],
+        "exampleSentences": [
+            "Concurrent events.",
+            "Concurrent sessions."
+        ]
+    },
+    {
+        "word": "hypothesis",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "proposed explanation",
+            "theory"
+        ],
+        "exampleSentences": [
+            "Test the hypothesis.",
+            "Form a hypothesis."
+        ]
+    },
+    {
+        "word": "theorem",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "proven statement",
+            "mathematical principle"
+        ],
+        "exampleSentences": [
+            "Pythagorean theorem.",
+            "Prove the theorem."
+        ]
+    },
+    {
+        "word": "variable",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "changeable factor",
+            "symbol"
+        ],
+        "exampleSentences": [
+            "Control the variables.",
+            "X is a variable."
+        ]
+    },
+    {
+        "word": "constant",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "fixed value",
+            "unchanging"
+        ],
+        "exampleSentences": [
+            "Pi is a constant.",
+            "A constant speed."
+        ]
+    },
+    {
+        "word": "equation",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "mathematical statement",
+            "formula"
+        ],
+        "exampleSentences": [
+            "Solve the equation.",
+            "Balance the equation."
+        ]
+    },
+    {
+        "word": "formula",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "rule",
+            "recipe"
+        ],
+        "exampleSentences": [
+            "Chemical formula.",
+            "Mathematical formula."
+        ]
+    },
+    {
+        "word": "experiment",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "test",
+            "trial"
+        ],
+        "exampleSentences": [
+            "Conduct an experiment.",
+            "Science experiment."
+        ]
+    },
+    {
+        "word": "laboratory",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "research facility",
+            "lab"
+        ],
+        "exampleSentences": [
+            "Work in the laboratory.",
+            "Lab results."
+        ]
+    },
+    {
+        "word": "specimen",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "sample",
+            "example"
+        ],
+        "exampleSentences": [
+            "Collect specimens.",
+            "Blood specimen."
+        ]
+    },
+    {
+        "word": "microscope",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "magnifying instrument",
+            "scientific tool"
+        ],
+        "exampleSentences": [
+            "Look through the microscope.",
+            "Under the microscope."
+        ]
+    },
+    {
+        "word": "observe",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to watch",
+            "to notice"
+        ],
+        "exampleSentences": [
+            "Observe the reaction.",
+            "Scientists observe patterns."
+        ]
+    },
+    {
+        "word": "measure",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to determine size",
+            "to quantify"
+        ],
+        "exampleSentences": [
+            "Measure the length.",
+            "Measure twice, cut once."
+        ]
+    },
+    {
+        "word": "calculate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to compute",
+            "to figure out"
+        ],
+        "exampleSentences": [
+            "Calculate the answer.",
+            "Calculate the cost."
+        ]
+    },
+    {
+        "word": "predict",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to forecast",
+            "to expect"
+        ],
+        "exampleSentences": [
+            "Predict the outcome.",
+            "Hard to predict."
+        ]
+    },
+    {
+        "word": "theory",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "explanation",
+            "idea"
+        ],
+        "exampleSentences": [
+            "Scientific theory.",
+            "In theory, it works."
+        ]
+    },
+    {
+        "word": "principle",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "fundamental truth",
+            "rule"
+        ],
+        "exampleSentences": [
+            "Basic principles.",
+            "A matter of principle."
+        ]
+    },
+    {
+        "word": "phenomenon",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "occurrence",
+            "observable event"
+        ],
+        "exampleSentences": [
+            "Natural phenomenon.",
+            "Strange phenomenon."
+        ]
+    },
+    {
+        "word": "data",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "information",
+            "facts"
+        ],
+        "exampleSentences": [
+            "Analyze the data.",
+            "Data collection."
+        ]
+    },
+    {
+        "word": "evidence",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "proof",
+            "indication"
+        ],
+        "exampleSentences": [
+            "Scientific evidence.",
+            "Present evidence."
+        ]
+    },
+    {
+        "word": "conclusion",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "end result",
+            "deduction"
+        ],
+        "exampleSentences": [
+            "Draw a conclusion.",
+            "In conclusion..."
+        ]
+    },
+    {
+        "word": "analysis",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "examination",
+            "study"
+        ],
+        "exampleSentences": [
+            "Data analysis.",
+            "Critical analysis."
+        ]
+    },
+    {
+        "word": "synthesis",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "combination",
+            "creation"
+        ],
+        "exampleSentences": [
+            "Synthesis of ideas.",
+            "Chemical synthesis."
+        ]
+    },
+    {
+        "word": "criterion",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "standard",
+            "measure"
+        ],
+        "exampleSentences": [
+            "Selection criterion.",
+            "Meet the criteria."
+        ]
+    },
+    {
+        "word": "methodology",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "system of methods",
+            "approach"
+        ],
+        "exampleSentences": [
+            "Research methodology.",
+            "Teaching methodology."
+        ]
+    },
+    {
+        "word": "parameter",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "limit",
+            "boundary"
+        ],
+        "exampleSentences": [
+            "Set parameters.",
+            "Within parameters."
+        ]
+    },
+    {
+        "word": "statistic",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "numerical data",
+            "figure"
+        ],
+        "exampleSentences": [
+            "Crime statistics.",
+            "Key statistic."
+        ]
+    },
+    {
+        "word": "percentage",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "portion of 100",
+            "rate"
+        ],
+        "exampleSentences": [
+            "High percentage.",
+            "Calculate the percentage."
+        ]
+    },
+    {
+        "word": "ratio",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "proportion",
+            "relationship"
+        ],
+        "exampleSentences": [
+            "The ratio is 2:1.",
+            "Student-teacher ratio."
+        ]
+    },
+    {
+        "word": "proportion",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "part",
+            "ratio"
+        ],
+        "exampleSentences": [
+            "In proportion.",
+            "A large proportion."
+        ]
+    },
+    {
+        "word": "dimension",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "measurement",
+            "aspect"
+        ],
+        "exampleSentences": [
+            "Three dimensions.",
+            "Add another dimension."
+        ]
+    },
+    {
+        "word": "narrative",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "story",
+            "account"
+        ],
+        "exampleSentences": [
+            "First-person narrative.",
+            "The narrative structure."
+        ]
+    },
+    {
+        "word": "metaphor",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "figure of speech",
+            "comparison"
+        ],
+        "exampleSentences": [
+            "Use a metaphor.",
+            "Mixed metaphors."
+        ]
+    },
+    {
+        "word": "simile",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "comparison using like/as",
+            "figure of speech"
+        ],
+        "exampleSentences": [
+            "Write a simile.",
+            "As brave as a lion is a simile."
+        ]
+    },
+    {
+        "word": "allegory",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "symbolic story",
+            "extended metaphor"
+        ],
+        "exampleSentences": [
+            "Political allegory.",
+            "The book is an allegory."
+        ]
+    },
+    {
+        "word": "symbolism",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "use of symbols",
+            "representation"
+        ],
+        "exampleSentences": [
+            "Religious symbolism.",
+            "Analyze the symbolism."
+        ]
+    },
+    {
+        "word": "theme",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "main idea",
+            "subject"
+        ],
+        "exampleSentences": [
+            "The theme of love.",
+            "Central theme."
+        ]
+    },
+    {
+        "word": "plot",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "storyline",
+            "sequence of events"
+        ],
+        "exampleSentences": [
+            "Complex plot.",
+            "Plot twist."
+        ]
+    },
+    {
+        "word": "character",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "person in story",
+            "personality"
+        ],
+        "exampleSentences": [
+            "Main character.",
+            "Character development."
+        ]
+    },
+    {
+        "word": "setting",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "time and place",
+            "environment"
+        ],
+        "exampleSentences": [
+            "Story setting.",
+            "Historical setting."
+        ]
+    },
+    {
+        "word": "protagonist",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "main character",
+            "hero"
+        ],
+        "exampleSentences": [
+            "The protagonist struggles.",
+            "Who is the protagonist?"
+        ]
+    },
+    {
+        "word": "antagonist",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "opponent",
+            "villain"
+        ],
+        "exampleSentences": [
+            "The antagonist appears.",
+            "Protagonist vs antagonist."
+        ]
+    },
+    {
+        "word": "conflict",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "struggle",
+            "disagreement"
+        ],
+        "exampleSentences": [
+            "Internal conflict.",
+            "Resolve the conflict."
+        ]
+    },
+    {
+        "word": "resolution",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "solution",
+            "ending"
+        ],
+        "exampleSentences": [
+            "Story resolution.",
+            "Conflict resolution."
+        ]
+    },
+    {
+        "word": "climax",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "peak",
+            "turning point"
+        ],
+        "exampleSentences": [
+            "The story's climax.",
+            "Reach a climax."
+        ]
+    },
+    {
+        "word": "foreshadowing",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "hint of future events",
+            "warning sign"
+        ],
+        "exampleSentences": [
+            "Use foreshadowing.",
+            "Subtle foreshadowing."
+        ]
+    },
+    {
+        "word": "irony",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "unexpected twist",
+            "sarcasm"
+        ],
+        "exampleSentences": [
+            "Dramatic irony.",
+            "The irony is clear."
+        ]
+    },
+    {
+        "word": "satire",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "mockery",
+            "criticism through humor"
+        ],
+        "exampleSentences": [
+            "Political satire.",
+            "A brilliant satire."
+        ]
+    },
+    {
+        "word": "genre",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "category",
+            "type"
+        ],
+        "exampleSentences": [
+            "Literary genre.",
+            "Music genre."
+        ]
+    },
+    {
+        "word": "prose",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "ordinary writing",
+            "non-poetry"
+        ],
+        "exampleSentences": [
+            "Write in prose.",
+            "Beautiful prose."
+        ]
+    },
+    {
+        "word": "verse",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "poetry",
+            "stanza"
+        ],
+        "exampleSentences": [
+            "Free verse.",
+            "A verse from the poem."
+        ]
+    },
+    {
+        "word": "conduct",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to carry out",
+            "to lead"
+        ],
+        "exampleSentences": [
+            "Conduct research.",
+            "Conduct an orchestra."
+        ]
+    },
+    {
+        "word": "conference",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "meeting",
+            "convention"
+        ],
+        "exampleSentences": [
+            "Academic conference.",
+            "Press conference."
+        ]
+    },
+    {
+        "word": "confine",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to restrict",
+            "to limit"
+        ],
+        "exampleSentences": [
+            "Confine to the topic.",
+            "Confined spaces."
+        ]
+    },
+    {
+        "word": "confirm",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to verify",
+            "to prove"
+        ],
+        "exampleSentences": [
+            "Confirm the results.",
+            "Please confirm."
+        ]
+    },
+    {
+        "word": "conform",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to comply",
+            "to follow"
+        ],
+        "exampleSentences": [
+            "Conform to standards.",
+            "Pressure to conform."
+        ]
+    },
+    {
+        "word": "consent",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "permission",
+            "agreement"
+        ],
+        "exampleSentences": [
+            "Informed consent.",
+            "Give consent."
+        ]
+    },
+    {
+        "word": "consequent",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "resulting",
+            "following"
+        ],
+        "exampleSentences": [
+            "Consequent effects.",
+            "Consequent changes."
+        ]
+    },
+    {
+        "word": "considerable",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "significant",
+            "substantial"
+        ],
+        "exampleSentences": [
+            "Considerable effort.",
+            "A considerable amount."
+        ]
+    },
+    {
+        "word": "consist",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to be composed of",
+            "to include"
+        ],
+        "exampleSentences": [
+            "The team consists of experts.",
+            "What does it consist of?"
+        ]
+    },
+    {
+        "word": "consistent",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "unchanging",
+            "reliable"
+        ],
+        "exampleSentences": [
+            "Consistent results.",
+            "Be consistent."
+        ]
+    },
+    {
+        "word": "constitute",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to form",
+            "to make up"
+        ],
+        "exampleSentences": [
+            "What constitutes success?",
+            "They constitute a majority."
+        ]
+    },
+    {
+        "word": "constrain",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to limit",
+            "to restrict"
+        ],
+        "exampleSentences": [
+            "Budget constraints.",
+            "Constrained by time."
+        ]
+    },
+    {
+        "word": "construct",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to build",
+            "to create"
+        ],
+        "exampleSentences": [
+            "Construct an argument.",
+            "Construct a model."
+        ]
+    },
+    {
+        "word": "consult",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to seek advice",
+            "to refer to"
+        ],
+        "exampleSentences": [
+            "Consult the professor.",
+            "Consult a dictionary."
+        ]
+    },
+    {
+        "word": "consume",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to use up",
+            "to eat"
+        ],
+        "exampleSentences": [
+            "Consume resources.",
+            "Consume less energy."
+        ]
+    },
+    {
+        "word": "context",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "circumstances",
+            "background"
+        ],
+        "exampleSentences": [
+            "In context.",
+            "Historical context."
+        ]
+    },
+    {
+        "word": "contract",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "agreement",
+            "document"
+        ],
+        "exampleSentences": [
+            "Sign a contract.",
+            "Contract terms."
+        ]
+    },
+    {
+        "word": "contradict",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to oppose",
+            "to deny"
+        ],
+        "exampleSentences": [
+            "Don't contradict yourself.",
+            "Evidence contradicts."
+        ]
+    },
+    {
+        "word": "contrary",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "opposite",
+            "opposing"
+        ],
+        "exampleSentences": [
+            "On the contrary.",
+            "Contrary views."
+        ]
+    },
+    {
+        "word": "contribute",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to give",
+            "to add to"
+        ],
+        "exampleSentences": [
+            "Contribute to research.",
+            "Everyone contributed."
+        ]
+    }
+]
