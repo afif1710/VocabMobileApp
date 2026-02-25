@@ -176,7 +176,7 @@ export async function getDueCards(deckId?: string): Promise<VocabularyCard[]> {
 
 export async function getNewCards(deckId?: string, limit: number = 10): Promise<VocabularyCard[]> {
   const database = await getDatabase();
-  let query = 'SELECT * FROM cards WHERE repetitions = 0 AND reviewHistory = "[]"';
+  let query = "SELECT * FROM cards WHERE repetitions = 0 AND reviewHistory = '[]'";
   let params: any[] = [];
 
   if (deckId) {
@@ -291,7 +291,7 @@ function parseCard(row: any): VocabularyCard {
 
 export async function getUserProgress(): Promise<UserProgress> {
   const database = await getDatabase();
-  let result = await database.getFirstAsync<any>('SELECT * FROM user_progress WHERE id = "main"');
+  let result = await database.getFirstAsync<any>('SELECT * FROM user_progress WHERE id = ?', ['main']);
 
   if (!result) {
     const defaultSettings: UserSettings = {
@@ -309,7 +309,7 @@ export async function getUserProgress(): Promise<UserProgress> {
       ['main', 0, 1, 0, 0, '', 20, 0, 0, 0, 0, '[]', JSON.stringify(defaultSettings)]
     );
 
-    result = await database.getFirstAsync<any>('SELECT * FROM user_progress WHERE id = "main"');
+    result = await database.getFirstAsync<any>('SELECT * FROM user_progress WHERE id = ?', ['main']);
   }
 
   const today = new Date().toISOString().split('T')[0];
@@ -318,8 +318,8 @@ export async function getUserProgress(): Promise<UserProgress> {
     const newStreak = result.lastPracticeDate === yesterday ? result.currentStreak : 0;
 
     await database.runAsync(
-      'UPDATE user_progress SET todayXp = 0, todayCards = 0, currentStreak = ? WHERE id = "main"',
-      [newStreak]
+      'UPDATE user_progress SET todayXp = 0, todayCards = 0, currentStreak = ? WHERE id = ?',
+      [newStreak, 'main']
     );
     result.todayXp = 0;
     result.todayCards = 0;
@@ -340,8 +340,8 @@ export async function updateUserProgress(updates: Partial<UserProgress>): Promis
   const today = new Date().toISOString().split('T')[0];
 
   await database.runAsync(
-    'UPDATE user_progress SET totalXp = ?, level = ?, currentStreak = ?, longestStreak = ?, lastPracticeDate = ?, dailyGoal = ?, todayXp = ?, todayCards = ?, totalCardsLearned = ?, totalReviews = ?, achievements = ?, settings = ? WHERE id = "main"',
-    [updated.totalXp, updated.level, updated.currentStreak, updated.longestStreak, today, updated.dailyGoal, updated.todayXp, updated.todayCards, updated.totalCardsLearned, updated.totalReviews, JSON.stringify(updated.achievements), JSON.stringify(updated.settings)]
+    'UPDATE user_progress SET totalXp = ?, level = ?, currentStreak = ?, longestStreak = ?, lastPracticeDate = ?, dailyGoal = ?, todayXp = ?, todayCards = ?, totalCardsLearned = ?, totalReviews = ?, achievements = ?, settings = ? WHERE id = ?',
+    [updated.totalXp, updated.level, updated.currentStreak, updated.longestStreak, today, updated.dailyGoal, updated.todayXp, updated.todayCards, updated.totalCardsLearned, updated.totalReviews, JSON.stringify(updated.achievements), JSON.stringify(updated.settings), 'main']
   );
 }
 
