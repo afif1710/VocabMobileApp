@@ -1,0 +1,152 @@
+You are working on my Expo React Native app “VocabMobileApp” (tabs: Practice, Games, Decks, Profile). I want a full UI/UX revamp + some feature changes. Please follow these rules:
+
+Ground rules
+Don’t remove existing core features unless I explicitly request it.
+
+Implement changes in small commits/steps: first make a plan, then implement, then run checks.
+
+Keep styles centralized: do not hardcode colors in screens/components; everything must read from a shared theme system so future UI tweaks are one place only.
+​
+
+After you implement, do a quick pass to ensure text contrast, card colors, borders, icons, and buttons all match the active theme (no mismatched shades).
+
+1) Theme system (dark + “soft light”)
+Implement a proper theme system with:
+
+Dark theme (keep current vibe but make it consistent).
+
+Light theme that is off‑white (not pure white) to avoid eye strain (e.g., background like #F5F6F8 or similar).
+
+A toggle in the UI (best place: Profile/Settings or top-right on one tab) to switch Light/Dark.
+
+Persist the choice across app restarts (use AsyncStorage or equivalent).
+
+Sync these tokens across the app: background, surface/card, surfaceElevated, textPrimary, textSecondary, border, primary, primaryText, danger, success, tabBar, muted.
+
+Cards must be slightly different from background (surface contrast) in both themes (example: card 2–6% different than bg), with borders/shadows adjusted per theme.
+
+Implementation guidance:
+
+Use a ThemeProvider (React Context) so every component can read theme and colors.
+
+Ensure navigation/tab bar also uses the theme. (Use a context approach similar to React Navigation theme toggling.)
+
+Acceptance criteria:
+
+One toggle changes the entire app correctly.
+
+No manual per-screen color fixes needed after (everything driven by theme tokens).
+
+2) Revamp UI
+Improve spacing, typography, and hierarchy:
+
+Make Deck cards cleaner: title, subtitle/description, and stats (e.g., number of words) if available.
+
+Standardize all buttons: consistent radius, padding, colors, disabled/loading states.
+
+Use consistent card component everywhere.
+
+3) Games changes
+3a) Replace/rename “Typing Sprint”
+Rename it to something more relevant like “Speed Quiz” or “Quick Choice”.
+
+Change gameplay: show a prompt (word → meaning or meaning → word), and provide 4 multiple-choice options (1 correct + 3 distractors from the same deck/category). User taps an option.
+
+Add scoring: +1 correct, show streak/accuracy, and a simple end screen after N questions (e.g., 10).
+
+Ensure distractors never include duplicates and are not the same as the correct answer.
+
+Acceptance criteria:
+
+Always shows 4 options.
+
+Works offline with local deck data.
+
+3b) Design and implement “Match” game
+Create a complete “Match” mini-game:
+
+Show two columns: left = words, right = meanings (or synonyms if meanings are too long).
+
+User taps one on left then one on right to match.
+
+If correct: both items fade/lock, score increases.
+
+If wrong: brief shake/red outline, then allow retry.
+
+Use 6–8 pairs per round.
+
+Add timer optional (can be a toggle), otherwise simple progress bar.
+
+Acceptance criteria:
+
+Fully playable loop (start → play → finish → results).
+
+3c) Design and implement “Listening” game
+I need a fully defined Listening game:
+
+Use text-to-speech (device TTS) to speak a word.
+
+Provide 4 options on screen (like MCQ). User selects what they heard.
+
+Add replay button with cooldown (e.g., 2 seconds).
+
+Use deck-specific words; avoid repeating the same word within a session.
+
+Acceptance criteria:
+
+Works on Android (Expo).
+
+No crash if TTS unavailable—show a friendly message.
+
+4) Vocabulary expansion: 900–1000 total
+Currently there are 3 decks totaling ~450 words. Expand to 900–1000 total, split roughly equally across 3 decks:
+
+Deck A: Travel & TOEFL (travel phrases + test-prep vocabulary)
+
+Deck B: Academic English (school/university/academic)
+
+Deck C: Basic English (daily life, beginner-friendly)
+
+Rules:
+
+No duplicate words across any deck.
+
+Keep each entry consistent schema (word, part of speech, meaning, example sentence if available).
+
+If current data is JSON, expand those JSON files accordingly.
+
+Add a small script or validation function to detect duplicates across decks.
+
+Acceptance criteria:
+
+Total count 900–1000.
+
+Duplicate-check passes.
+
+5) Profile tab (auth vs meaningful)
+There is no auth now, so Profile is weak. Choose one:
+Option 1 (preferred): Keep Profile but turn it into “Stats & Settings”:
+
+Theme toggle here.
+
+Practice stats: total practiced, accuracy, streak, time spent (if feasible), last session.
+
+Buttons: Reset progress, Reseed database, Export/Import progress (optional).
+
+Option 2: Remove Profile tab and move essential items into a Settings screen reachable from another tab.
+
+Tell me which option you implement and why.
+
+6) Remove the “Forgot / Hard / Good / Easy” buttons & popups
+Remove those four buttons and any related popups/logic currently shown in Practice.
+Replace the empty bottom area of the Practice screen with something meaningful:
+
+Either: a “Hint / Example sentence / Synonyms / Pronunciation” panel that expands,
+
+Or: a “Progress + next up” panel with streak/accuracy and a CTA button.
+
+Acceptance criteria:
+
+Those buttons are gone.
+
+The bottom half no longer looks empty.
