@@ -17,6 +17,8 @@ export default function GamesScreen() {
   const currentCardIndex = useAppStore(s => s.currentCardIndex);
 
   const [mode, setMode] = useState<'menu' | 'quiz'>('menu');
+  const [allCardsForQuiz, setAllCardsForQuiz] = useState<any[]>([]);
+  const [quizCards, setQuizCards] = useState<any[]>([]);
   const [quizState, setQuizState] = useState({
     score: 0,
     currentQuestion: 0,
@@ -29,36 +31,63 @@ export default function GamesScreen() {
     isCorrect: false,
   });
 
-  const generateOptions = (correctWord: string, allCards: any[]) => {
-    const distractors = allCards
+  const generateOptions = (correctWord: string, pool: any[]) => {
+    const distractors = pool
       .filter(c => c.word !== correctWord)
       .sort(() => 0.5 - Math.random())
       .slice(0, 3)
       .map(c => c.word);
+    
+    // Fallback if not enough distractors in pool
+    while (distractors.length < 3) {
+      distractors.push(`Option ${distractors.length + 1}`);
+    }
+    
     return [correctWord, ...distractors].sort(() => 0.5 - Math.random());
   };
 
-  const startQuiz = () => {
-    if (sessionCards.length === 0) return;
-    const firstCard = sessionCards[0];
-    setQuizState({
-      score: 0,
-      currentQuestion: 0,
-      totalQuestions: Math.min(10, sessionCards.length),
-      options: generateOptions(firstCard.word, sessionCards),
-      isFinished: false,
-      streak: 0,
-      showFeedback: false,
-      selectedOption: null,
-      isCorrect: false,
-    });
-    setMode('quiz');
+  const startQuiz = async () => {
+    try {
+      const cards = await useAppStore.getState().cards;
+      // If store cards are empty, try to load them
+      let pool = cards;
+      if (pool.length === 0) {
+        const { getAllCards } = await import('../../src/utils/database');
+        pool = await getAllCards();
+      }
+
+      if (pool.length < 4) {
+        alert("Not enough cards to play the quiz!");
+        return;
+      }
+
+      // Shuffle and pick 10 random cards
+      const shuffled = [...pool].sort(() => 0.5 - Math.random());
+      const selected = shuffled.slice(0, 10);
+      
+      setAllCardsForQuiz(pool);
+      setQuizCards(selected);
+      setQuizState({
+        score: 0,
+        currentQuestion: 0,
+        totalQuestions: selected.length,
+        options: generateOptions(selected[0].word, pool),
+        isFinished: false,
+        streak: 0,
+        showFeedback: false,
+        selectedOption: null,
+        isCorrect: false,
+      });
+      setMode('quiz');
+    } catch (error) {
+      console.error("Failed to start quiz:", error);
+    }
   };
 
   const handleOptionPress = async (option: string) => {
     if (quizState.showFeedback) return;
     
-    const currentCard = sessionCards[quizState.currentQuestion];
+    const currentCard = quizCards[quizState.currentQuestion];
     const isCorrect = option === currentCard.word;
     
     setQuizState(prev => ({
@@ -73,18 +102,20 @@ export default function GamesScreen() {
     await reviewCard(currentCard, isCorrect ? 'good' : 'again');
 
     setTimeout(() => {
-      if (quizState.currentQuestion + 1 >= quizState.totalQuestions) {
-        setQuizState(prev => ({ ...prev, isFinished: true, showFeedback: false }));
-      } else {
-        const nextIndex = quizState.currentQuestion + 1;
-        setQuizState(prev => ({
-          ...prev,
-          currentQuestion: nextIndex,
-          options: generateOptions(sessionCards[nextIndex].word, sessionCards),
-          showFeedback: false,
-          selectedOption: null,
-        }));
-      }
+      setQuizState(prev => {
+        if (prev.currentQuestion + 1 >= prev.totalQuestions) {
+          return { ...prev, isFinished: true, showFeedback: false };
+        } else {
+          const nextIndex = prev.currentQuestion + 1;
+          return {
+            ...prev,
+            currentQuestion: nextIndex,
+            options: generateOptions(quizCards[nextIndex].word, allCardsForQuiz),
+            showFeedback: false,
+            selectedOption: null,
+          };
+        }
+      });
     }, 1500);
   };
 
@@ -138,13 +169,22 @@ export default function GamesScreen() {
     );
   }
 
-  const currentQuizCard = sessionCards[quizState.currentQuestion];
+  const currentQuizCard = quizCards[quizState.currentQuestion];
 
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.headerRow}>
         <Button mode="text" onPress={() => setMode('menu')}>← Back</Button>
         <Text style={styles.title}>Speed Quiz</Text>
+        <View style={{ flex: 1 }} />
+        <Button 
+          mode="outlined" 
+          onPress={() => setMode('menu')} 
+          style={{ borderColor: '#ff6b6b' }} 
+          labelStyle={{ color: '#ff6b6b' }}
+        >
+          Forfeit
+        </Button>
       </View>
       
       <View style={{ paddingHorizontal: 4 }}>
