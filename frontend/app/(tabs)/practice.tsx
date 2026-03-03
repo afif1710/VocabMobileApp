@@ -2,7 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams } from 'expo-router';
-import { ActivityIndicator, Button, Card, Text, Banner } from 'react-native-paper';
+import { ActivityIndicator } from 'react-native-paper';
+import { Button, Card } from '../../src/components';
 
 import { useAppStore } from '../../src/stores/appStore';
 
@@ -48,16 +49,10 @@ export default function PracticeScreen() {
       : [String(current.exampleSentences)];
   }, [current]);
 
-  const progressText = useMemo(() => {
-    const total = currentSessionCards.length;
-    if (!total) return 'No cards';
-    return `${currentCardIndex + 1}/${total}`;
-  }, [currentSessionCards.length, currentCardIndex]);
-
-  const onGrade = async (resp: Response) => {
+  const onNext = async () => {
     if (!current) return;
     setRevealed(false);
-    await reviewCard(current, resp);
+    await reviewCard(current, 'good'); // default to 'good' if just moving through
     nextCard();
   };
 
@@ -111,77 +106,70 @@ export default function PracticeScreen() {
         </Banner>
       ) : null}
 
-      <Card style={styles.card} mode="elevated">
-        <Card.Content>
-          <Text style={styles.word}>{current.word}</Text>
-          <Text style={styles.pos}>{current.partOfSpeech ?? ''}</Text>
+      <Card style={styles.card}>
+        <Text style={styles.word}>{current.word}</Text>
+        <Text style={styles.pos}>{current.partOfSpeech ?? ''}</Text>
 
-          {revealed ? (
-            <View style={{ marginTop: 12, gap: 10 }}>
-              {meaningsText ? <Text style={styles.meaning}>{meaningsText}</Text> : null}
-              {examples.length ? (
-                <View style={{ gap: 6 }}>
-                  <Text style={styles.sectionLabel}>Examples</Text>
-                  {examples.slice(0, 2).map((ex, i) => (
-                    <Text key={`${i}`} style={styles.example}>• {ex}</Text>
-                  ))}
-                </View>
-              ) : null}
-            </View>
-          ) : (
-            <Text style={styles.mutedHint}>Tap "Show meaning" to reveal</Text>
-          )}
-        </Card.Content>
+        <View style={styles.divider} />
 
-        <Card.Actions style={styles.actions}>
-          <Button mode="outlined" onPress={() => setRevealed(v => !v)}>
-            {revealed ? 'Hide' : 'Show meaning'}
+        <View style={styles.infoSection}>
+          <Text style={styles.sectionLabel}>Meaning</Text>
+          <Text style={styles.meaning}>{meaningsText}</Text>
+        </View>
+
+        {examples.length > 0 && (
+          <View style={styles.infoSection}>
+            <Text style={styles.sectionLabel}>Examples</Text>
+            {examples.slice(0, 2).map((ex, i) => (
+              <Text key={`${i}`} style={styles.example}>• {ex}</Text>
+            ))}
+          </View>
+        )}
+
+        <View style={styles.cardActions}>
+          <Button mode="contained" onPress={onNext} style={{ flex: 1 }}>
+            Got it! Next word
           </Button>
-          <Button mode="outlined" onPress={() => startPracticeSession(deckId ?? undefined, 10)}>
-            New 10
-          </Button>
-        </Card.Actions>
+        </View>
       </Card>
 
-      <View style={styles.row}>
-        <Button mode="outlined" style={styles.btn} onPress={() => onGrade('again')}>
-          Forgot
-        </Button>
-        <Button mode="outlined" style={styles.btn} onPress={() => onGrade('hard')}>
-          Hard
-        </Button>
-      </View>
-
-      <View style={styles.row}>
-        <Button mode="contained-tonal" style={styles.btn} onPress={() => onGrade('good')}>
-          Good
-        </Button>
-        <Button mode="contained" style={styles.btn} onPress={() => onGrade('easy')}>
-          Easy
-        </Button>
+      <View style={styles.statsCardContainer}>
+        <Card style={styles.miniStatsCard}>
+          <Text style={styles.miniStatsLabel}>Streak</Text>
+          <Text style={styles.miniStatsValue}>{sessionCombo}</Text>
+        </Card>
+        <Card style={styles.miniStatsCard}>
+          <Text style={styles.miniStatsLabel}>XP Earned</Text>
+          <Text style={styles.miniStatsValue}>{sessionXp}</Text>
+        </Card>
       </View>
     </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0c0c0c', padding: 16, gap: 14 },
+  container: { flex: 1, backgroundColor: '#0c0c0c', padding: 16, gap: 16 },
   header: { gap: 4 },
-  title: { color: '#fff', fontSize: 24, fontWeight: '800' },
-  muted: { color: '#888' },
-  mutedHint: { color: '#888', marginTop: 12 },
+  title: { color: '#fff', fontSize: 24, fontWeight: '900' },
+  muted: { color: '#888', fontWeight: '600' },
 
-  card: { backgroundColor: '#121212', borderColor: '#222', borderWidth: 1 },
-  word: { color: '#fff', fontSize: 34, fontWeight: '900' },
-  pos: { color: '#8aa', marginTop: 6 },
+  card: { paddingVertical: 20 },
+  word: { color: '#fff', fontSize: 36, fontWeight: '900', textAlign: 'center' },
+  pos: { color: '#4da6ff', marginTop: 4, textAlign: 'center', fontWeight: '700', fontSize: 14, textTransform: 'uppercase' },
+  
+  divider: { height: 1, backgroundColor: '#222', marginVertical: 20, width: '100%' },
+  
+  infoSection: { marginBottom: 16 },
+  sectionLabel: { color: '#666', fontWeight: '800', fontSize: 12, textTransform: 'uppercase', marginBottom: 6, letterSpacing: 1 },
+  meaning: { color: '#fff', fontSize: 17, lineHeight: 24, fontWeight: '500' },
+  example: { color: '#aaa', fontSize: 15, lineHeight: 22, marginTop: 4, fontStyle: 'italic' },
 
-  meaning: { color: '#ddd', fontSize: 16, lineHeight: 22 },
-  sectionLabel: { color: '#aaa', fontWeight: '800' },
-  example: { color: '#bbb', lineHeight: 20 },
-
-  actions: { justifyContent: 'space-between' },
-  row: { flexDirection: 'row', gap: 10, justifyContent: 'space-between' },
-  btn: { flex: 1 },
+  cardActions: { marginTop: 12 },
+  
+  statsCardContainer: { flexDirection: 'row', gap: 12 },
+  miniStatsCard: { flex: 1, paddingVertical: 12, alignItems: 'center' },
+  miniStatsLabel: { color: '#888', fontSize: 11, fontWeight: '800', textTransform: 'uppercase' },
+  miniStatsValue: { color: '#fff', fontSize: 20, fontWeight: '900', marginTop: 2 },
 
   center: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 10, padding: 20 },
 });

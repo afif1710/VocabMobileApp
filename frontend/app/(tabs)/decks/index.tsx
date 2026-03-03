@@ -6,6 +6,8 @@ import { ActivityIndicator, Card, Text, Button } from 'react-native-paper';
 
 import { useAppStore } from '../../../src/stores/appStore';
 
+import { DeckCard } from '../../../src/components/DeckCard';
+
 export default function DecksIndexScreen() {
   const isInitialized = useAppStore(s => s.isInitialized);
   const isLoading = useAppStore(s => s.isLoading);
@@ -40,18 +42,10 @@ export default function DecksIndexScreen() {
         data={decks}
         keyExtractor={(d) => d.id}
         renderItem={({ item }) => (
-          <Card
-            style={styles.card}
-            mode="elevated"
+          <DeckCard
+            deck={item}
             onPress={() => router.push({ pathname: '/(tabs)/decks/[id]', params: { id: item.id } })}
-          >
-            <Card.Title title={item.name} subtitle={`${item.cardCount ?? 0} cards`} />
-            {item.description ? (
-              <Card.Content>
-                <Text style={styles.desc}>{item.description}</Text>
-              </Card.Content>
-            ) : null}
-          </Card>
+          />
         )}
         ListEmptyComponent={
           <View style={styles.center}>

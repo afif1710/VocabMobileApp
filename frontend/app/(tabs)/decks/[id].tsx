@@ -2,7 +2,8 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router, useLocalSearchParams } from 'expo-router';
-import { ActivityIndicator, Button, Card, Text, TextInput } from 'react-native-paper';
+import { ActivityIndicator, TextInput } from 'react-native-paper';
+import { Button, Card } from '../../../src/components';
 
 import { useAppStore } from '../../../src/stores/appStore';
 
@@ -64,8 +65,8 @@ export default function DeckDetailScreen() {
         </Text>
       </View>
 
-      <Card style={styles.card} mode="elevated">
-        <Card.Content style={{ gap: 10 }}>
+      <Card style={styles.card}>
+        <View style={{ gap: 10 }}>
           {currentDeck?.description ? <Text style={styles.desc}>{currentDeck.description}</Text> : null}
 
           <TextInput
@@ -79,16 +80,15 @@ export default function DeckDetailScreen() {
             activeOutlineColor="#4da6ff"
             style={{ backgroundColor: '#0f0f0f' }}
           />
-        </Card.Content>
 
-        <Card.Actions>
           <Button
             mode="contained"
             onPress={() => router.push({ pathname: '/(tabs)/practice', params: { deckId: id } })}
+            style={{ marginTop: 8 }}
           >
             Practice this deck
           </Button>
-        </Card.Actions>
+        </View>
       </Card>
 
       <FlatList
@@ -122,8 +122,8 @@ const styles = StyleSheet.create({
   title: { color: '#fff', fontSize: 22, fontWeight: '900' },
   muted: { color: '#888' },
 
-  card: { marginHorizontal: 16, marginTop: 6, backgroundColor: '#121212', borderColor: '#222', borderWidth: 1 },
-  desc: { color: '#bbb', lineHeight: 20 },
+  card: { marginHorizontal: 16, marginTop: 6 },
+  desc: { color: '#bbb', lineHeight: 20, marginBottom: 10 },
 
   list: { paddingHorizontal: 16, paddingBottom: 40, paddingTop: 10 },
   row: { paddingVertical: 10, borderBottomColor: '#1f1f1f', borderBottomWidth: 1 },

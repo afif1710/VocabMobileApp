@@ -4,3 +4,5 @@ export { XpPopup } from './XpPopup';
 export { ProgressBar } from './ProgressBar';
 export { GameModeCard } from './GameModeCard';
 export { StatsCard } from './StatsCard';
+export { Card } from './Card';
+export { Button } from './Button';

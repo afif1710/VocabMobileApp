@@ -2,6 +2,7 @@ import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Deck } from '../types';
+import { Card } from './Card';
 
 interface DeckCardProps {
   deck: Deck;
@@ -13,29 +14,35 @@ export function DeckCard({ deck, onPress, dueCount = 0 }: DeckCardProps) {
   const iconName = getIconName(deck.icon);
 
   return (
-    <TouchableOpacity style={styles.container} onPress={onPress} activeOpacity={0.8}>
-      <View style={[styles.iconContainer, { backgroundColor: deck.color + '20' }]}>
-        <MaterialCommunityIcons name={iconName} size={32} color={deck.color} />
-      </View>
-      <View style={styles.content}>
-        <Text style={styles.name}>{deck.name}</Text>
-        <Text style={styles.description} numberOfLines={2}>
-          {deck.description}
-        </Text>
-        <View style={styles.stats}>
-          <View style={styles.stat}>
-            <MaterialCommunityIcons name="cards" size={16} color="#6B7280" />
-            <Text style={styles.statText}>{deck.cardCount} cards</Text>
+    <TouchableOpacity onPress={onPress} activeOpacity={0.9}>
+      <Card style={styles.cardContainer}>
+        <View style={styles.row}>
+          <View style={[styles.iconContainer, { backgroundColor: deck.color + '20' }]}>
+            <MaterialCommunityIcons name={iconName} size={28} color={deck.color} />
           </View>
-          {dueCount > 0 && (
-            <View style={[styles.stat, styles.dueStat]}>
-              <MaterialCommunityIcons name="clock-alert" size={16} color="#F97316" />
-              <Text style={[styles.statText, styles.dueText]}>{dueCount} due</Text>
+          <View style={styles.content}>
+            <Text style={styles.name}>{deck.name}</Text>
+            {deck.description ? (
+              <Text style={styles.description} numberOfLines={1}>
+                {deck.description}
+              </Text>
+            ) : null}
+            <View style={styles.stats}>
+              <View style={styles.stat}>
+                <MaterialCommunityIcons name="cards-outline" size={14} color="#888" />
+                <Text style={styles.statText}>{deck.cardCount || 0} words</Text>
+              </View>
+              {dueCount > 0 && (
+                <View style={[styles.stat, styles.dueStat]}>
+                  <View style={styles.dueDot} />
+                  <Text style={styles.dueText}>{dueCount} due</Text>
+                </View>
+              )}
             </View>
-          )}
+          </View>
+          <MaterialCommunityIcons name="chevron-right" size={20} color="#444" />
         </View>
-      </View>
-      <MaterialCommunityIcons name="chevron-right" size={24} color="#9CA3AF" />
+      </Card>
     </TouchableOpacity>
   );
 }
@@ -57,46 +64,42 @@ function getIconName(icon: string): any {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  cardContainer: {
+    marginBottom: 12,
+    padding: 0,
+  },
+  row: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#FFF',
-    borderRadius: 16,
-    padding: 16,
-    marginBottom: 12,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.08,
-    shadowRadius: 8,
-    elevation: 3,
   },
   iconContainer: {
-    width: 56,
-    height: 56,
-    borderRadius: 14,
+    width: 48,
+    height: 48,
+    borderRadius: 12,
     alignItems: 'center',
     justifyContent: 'center',
-    marginRight: 14,
+    marginRight: 16,
   },
   content: {
     flex: 1,
+    justifyContent: 'center',
   },
   name: {
-    fontSize: 17,
-    fontWeight: '700',
-    color: '#1F2937',
-    marginBottom: 4,
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#FFF',
+    letterSpacing: -0.3,
   },
   description: {
-    fontSize: 13,
-    color: '#6B7280',
-    lineHeight: 18,
-    marginBottom: 8,
+    fontSize: 14,
+    color: '#888',
+    marginTop: 2,
   },
   stats: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 16,
+    marginTop: 6,
+    gap: 12,
   },
   stat: {
     flexDirection: 'row',
@@ -105,16 +108,23 @@ const styles = StyleSheet.create({
   },
   statText: {
     fontSize: 12,
-    color: '#6B7280',
+    color: '#666',
+    fontWeight: '600',
   },
   dueStat: {
-    backgroundColor: '#FFF7ED',
-    paddingHorizontal: 8,
-    paddingVertical: 2,
-    borderRadius: 8,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+  },
+  dueDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: '#F97316',
   },
   dueText: {
+    fontSize: 12,
     color: '#F97316',
-    fontWeight: '600',
+    fontWeight: '700',
   },
 });
