@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { ActivityIndicator, Card, Text, Button } from 'react-native-paper';
+import { ActivityIndicator, Text as PaperText } from 'react-native-paper';
 
 import { useAppStore } from '../../../src/stores/appStore';
 
@@ -24,7 +24,7 @@ export default function DecksIndexScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.center}>
           <ActivityIndicator animating />
-          <Text style={styles.muted}>Loading decks…</Text>
+          <PaperText style={styles.muted}>Loading decks…</PaperText>
         </View>
       </SafeAreaView>
     );
@@ -33,8 +33,8 @@ export default function DecksIndexScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>Decks</Text>
-        <Text style={styles.muted}>{decks.length} deck(s)</Text>
+        <PaperText style={styles.title}>Decks</PaperText>
+        <PaperText style={styles.muted}>{decks.length} deck(s)</PaperText>
       </View>
 
       <FlatList
@@ -49,11 +49,8 @@ export default function DecksIndexScreen() {
         )}
         ListEmptyComponent={
           <View style={styles.center}>
-            <Text style={styles.emptyTitle}>No decks found</Text>
-            <Text style={styles.muted}>If seeding failed, restart the app after fixing init errors.</Text>
-            <Button mode="contained" onPress={loadDecks} style={{ marginTop: 12 }}>
-              Reload
-            </Button>
+            <PaperText style={styles.emptyTitle}>No decks found</PaperText>
+            <PaperText style={styles.muted}>If seeding failed, restart the app after fixing init errors.</PaperText>
           </View>
         }
       />

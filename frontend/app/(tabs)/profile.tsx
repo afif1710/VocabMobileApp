@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, View, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { ActivityIndicator, Text, Divider, Switch } from 'react-native-paper';
+import { ActivityIndicator, Text as PaperText, Divider, Switch } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 import { useAppStore } from '../../src/stores/appStore';
@@ -54,7 +54,7 @@ export default function ProfileScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.center}>
           <ActivityIndicator animating color="#4da6ff" />
-          <Text style={styles.muted}>Loading profile…</Text>
+          <PaperText style={{ color: '#888' }}>Loading profile…</PaperText>
         </View>
       </SafeAreaView>
     );
@@ -63,44 +63,44 @@ export default function ProfileScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>Stats & Settings</Text>
+        <PaperText style={styles.title}>Stats & Settings</PaperText>
       </View>
 
       <ScrollView contentContainerStyle={styles.scroll}>
         <View style={styles.statsGrid}>
           <Card style={styles.statCard}>
             <MaterialCommunityIcons name="lightning-bolt" size={24} color="#FFD700" />
-            <Text style={styles.statValue}>{userProgress?.totalXp ?? 0}</Text>
-            <Text style={styles.statLabel}>Total XP</Text>
+            <PaperText style={styles.statValue}>{userProgress?.totalXp ?? 0}</PaperText>
+            <PaperText style={styles.statLabel}>Total XP</PaperText>
           </Card>
           <Card style={styles.statCard}>
             <MaterialCommunityIcons name="fire" size={24} color="#FF4500" />
-            <Text style={styles.statValue}>{userProgress?.currentStreak ?? 0}</Text>
-            <Text style={styles.statLabel}>Day Streak</Text>
+            <PaperText style={styles.statValue}>{userProgress?.currentStreak ?? 0}</PaperText>
+            <PaperText style={styles.statLabel}>Day Streak</PaperText>
           </Card>
         </View>
 
         <Card style={styles.settingsCard}>
-          <Text style={styles.sectionTitle}>Appearance</Text>
+          <PaperText style={styles.sectionTitle}>Appearance</PaperText>
           <View style={styles.settingRow}>
             <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
               <MaterialCommunityIcons name="theme-light-dark" size={22} color="#888" />
-              <Text style={styles.settingText}>Dark Mode</Text>
+              <PaperText style={styles.settingText}>Dark Mode</PaperText>
             </View>
             <Switch value={isDarkMode} onValueChange={setIsDarkMode} color="#4da6ff" />
           </View>
         </Card>
 
         <Card style={styles.settingsCard}>
-          <Text style={styles.sectionTitle}>Database Info</Text>
+          <PaperText style={styles.sectionTitle}>Database Info</PaperText>
           <View style={styles.infoRow}>
-            <Text style={styles.infoLabel}>Total Decks</Text>
-            <Text style={styles.infoValue}>{counts.decks}</Text>
+            <PaperText style={styles.infoLabel}>Total Decks</PaperText>
+            <PaperText style={styles.infoValue}>{counts.decks}</PaperText>
           </View>
           <Divider style={styles.divider} />
           <View style={styles.infoRow}>
-            <Text style={styles.infoLabel}>Total Words</Text>
-            <Text style={styles.infoValue}>{counts.cards}</Text>
+            <PaperText style={styles.infoLabel}>Total Words</PaperText>
+            <PaperText style={styles.infoValue}>{counts.cards}</PaperText>
           </View>
           
           <View style={{ marginTop: 20, gap: 8 }}>

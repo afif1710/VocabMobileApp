@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { FlatList, StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router, useLocalSearchParams } from 'expo-router';
-import { ActivityIndicator, TextInput } from 'react-native-paper';
+import { ActivityIndicator, TextInput, Text as PaperText } from 'react-native-paper';
 import { Button, Card } from '../../../src/components';
 
 import { useAppStore } from '../../../src/stores/appStore';
@@ -49,7 +49,7 @@ export default function DeckDetailScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.center}>
           <ActivityIndicator animating />
-          <Text style={styles.muted}>Loading deck…</Text>
+          <PaperText style={{ color: '#888' }}>Loading deck…</PaperText>
         </View>
       </SafeAreaView>
     );
@@ -58,16 +58,16 @@ export default function DeckDetailScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Button mode="text" onPress={() => router.back()}>← Back</Button>
-        <Text style={styles.title}>{currentDeck?.name ?? 'Deck'}</Text>
-        <Text style={styles.muted}>
+        <Button mode="text" onPress={() => router.back()} style={{ marginVertical: 0 }}>← Back</Button>
+        <PaperText style={styles.title}>{currentDeck?.name ?? 'Deck'}</PaperText>
+        <PaperText style={styles.muted}>
           DB cards: {cards.length} • Shown: {filtered.length}
-        </Text>
+        </PaperText>
       </View>
 
       <Card style={styles.card}>
         <View style={{ gap: 10 }}>
-          {currentDeck?.description ? <Text style={styles.desc}>{currentDeck.description}</Text> : null}
+          {currentDeck?.description ? <PaperText style={styles.desc}>{currentDeck.description}</PaperText> : null}
 
           <TextInput
             mode="outlined"
@@ -98,17 +98,16 @@ export default function DeckDetailScreen() {
         initialNumToRender={30}
         renderItem={({ item }: any) => (
           <View style={styles.row}>
-            <Text style={styles.word}>{item.word}</Text>
-            <Text style={styles.meta} numberOfLines={2}>
-  {item.partOfSpeech ?? ''}
-  {Array.isArray(item.meanings) && item.meanings.length ? ` • ${item.meanings.join(' • ')}` : ''}
-</Text>
-
+            <PaperText style={styles.word}>{item.word}</PaperText>
+            <PaperText style={styles.meta} numberOfLines={2}>
+              {item.partOfSpeech ?? ''}
+              {Array.isArray(item.meanings) && item.meanings.length ? ` • ${item.meanings.join(' • ')}` : ''}
+            </PaperText>
           </View>
         )}
         ListEmptyComponent={
           <View style={styles.center}>
-            <Text style={styles.muted}>No words match your search.</Text>
+            <PaperText style={{ color: '#888' }}>No words match your search.</PaperText>
           </View>
         }
       />

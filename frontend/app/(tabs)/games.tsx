@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { ActivityIndicator, Text } from 'react-native-paper';
+import { ActivityIndicator, Text as PaperText } from 'react-native-paper';
 import { Button, Card } from '../../src/components';
 
 import { useAppStore } from '../../src/stores/appStore';
@@ -51,7 +51,6 @@ export default function GamesScreen() {
         return;
       }
 
-      // Randomly pick 10 words from the entire pool
       const selected = [...pool].sort(() => 0.5 - Math.random()).slice(0, 10);
       
       setAllCardsPool(pool);
@@ -113,7 +112,7 @@ export default function GamesScreen() {
       <SafeAreaView style={styles.container}>
         <View style={styles.center}>
           <ActivityIndicator animating />
-          <Text style={styles.muted}>Loading games…</Text>
+          <PaperText style={styles.muted}>Loading games…</PaperText>
         </View>
       </SafeAreaView>
     );
@@ -123,21 +122,21 @@ export default function GamesScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.title}>Games</Text>
-          <Text style={styles.muted}>Quick vocabulary challenges</Text>
+          <PaperText style={styles.title}>Games</PaperText>
+          <PaperText style={styles.muted}>Quick vocabulary challenges</PaperText>
         </View>
 
         <Card style={styles.menuCard}>
-          <Text style={styles.cardTitle}>Speed Quiz</Text>
-          <Text style={styles.cardSubtitle}>Multiple choice vocabulary challenge</Text>
+          <PaperText style={styles.cardTitle}>Speed Quiz</PaperText>
+          <PaperText style={styles.cardSubtitle}>Multiple choice vocabulary challenge</PaperText>
           <Button mode="contained" onPress={startQuiz} style={{ marginTop: 12 }}>
             Play now
           </Button>
         </Card>
 
         <Card style={[styles.menuCard, { opacity: 0.5 }]}>
-          <Text style={styles.cardTitle}>Match & Listening</Text>
-          <Text style={styles.cardSubtitle}>Coming in the next update</Text>
+          <PaperText style={styles.cardTitle}>Match & Listening</PaperText>
+          <PaperText style={styles.cardSubtitle}>Coming in the next update</PaperText>
         </Card>
       </SafeAreaView>
     );
@@ -147,10 +146,10 @@ export default function GamesScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.center}>
-          <Text style={styles.title}>Quiz Finished!</Text>
+          <PaperText style={styles.title}>Quiz Finished!</PaperText>
           <Card style={{ padding: 20, width: '100%', alignItems: 'center' }}>
-            <Text style={styles.prompt}>Score: {quizState.score} / {quizState.totalQuestions}</Text>
-            <Text style={styles.muted}>Accuracy: {Math.round((quizState.score / quizState.totalQuestions) * 100)}%</Text>
+            <PaperText style={styles.prompt}>Score: {quizState.score} / {quizState.totalQuestions}</PaperText>
+            <PaperText style={styles.muted}>Accuracy: {Math.round((quizState.score / quizState.totalQuestions) * 100)}%</PaperText>
             <Button mode="contained" onPress={() => setMode('menu')} style={{ marginTop: 24, width: '100%' }}>
               Back to Menu
             </Button>
@@ -166,7 +165,7 @@ export default function GamesScreen() {
     <SafeAreaView style={styles.container}>
       <View style={styles.headerRow}>
         <Button mode="text" onPress={() => setMode('menu')} style={{ marginVertical: 0 }}>← Back</Button>
-        <Text style={styles.headerTitle}>Speed Quiz</Text>
+        <PaperText style={styles.headerTitle}>Speed Quiz</PaperText>
         <View style={{ flex: 1 }} />
         <Button 
           mode="outlined" 
@@ -179,15 +178,15 @@ export default function GamesScreen() {
       </View>
       
       <View style={styles.quizInfo}>
-        <Text style={styles.muted}>Question {quizState.currentQuestion + 1} of {quizState.totalQuestions}</Text>
-        <Text style={styles.muted}>Streak: {quizState.streak}</Text>
+        <PaperText style={styles.muted}>Question {quizState.currentQuestion + 1} of {quizState.totalQuestions}</PaperText>
+        <PaperText style={styles.muted}>Streak: {quizState.streak}</PaperText>
       </View>
 
       <Card style={styles.quizCard}>
-        <Text style={styles.label}>What is the word for:</Text>
-        <Text style={styles.prompt}>
+        <PaperText style={styles.label}>What is the word for:</PaperText>
+        <PaperText style={styles.prompt}>
           {Array.isArray(currentQuizCard?.meanings) ? currentQuizCard.meanings[0] : String(currentQuizCard?.meanings)}
-        </Text>
+        </PaperText>
 
         <View style={{ gap: 8, marginTop: 24 }}>
           {quizState.options.map((option, index) => {
@@ -218,9 +217,9 @@ export default function GamesScreen() {
         </View>
 
         {quizState.showFeedback && (
-          <Text style={[styles.feedback, { color: quizState.isCorrect ? '#49d17c' : '#ff6b6b' }]}>
+          <PaperText style={[styles.feedback, { color: quizState.isCorrect ? '#49d17c' : '#ff6b6b' }]}>
             {quizState.isCorrect ? '✓ Correct!' : `✗ Incorrect! It's "${currentQuizCard.word}"`}
-          </Text>
+          </PaperText>
         )}
       </Card>
     </SafeAreaView>

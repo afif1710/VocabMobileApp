@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { StyleSheet, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useLocalSearchParams } from 'expo-router';
-import { ActivityIndicator } from 'react-native-paper';
+import { ActivityIndicator, Banner, Text as PaperText } from 'react-native-paper';
 import { Button, Card } from '../../src/components';
 
 import { useAppStore } from '../../src/stores/appStore';
@@ -56,12 +56,18 @@ export default function PracticeScreen() {
     nextCard();
   };
 
+  const progressText = useMemo(() => {
+    const total = currentSessionCards.length;
+    if (!total) return 'No cards';
+    return `${currentCardIndex + 1}/${total}`;
+  }, [currentSessionCards.length, currentCardIndex]);
+
   if (!isInitialized || isLoading) {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.center}>
           <ActivityIndicator animating />
-          <Text style={styles.muted}>Preparing practice…</Text>
+          <PaperText style={{ color: '#888' }}>Preparing practice…</PaperText>
         </View>
       </SafeAreaView>
     );
@@ -71,8 +77,8 @@ export default function PracticeScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.center}>
-          <Text style={styles.title}>Practice</Text>
-          <Text style={styles.muted}>No cards available. Check Decks tab.</Text>
+          <PaperText style={styles.title}>Practice</PaperText>
+          <PaperText style={{ color: '#888' }}>No cards available. Check Decks tab.</PaperText>
           <Button mode="contained" onPress={() => startPracticeSession(deckId ?? undefined, 10)}>
             Restart session
           </Button>
@@ -84,10 +90,10 @@ export default function PracticeScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>Practice</Text>
-        <Text style={styles.muted}>
+        <PaperText style={styles.title}>Practice</PaperText>
+        <PaperText style={styles.muted}>
           {progressText} • XP {sessionXp} • Combo {sessionCombo}
-        </Text>
+        </PaperText>
       </View>
 
       {showHelp ? (
@@ -97,31 +103,31 @@ export default function PracticeScreen() {
           icon="information"
           style={{ backgroundColor: '#1a1a1a' }}
         >
-          <Text style={{ color: '#ddd', fontSize: 13 }}>
-            <Text style={{ fontWeight: '800' }}>Forgot</Text> = review soon (1 day) •{' '}
-            <Text style={{ fontWeight: '800' }}>Hard</Text> = review later (3 days) •{' '}
-            <Text style={{ fontWeight: '800' }}>Good</Text> = comfortable gap (7 days) •{' '}
-            <Text style={{ fontWeight: '800' }}>Easy</Text> = longest wait (14+ days)
-          </Text>
+          <PaperText style={{ color: '#ddd', fontSize: 13 }}>
+            <PaperText style={{ fontWeight: '800' }}>Forgot</PaperText> = review soon (1 day) •{' '}
+            <PaperText style={{ fontWeight: '800' }}>Hard</PaperText> = review later (3 days) •{' '}
+            <PaperText style={{ fontWeight: '800' }}>Good</PaperText> = comfortable gap (7 days) •{' '}
+            <PaperText style={{ fontWeight: '800' }}>Easy</PaperText> = longest wait (14+ days)
+          </PaperText>
         </Banner>
       ) : null}
 
       <Card style={styles.card}>
-        <Text style={styles.word}>{current.word}</Text>
-        <Text style={styles.pos}>{current.partOfSpeech ?? ''}</Text>
+        <PaperText style={styles.word}>{current.word}</PaperText>
+        <PaperText style={styles.pos}>{current.partOfSpeech ?? ''}</PaperText>
 
         <View style={styles.divider} />
 
         <View style={styles.infoSection}>
-          <Text style={styles.sectionLabel}>Meaning</Text>
-          <Text style={styles.meaning}>{meaningsText}</Text>
+          <PaperText style={styles.sectionLabel}>Meaning</PaperText>
+          <PaperText style={styles.meaning}>{meaningsText}</PaperText>
         </View>
 
         {examples.length > 0 && (
           <View style={styles.infoSection}>
-            <Text style={styles.sectionLabel}>Examples</Text>
+            <PaperText style={styles.sectionLabel}>Examples</PaperText>
             {examples.slice(0, 2).map((ex, i) => (
-              <Text key={`${i}`} style={styles.example}>• {ex}</Text>
+              <PaperText key={`${i}`} style={styles.example}>• {ex}</PaperText>
             ))}
           </View>
         )}
@@ -135,12 +141,12 @@ export default function PracticeScreen() {
 
       <View style={styles.statsCardContainer}>
         <Card style={styles.miniStatsCard}>
-          <Text style={styles.miniStatsLabel}>Streak</Text>
-          <Text style={styles.miniStatsValue}>{sessionCombo}</Text>
+          <PaperText style={styles.miniStatsLabel}>Streak</PaperText>
+          <PaperText style={styles.miniStatsValue}>{sessionCombo}</PaperText>
         </Card>
         <Card style={styles.miniStatsCard}>
-          <Text style={styles.miniStatsLabel}>XP Earned</Text>
-          <Text style={styles.miniStatsValue}>{sessionXp}</Text>
+          <PaperText style={styles.miniStatsLabel}>XP Earned</PaperText>
+          <PaperText style={styles.miniStatsValue}>{sessionXp}</PaperText>
         </Card>
       </View>
     </SafeAreaView>
