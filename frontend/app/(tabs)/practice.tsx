@@ -21,20 +21,18 @@ export default function PracticeScreen() {
 
   const currentSessionCards = useAppStore(s => s.currentSessionCards);
   const currentCardIndex = useAppStore(s => s.currentCardIndex);
-  const sessionXp = useAppStore(s => s.sessionXp);
-  const sessionCombo = useAppStore(s => s.sessionCombo);
-
+  
   const current = useMemo(
     () => currentSessionCards[currentCardIndex] ?? null,
     [currentSessionCards, currentCardIndex]
   );
 
-  const [revealed, setRevealed] = useState(false);
   const [showHelp, setShowHelp] = useState(true);
 
   useEffect(() => {
     if (!isInitialized) return;
-    startPracticeSession(deckId ?? undefined, 10);
+    // Load a larger batch to simulate "unlimited" or just restart when needed
+    startPracticeSession(deckId ?? undefined, 50);
   }, [isInitialized, startPracticeSession, deckId]);
 
   const meaningsText = useMemo(() => {
@@ -51,16 +49,16 @@ export default function PracticeScreen() {
 
   const onNext = async () => {
     if (!current) return;
-    setRevealed(false);
-    await reviewCard(current, 'good'); // default to 'good' if just moving through
-    nextCard();
+    
+    await reviewCard(current, 'good');
+    
+    // If we are at the last card of the session, start a new one automatically
+    if (currentCardIndex + 1 >= currentSessionCards.length) {
+      await startPracticeSession(deckId ?? undefined, 50);
+    } else {
+      nextCard();
+    }
   };
-
-  const progressText = useMemo(() => {
-    const total = currentSessionCards.length;
-    if (!total) return 'No cards';
-    return `${currentCardIndex + 1}/${total}`;
-  }, [currentSessionCards.length, currentCardIndex]);
 
   if (!isInitialized || isLoading) {
     return (
@@ -79,7 +77,7 @@ export default function PracticeScreen() {
         <View style={styles.center}>
           <PaperText style={styles.title}>Practice</PaperText>
           <PaperText style={{ color: '#888' }}>No cards available. Check Decks tab.</PaperText>
-          <Button mode="contained" onPress={() => startPracticeSession(deckId ?? undefined, 10)}>
+          <Button mode="contained" onPress={() => startPracticeSession(deckId ?? undefined, 50)}>
             Restart session
           </Button>
         </View>
@@ -91,9 +89,6 @@ export default function PracticeScreen() {
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
         <PaperText style={styles.title}>Practice</PaperText>
-        <PaperText style={styles.muted}>
-          {progressText} • XP {sessionXp} • Combo {sessionCombo}
-        </PaperText>
       </View>
 
       {showHelp ? (
@@ -104,10 +99,7 @@ export default function PracticeScreen() {
           style={{ backgroundColor: '#1a1a1a' }}
         >
           <PaperText style={{ color: '#ddd', fontSize: 13 }}>
-            <PaperText style={{ fontWeight: '800' }}>Forgot</PaperText> = review soon (1 day) •{' '}
-            <PaperText style={{ fontWeight: '800' }}>Hard</PaperText> = review later (3 days) •{' '}
-            <PaperText style={{ fontWeight: '800' }}>Good</PaperText> = comfortable gap (7 days) •{' '}
-            <PaperText style={{ fontWeight: '800' }}>Easy</PaperText> = longest wait (14+ days)
+            Review words and tap "Got it" to see the next one. Shuffled randomly from your library.
           </PaperText>
         </Banner>
       ) : null}
@@ -138,17 +130,6 @@ export default function PracticeScreen() {
           </Button>
         </View>
       </Card>
-
-      <View style={styles.statsCardContainer}>
-        <Card style={styles.miniStatsCard}>
-          <PaperText style={styles.miniStatsLabel}>Streak</PaperText>
-          <PaperText style={styles.miniStatsValue}>{sessionCombo}</PaperText>
-        </Card>
-        <Card style={styles.miniStatsCard}>
-          <PaperText style={styles.miniStatsLabel}>XP Earned</PaperText>
-          <PaperText style={styles.miniStatsValue}>{sessionXp}</PaperText>
-        </Card>
-      </View>
     </SafeAreaView>
   );
 }
@@ -172,10 +153,5 @@ const styles = StyleSheet.create({
 
   cardActions: { marginTop: 12 },
   
-  statsCardContainer: { flexDirection: 'row', gap: 12 },
-  miniStatsCard: { flex: 1, paddingVertical: 12, alignItems: 'center' },
-  miniStatsLabel: { color: '#888', fontSize: 11, fontWeight: '800', textTransform: 'uppercase' },
-  miniStatsValue: { color: '#fff', fontSize: 20, fontWeight: '900', marginTop: 2 },
-
   center: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 10, padding: 20 },
 });
