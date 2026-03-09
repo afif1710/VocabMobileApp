@@ -12,18 +12,18 @@ interface AppState {
   userProgress: UserProgress | null;
   leaderboard: LeaderboardEntry[];
   gameSessions: GameSession[];
-  
+
   // UI State
   isLoading: boolean;
   isInitialized: boolean;
   hasSeenOnboarding: boolean;
-  
+
   // Current session
   currentSessionCards: VocabularyCard[];
   currentCardIndex: number;
   sessionXp: number;
   sessionCombo: number;
-  
+
   // Actions
   initialize: () => Promise<void>;
   loadDecks: () => Promise<void>;
@@ -32,24 +32,24 @@ interface AppState {
   loadDueCards: (deckId?: string) => Promise<void>;
   loadUserProgress: () => Promise<void>;
   loadLeaderboard: () => Promise<void>;
-  
+
   // Card actions
   reviewCard: (card: VocabularyCard, response: 'again' | 'hard' | 'good' | 'easy') => Promise<void>;
   startPracticeSession: (deckId?: string, count?: number) => Promise<void>;
   nextCard: () => void;
-  
+
   // Deck actions
   createDeck: (deck: Omit<Deck, 'id' | 'createdAt' | 'updatedAt'>) => Promise<Deck>;
   updateDeck: (id: string, updates: Partial<Deck>) => Promise<void>;
   deleteDeck: (id: string) => Promise<void>;
-  
+
   // Progress actions
   addXp: (xp: number, cardsReviewed?: number) => Promise<void>;
   updateSettings: (settings: Partial<UserSettings>) => Promise<void>;
-  
+
   // Game actions
   saveGameSession: (session: Omit<GameSession, 'id'>) => Promise<void>;
-  
+
   // Misc
   setHasSeenOnboarding: (value: boolean) => void;
   resetCombo: () => void;
@@ -77,26 +77,26 @@ export const useAppStore = create<AppState>((set, get) => ({
     try {
       set({ isLoading: true });
       await db.initDatabase();
-      
+
       // Check for seed data and load if needed
       const hasSeed = await db.hasSeedData();
       if (!hasSeed) {
         const { seedDatabase } = await import('../data/seedData');
         await seedDatabase();
       }
-      
+
       await db.initializeLeaderboard();
-      
+
       // Load initial data
       await get().loadDecks();
       await get().loadUserProgress();
       await get().loadLeaderboard();
       await get().loadDueCards();
-      
+
       set({ isInitialized: true, isLoading: false });
     } catch (error) {
       console.error('Failed to initialize:', error);
-      set({ isLoading: false });
+      set({ isInitialized: true, isLoading: false });
     }
   },
 
@@ -134,25 +134,25 @@ export const useAppStore = create<AppState>((set, get) => ({
     const quality = getQualityFromResponse(response);
     const isNewCard = card.repetitions === 0;
     const { sessionCombo } = get();
-    
+
     // Schedule card with SM-2
     const updatedCard = scheduleCard(card, quality);
     await db.updateCard(updatedCard);
-    
+
     // Calculate and add XP
     const xp = calculateXp(quality, sessionCombo, isNewCard);
     await get().addXp(xp);
-    
+
     // Update combo
     if (quality >= 3) {
       get().incrementCombo();
     } else {
       get().resetCombo();
     }
-    
+
     // Update session XP
     set(state => ({ sessionXp: state.sessionXp + xp }));
-    
+
     // Refresh due cards
     await get().loadDueCards();
   },
@@ -160,16 +160,16 @@ export const useAppStore = create<AppState>((set, get) => ({
   startPracticeSession: async (deckId?: string, count: number = 10) => {
     const dueCards = await db.getDueCards(deckId);
     const newCards = await db.getNewCards(deckId, Math.max(0, count - dueCards.length));
-    
+
     // Mix due cards and new cards
     const sessionCards = [...dueCards.slice(0, count), ...newCards].slice(0, count);
-    
+
     // Shuffle
     for (let i = sessionCards.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
       [sessionCards[i], sessionCards[j]] = [sessionCards[j], sessionCards[i]];
     }
-    
+
     set({
       currentSessionCards: sessionCards,
       currentCardIndex: 0,
@@ -209,7 +209,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   addXp: async (xp, cardsReviewed = 1) => {
     const progress = await db.addXpAndUpdateProgress(xp, cardsReviewed);
     set({ userProgress: progress });
-    
+
     // Update leaderboard
     await db.updateLeaderboard({
       id: 'current-user',
@@ -225,7 +225,7 @@ export const useAppStore = create<AppState>((set, get) => ({
   updateSettings: async (settings) => {
     const progress = get().userProgress;
     if (!progress) return;
-    
+
     const newSettings = { ...progress.settings, ...settings };
     await db.updateUserProgress({ settings: newSettings });
     await get().loadUserProgress();

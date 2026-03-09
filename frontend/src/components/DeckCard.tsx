@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Deck } from '../types';
 import { Card } from './Card';
+import { useTheme } from '../theme/ThemeContext';
 
 interface DeckCardProps {
   deck: Deck;
@@ -11,6 +12,7 @@ interface DeckCardProps {
 }
 
 export function DeckCard({ deck, onPress, dueCount = 0 }: DeckCardProps) {
+  const { colors } = useTheme();
   const iconName = getIconName(deck.icon);
 
   return (
@@ -21,16 +23,16 @@ export function DeckCard({ deck, onPress, dueCount = 0 }: DeckCardProps) {
             <MaterialCommunityIcons name={iconName} size={28} color={deck.color} />
           </View>
           <View style={styles.content}>
-            <Text style={styles.name}>{deck.name}</Text>
+            <Text style={[styles.name, { color: colors.textPrimary }]}>{deck.name}</Text>
             {deck.description ? (
-              <Text style={styles.description} numberOfLines={1}>
+              <Text style={[styles.description, { color: colors.textSecondary }]} numberOfLines={1}>
                 {deck.description}
               </Text>
             ) : null}
             <View style={styles.stats}>
               <View style={styles.stat}>
-                <MaterialCommunityIcons name="cards-outline" size={14} color="#888" />
-                <Text style={styles.statText}>{deck.cardCount || 0} words</Text>
+                <MaterialCommunityIcons name="cards-outline" size={14} color={colors.textSecondary} />
+                <Text style={[styles.statText, { color: colors.textSecondary }]}>{deck.cardCount || 0} words</Text>
               </View>
               {dueCount > 0 && (
                 <View style={[styles.stat, styles.dueStat]}>
@@ -40,7 +42,7 @@ export function DeckCard({ deck, onPress, dueCount = 0 }: DeckCardProps) {
               )}
             </View>
           </View>
-          <MaterialCommunityIcons name="chevron-right" size={20} color="#444" />
+          <MaterialCommunityIcons name="chevron-right" size={20} color={colors.textSecondary} />
         </View>
       </Card>
     </TouchableOpacity>
@@ -87,12 +89,10 @@ const styles = StyleSheet.create({
   name: {
     fontSize: 18,
     fontWeight: '800',
-    color: '#FFF',
     letterSpacing: -0.3,
   },
   description: {
     fontSize: 14,
-    color: '#888',
     marginTop: 2,
   },
   stats: {
@@ -108,7 +108,6 @@ const styles = StyleSheet.create({
   },
   statText: {
     fontSize: 12,
-    color: '#666',
     fontWeight: '600',
   },
   dueStat: {

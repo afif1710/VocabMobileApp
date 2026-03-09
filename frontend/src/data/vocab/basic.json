@@ -684,18 +684,6 @@
         ]
     },
     {
-        "word": "answer",
-        "partOfSpeech": "noun",
-        "meanings": [
-            "response",
-            "solution"
-        ],
-        "exampleSentences": [
-            "What's the answer?",
-            "Find the right answer."
-        ]
-    },
-    {
         "word": "area",
         "partOfSpeech": "noun",
         "meanings": [
@@ -1164,18 +1152,6 @@
         ]
     },
     {
-        "word": "clean",
-        "partOfSpeech": "adjective",
-        "meanings": [
-            "not dirty",
-            "pure"
-        ],
-        "exampleSentences": [
-            "Clean water.",
-            "A clean room."
-        ]
-    },
-    {
         "word": "clear",
         "partOfSpeech": "adjective",
         "meanings": [
@@ -1185,18 +1161,6 @@
         "exampleSentences": [
             "Clear water.",
             "A clear explanation."
-        ]
-    },
-    {
-        "word": "close",
-        "partOfSpeech": "adjective",
-        "meanings": [
-            "near",
-            "intimate"
-        ],
-        "exampleSentences": [
-            "Close friends.",
-            "Stay close."
         ]
     },
     {
@@ -1233,18 +1197,6 @@
         "exampleSentences": [
             "A common mistake.",
             "Common sense."
-        ]
-    },
-    {
-        "word": "complete",
-        "partOfSpeech": "adjective",
-        "meanings": [
-            "whole",
-            "finished"
-        ],
-        "exampleSentences": [
-            "A complete set.",
-            "Complete silence."
         ]
     },
     {
@@ -1401,18 +1353,6 @@
         "exampleSentences": [
             "Go away.",
             "Far away."
-        ]
-    },
-    {
-        "word": "back",
-        "partOfSpeech": "adverb",
-        "meanings": [
-            "in return",
-            "to previous place"
-        ],
-        "exampleSentences": [
-            "Come back.",
-            "Look back."
         ]
     },
     {
@@ -1908,18 +1848,6 @@
         ]
     },
     {
-        "word": "change",
-        "partOfSpeech": "noun",
-        "meanings": [
-            "alteration",
-            "coins"
-        ],
-        "exampleSentences": [
-            "Time for change.",
-            "Keep the change."
-        ]
-    },
-    {
         "word": "character",
         "partOfSpeech": "noun",
         "meanings": [
@@ -2277,6 +2205,1326 @@
         "exampleSentences": [
             "Famous actor.",
             "World famous."
+        ]
+    },
+    {
+        "word": "earn",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to get by working",
+            "to deserve"
+        ],
+        "exampleSentences": [
+            "Earn money.",
+            "Earn respect."
+        ]
+    },
+    {
+        "word": "effort",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "hard work",
+            "attempt"
+        ],
+        "exampleSentences": [
+            "Make an effort.",
+            "Great effort shown."
+        ]
+    },
+    {
+        "word": "enable",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to allow",
+            "to make possible"
+        ],
+        "exampleSentences": [
+            "Enable the feature.",
+            "Education enables success."
+        ]
+    },
+    {
+        "word": "engage",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to participate",
+            "to attract"
+        ],
+        "exampleSentences": [
+            "Engage the audience.",
+            "Stay engaged."
+        ]
+    },
+    {
+        "word": "ensure",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make sure",
+            "to guarantee"
+        ],
+        "exampleSentences": [
+            "Ensure safety.",
+            "Ensure quality."
+        ]
+    },
+    {
+        "word": "establish",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to set up",
+            "to create"
+        ],
+        "exampleSentences": [
+            "Establish rules.",
+            "Establish a company."
+        ]
+    },
+    {
+        "word": "exchange",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to swap",
+            "to trade"
+        ],
+        "exampleSentences": [
+            "Exchange ideas.",
+            "Exchange gifts."
+        ]
+    },
+    {
+        "word": "extend",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to lengthen",
+            "to expand"
+        ],
+        "exampleSentences": [
+            "Extend the deadline.",
+            "Extend your arm."
+        ]
+    },
+    {
+        "word": "feature",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "characteristic",
+            "element"
+        ],
+        "exampleSentences": [
+            "Key feature.",
+            "New features."
+        ]
+    },
+    {
+        "word": "force",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make do",
+            "to push"
+        ],
+        "exampleSentences": [
+            "Force the door.",
+            "Don't force it."
+        ]
+    },
+    {
+        "word": "forget",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to not remember",
+            "to leave behind"
+        ],
+        "exampleSentences": [
+            "Don't forget.",
+            "She forgot her keys."
+        ]
+    },
+    {
+        "word": "form",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to create",
+            "to shape"
+        ],
+        "exampleSentences": [
+            "Form a team.",
+            "Form an opinion."
+        ]
+    },
+    {
+        "word": "gain",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to acquire",
+            "to benefit"
+        ],
+        "exampleSentences": [
+            "Gain experience.",
+            "Gain weight."
+        ]
+    },
+    {
+        "word": "gather",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to collect",
+            "to assemble"
+        ],
+        "exampleSentences": [
+            "Gather information.",
+            "People gathered."
+        ]
+    },
+    {
+        "word": "give",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to provide",
+            "to donate"
+        ],
+        "exampleSentences": [
+            "Give a gift.",
+            "Give your opinion."
+        ]
+    },
+    {
+        "word": "goal",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "aim",
+            "objective"
+        ],
+        "exampleSentences": [
+            "Set a goal.",
+            "Reach your goal."
+        ]
+    },
+    {
+        "word": "grow",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to increase",
+            "to develop"
+        ],
+        "exampleSentences": [
+            "Grow a plant.",
+            "The company grows."
+        ]
+    },
+    {
+        "word": "guess",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to estimate",
+            "to suppose"
+        ],
+        "exampleSentences": [
+            "Guess the answer.",
+            "I guess so."
+        ]
+    },
+    {
+        "word": "handle",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to manage",
+            "to deal with"
+        ],
+        "exampleSentences": [
+            "Handle with care.",
+            "She handled it well."
+        ]
+    },
+    {
+        "word": "happen",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to occur",
+            "to take place"
+        ],
+        "exampleSentences": [
+            "What happened?",
+            "It can happen."
+        ]
+    },
+    {
+        "word": "help",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to assist",
+            "to support"
+        ],
+        "exampleSentences": [
+            "Help me please.",
+            "He helped her."
+        ]
+    },
+    {
+        "word": "hope",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to wish",
+            "to expect"
+        ],
+        "exampleSentences": [
+            "Hope for the best.",
+            "I hope so."
+        ]
+    },
+    {
+        "word": "identify",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to recognize",
+            "to name"
+        ],
+        "exampleSentences": [
+            "Identify the problem.",
+            "Identify yourself."
+        ]
+    },
+    {
+        "word": "improve",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make better",
+            "to enhance"
+        ],
+        "exampleSentences": [
+            "Improve your skills.",
+            "Things improved."
+        ]
+    },
+    {
+        "word": "include",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to have as part",
+            "to contain"
+        ],
+        "exampleSentences": [
+            "Include everyone.",
+            "Does it include tax?"
+        ]
+    },
+    {
+        "word": "increase",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to grow",
+            "to rise"
+        ],
+        "exampleSentences": [
+            "Increase speed.",
+            "Prices increased."
+        ]
+    },
+    {
+        "word": "inspire",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to motivate",
+            "to encourage"
+        ],
+        "exampleSentences": [
+            "Inspire others.",
+            "She inspired me."
+        ]
+    },
+    {
+        "word": "invite",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to ask to come",
+            "to welcome"
+        ],
+        "exampleSentences": [
+            "Invite friends.",
+            "Invited to dinner."
+        ]
+    },
+    {
+        "word": "judge",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to evaluate",
+            "to decide"
+        ],
+        "exampleSentences": [
+            "Don't judge people.",
+            "Judge the contest."
+        ]
+    },
+    {
+        "word": "keep",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to retain",
+            "to maintain"
+        ],
+        "exampleSentences": [
+            "Keep a secret.",
+            "Keep going."
+        ]
+    },
+    {
+        "word": "know",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to be aware of",
+            "to understand"
+        ],
+        "exampleSentences": [
+            "Do you know?",
+            "I know the answer."
+        ]
+    },
+    {
+        "word": "lack",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to be without",
+            "to need"
+        ],
+        "exampleSentences": [
+            "Lack motivation.",
+            "Lack of sleep."
+        ]
+    },
+    {
+        "word": "lead",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to guide",
+            "to be first"
+        ],
+        "exampleSentences": [
+            "Lead the team.",
+            "Lead the way."
+        ]
+    },
+    {
+        "word": "learn",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to acquire knowledge",
+            "to study"
+        ],
+        "exampleSentences": [
+            "Learn a language.",
+            "Learn from mistakes."
+        ]
+    },
+    {
+        "word": "leave",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to depart",
+            "to abandon"
+        ],
+        "exampleSentences": [
+            "Leave now.",
+            "Leave a message."
+        ]
+    },
+    {
+        "word": "let",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to allow",
+            "to permit"
+        ],
+        "exampleSentences": [
+            "Let me try.",
+            "Let it go."
+        ]
+    },
+    {
+        "word": "look",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to see",
+            "to search"
+        ],
+        "exampleSentences": [
+            "Look carefully.",
+            "Look for it."
+        ]
+    },
+    {
+        "word": "lose",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to not find",
+            "to fail to win"
+        ],
+        "exampleSentences": [
+            "Lose the keys.",
+            "Don't lose hope."
+        ]
+    },
+    {
+        "word": "love",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to feel affection",
+            "to enjoy deeply"
+        ],
+        "exampleSentences": [
+            "Love your family.",
+            "I love music."
+        ]
+    },
+    {
+        "word": "maintain",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to keep up",
+            "to preserve"
+        ],
+        "exampleSentences": [
+            "Maintain order.",
+            "Maintain your car."
+        ]
+    },
+    {
+        "word": "manage",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to run",
+            "to control"
+        ],
+        "exampleSentences": [
+            "Manage a team.",
+            "Manage your time."
+        ]
+    },
+    {
+        "word": "measure",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to find size",
+            "to assess"
+        ],
+        "exampleSentences": [
+            "Measure the room.",
+            "Measure progress."
+        ]
+    },
+    {
+        "word": "meet",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to encounter",
+            "to assemble"
+        ],
+        "exampleSentences": [
+            "Meet a friend.",
+            "Meet the deadline."
+        ]
+    },
+    {
+        "word": "mention",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to refer to",
+            "to say briefly"
+        ],
+        "exampleSentences": [
+            "Mention your name.",
+            "Don't mention it."
+        ]
+    },
+    {
+        "word": "miss",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to fail to hit",
+            "to feel absence"
+        ],
+        "exampleSentences": [
+            "Miss the bus.",
+            "I miss you."
+        ]
+    },
+    {
+        "word": "move",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to change position",
+            "to affect emotionally"
+        ],
+        "exampleSentences": [
+            "Move to the city.",
+            "The speech moved me."
+        ]
+    },
+    {
+        "word": "need",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to require",
+            "to want urgently"
+        ],
+        "exampleSentences": [
+            "I need help.",
+            "What do you need?"
+        ]
+    },
+    {
+        "word": "offer",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to present",
+            "to propose"
+        ],
+        "exampleSentences": [
+            "Offer assistance.",
+            "Offer a deal."
+        ]
+    },
+    {
+        "word": "open",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to unlock",
+            "to begin"
+        ],
+        "exampleSentences": [
+            "Open the door.",
+            "Open a new chapter."
+        ]
+    },
+    {
+        "word": "order",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to command",
+            "to request"
+        ],
+        "exampleSentences": [
+            "Order food.",
+            "Order a report."
+        ]
+    },
+    {
+        "word": "organize",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to arrange",
+            "to coordinate"
+        ],
+        "exampleSentences": [
+            "Organize the files.",
+            "Organize an event."
+        ]
+    },
+    {
+        "word": "overcome",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to defeat",
+            "to get past"
+        ],
+        "exampleSentences": [
+            "Overcome fear.",
+            "Overcome obstacles."
+        ]
+    },
+    {
+        "word": "participate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to take part",
+            "to join"
+        ],
+        "exampleSentences": [
+            "Participate in class.",
+            "Everyone participated."
+        ]
+    },
+    {
+        "word": "perform",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to carry out",
+            "to act"
+        ],
+        "exampleSentences": [
+            "Perform well.",
+            "Perform a task."
+        ]
+    },
+    {
+        "word": "place",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to put",
+            "to set"
+        ],
+        "exampleSentences": [
+            "Place it here.",
+            "Place an order."
+        ]
+    },
+    {
+        "word": "plan",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to intend",
+            "to prepare"
+        ],
+        "exampleSentences": [
+            "Plan a trip.",
+            "Plan ahead."
+        ]
+    },
+    {
+        "word": "practice",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to repeat to improve",
+            "to carry out"
+        ],
+        "exampleSentences": [
+            "Practice daily.",
+            "Practice makes perfect."
+        ]
+    },
+    {
+        "word": "prepare",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make ready",
+            "to plan"
+        ],
+        "exampleSentences": [
+            "Prepare for the exam.",
+            "Prepare a meal."
+        ]
+    },
+    {
+        "word": "present",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to show",
+            "to introduce"
+        ],
+        "exampleSentences": [
+            "Present your work.",
+            "Present a report."
+        ]
+    },
+    {
+        "word": "prevent",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to stop",
+            "to avoid"
+        ],
+        "exampleSentences": [
+            "Prevent accidents.",
+            "Prevent disease."
+        ]
+    },
+    {
+        "word": "produce",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to make",
+            "to create"
+        ],
+        "exampleSentences": [
+            "Produce results.",
+            "Produce goods."
+        ]
+    },
+    {
+        "word": "progress",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "advancement",
+            "development"
+        ],
+        "exampleSentences": [
+            "Make progress.",
+            "Show progress."
+        ]
+    },
+    {
+        "word": "promote",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to advance",
+            "to advertise"
+        ],
+        "exampleSentences": [
+            "Promote a product.",
+            "Promoted to manager."
+        ]
+    },
+    {
+        "word": "protect",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to keep safe",
+            "to defend"
+        ],
+        "exampleSentences": [
+            "Protect the environment.",
+            "Protect yourself."
+        ]
+    },
+    {
+        "word": "prove",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to demonstrate",
+            "to show truth"
+        ],
+        "exampleSentences": [
+            "Prove your point.",
+            "Prove innocence."
+        ]
+    },
+    {
+        "word": "provide",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to supply",
+            "to give"
+        ],
+        "exampleSentences": [
+            "Provide support.",
+            "Provide food."
+        ]
+    },
+    {
+        "word": "reach",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to arrive at",
+            "to extend to"
+        ],
+        "exampleSentences": [
+            "Reach the top.",
+            "Reach your goal."
+        ]
+    },
+    {
+        "word": "read",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to interpret text",
+            "to understand"
+        ],
+        "exampleSentences": [
+            "Read a book.",
+            "Read between the lines."
+        ]
+    },
+    {
+        "word": "realize",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to understand",
+            "to achieve"
+        ],
+        "exampleSentences": [
+            "Realize the truth.",
+            "Realize a dream."
+        ]
+    },
+    {
+        "word": "receive",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to get",
+            "to accept"
+        ],
+        "exampleSentences": [
+            "Receive a gift.",
+            "Receive news."
+        ]
+    },
+    {
+        "word": "record",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to document",
+            "to register"
+        ],
+        "exampleSentences": [
+            "Record the meeting.",
+            "Set a record."
+        ]
+    },
+    {
+        "word": "reduce",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to decrease",
+            "to lower"
+        ],
+        "exampleSentences": [
+            "Reduce waste.",
+            "Reduce costs."
+        ]
+    },
+    {
+        "word": "refuse",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to decline",
+            "to reject"
+        ],
+        "exampleSentences": [
+            "Refuse to give up.",
+            "He refused the offer."
+        ]
+    },
+    {
+        "word": "remember",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to recall",
+            "to not forget"
+        ],
+        "exampleSentences": [
+            "Remember the date.",
+            "Try to remember."
+        ]
+    },
+    {
+        "word": "remove",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to take away",
+            "to eliminate"
+        ],
+        "exampleSentences": [
+            "Remove the stain.",
+            "Remove barriers."
+        ]
+    },
+    {
+        "word": "repeat",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to do again",
+            "to say again"
+        ],
+        "exampleSentences": [
+            "Repeat after me.",
+            "Don't repeat yourself."
+        ]
+    },
+    {
+        "word": "replace",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to substitute",
+            "to swap"
+        ],
+        "exampleSentences": [
+            "Replace the battery.",
+            "Replace old habits."
+        ]
+    },
+    {
+        "word": "require",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to need",
+            "to demand"
+        ],
+        "exampleSentences": [
+            "Requires attention.",
+            "This requires patience."
+        ]
+    },
+    {
+        "word": "resolve",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to solve",
+            "to decide firmly"
+        ],
+        "exampleSentences": [
+            "Resolve a conflict.",
+            "Resolve to improve."
+        ]
+    },
+    {
+        "word": "respect",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to honor",
+            "to admire"
+        ],
+        "exampleSentences": [
+            "Respect others.",
+            "Show respect."
+        ]
+    },
+    {
+        "word": "respond",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to reply",
+            "to react"
+        ],
+        "exampleSentences": [
+            "Respond quickly.",
+            "Respond to questions."
+        ]
+    },
+    {
+        "word": "result",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "outcome",
+            "consequence"
+        ],
+        "exampleSentences": [
+            "Good results.",
+            "Results came in."
+        ]
+    },
+    {
+        "word": "return",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to come back",
+            "to give back"
+        ],
+        "exampleSentences": [
+            "Return home.",
+            "Return the book."
+        ]
+    },
+    {
+        "word": "risk",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "danger",
+            "chance of loss"
+        ],
+        "exampleSentences": [
+            "Take a risk.",
+            "High risk."
+        ]
+    },
+    {
+        "word": "run",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to move fast",
+            "to operate"
+        ],
+        "exampleSentences": [
+            "Run a marathon.",
+            "Run a business."
+        ]
+    },
+    {
+        "word": "save",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to keep safe",
+            "to store"
+        ],
+        "exampleSentences": [
+            "Save money.",
+            "Save lives."
+        ]
+    },
+    {
+        "word": "seek",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to look for",
+            "to try to get"
+        ],
+        "exampleSentences": [
+            "Seek advice.",
+            "Seek the truth."
+        ]
+    },
+    {
+        "word": "send",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to dispatch",
+            "to transmit"
+        ],
+        "exampleSentences": [
+            "Send an email.",
+            "Send a package."
+        ]
+    },
+    {
+        "word": "share",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to divide",
+            "to give to others"
+        ],
+        "exampleSentences": [
+            "Share knowledge.",
+            "Share food."
+        ]
+    },
+    {
+        "word": "show",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to display",
+            "to demonstrate"
+        ],
+        "exampleSentences": [
+            "Show your work.",
+            "Show courage."
+        ]
+    },
+    {
+        "word": "solve",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to find an answer",
+            "to fix"
+        ],
+        "exampleSentences": [
+            "Solve a problem.",
+            "Solve the equation."
+        ]
+    },
+    {
+        "word": "spend",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to use money",
+            "to pass time"
+        ],
+        "exampleSentences": [
+            "Spend wisely.",
+            "Spend time with family."
+        ]
+    },
+    {
+        "word": "stay",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to remain",
+            "to not leave"
+        ],
+        "exampleSentences": [
+            "Stay focused.",
+            "Stay here."
+        ]
+    },
+    {
+        "word": "stop",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to cease",
+            "to halt"
+        ],
+        "exampleSentences": [
+            "Stop talking.",
+            "Stop the car."
+        ]
+    },
+    {
+        "word": "study",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to learn",
+            "to examine"
+        ],
+        "exampleSentences": [
+            "Study hard.",
+            "Study the results."
+        ]
+    },
+    {
+        "word": "suggest",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to propose",
+            "to recommend"
+        ],
+        "exampleSentences": [
+            "Suggest an idea.",
+            "She suggested a plan."
+        ]
+    },
+    {
+        "word": "support",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to help",
+            "to back up"
+        ],
+        "exampleSentences": [
+            "Support a friend.",
+            "Support the project."
+        ]
+    },
+    {
+        "word": "take",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to carry",
+            "to grab"
+        ],
+        "exampleSentences": [
+            "Take a break.",
+            "Take responsibility."
+        ]
+    },
+    {
+        "word": "talk",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to speak",
+            "to discuss"
+        ],
+        "exampleSentences": [
+            "Talk to her.",
+            "Talk business."
+        ]
+    },
+    {
+        "word": "teach",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to instruct",
+            "to educate"
+        ],
+        "exampleSentences": [
+            "Teach a class.",
+            "Teach others."
+        ]
+    },
+    {
+        "word": "think",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to consider",
+            "to believe"
+        ],
+        "exampleSentences": [
+            "Think before acting.",
+            "I think so."
+        ]
+    },
+    {
+        "word": "try",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to attempt",
+            "to test"
+        ],
+        "exampleSentences": [
+            "Try your best.",
+            "Try a new dish."
+        ]
+    },
+    {
+        "word": "turn",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to rotate",
+            "to change direction"
+        ],
+        "exampleSentences": [
+            "Turn left.",
+            "Turn the page."
+        ]
+    },
+    {
+        "word": "understand",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to comprehend",
+            "to know"
+        ],
+        "exampleSentences": [
+            "Do you understand?",
+            "Understand the rules."
+        ]
+    },
+    {
+        "word": "use",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to employ",
+            "to consume"
+        ],
+        "exampleSentences": [
+            "Use a tool.",
+            "Use common sense."
+        ]
+    },
+    {
+        "word": "visit",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to go to see",
+            "to call on"
+        ],
+        "exampleSentences": [
+            "Visit a city.",
+            "Visit a friend."
+        ]
+    },
+    {
+        "word": "wait",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to stay",
+            "to be patient"
+        ],
+        "exampleSentences": [
+            "Wait here.",
+            "Wait for results."
+        ]
+    },
+    {
+        "word": "win",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to succeed",
+            "to be victorious"
+        ],
+        "exampleSentences": [
+            "Win a prize.",
+            "Win the game."
+        ]
+    },
+    {
+        "word": "work",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to do labor",
+            "to function"
+        ],
+        "exampleSentences": [
+            "Work hard.",
+            "Does it work?"
+        ]
+    },
+    {
+        "word": "write",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to compose",
+            "to record"
+        ],
+        "exampleSentences": [
+            "Write a letter.",
+            "Write your name."
         ]
     }
 ]

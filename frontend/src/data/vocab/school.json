@@ -528,18 +528,6 @@
         ]
     },
     {
-        "word": "community",
-        "partOfSpeech": "noun",
-        "meanings": [
-            "group",
-            "society"
-        ],
-        "exampleSentences": [
-            "Academic community.",
-            "Local community."
-        ]
-    },
-    {
         "word": "compatible",
         "partOfSpeech": "adjective",
         "meanings": [
@@ -852,18 +840,6 @@
         ]
     },
     {
-        "word": "measure",
-        "partOfSpeech": "verb",
-        "meanings": [
-            "to determine size",
-            "to quantify"
-        ],
-        "exampleSentences": [
-            "Measure the length.",
-            "Measure twice, cut once."
-        ]
-    },
-    {
         "word": "calculate",
         "partOfSpeech": "verb",
         "meanings": [
@@ -1161,18 +1137,6 @@
         "exampleSentences": [
             "Complex plot.",
             "Plot twist."
-        ]
-    },
-    {
-        "word": "character",
-        "partOfSpeech": "noun",
-        "meanings": [
-            "person in story",
-            "personality"
-        ],
-        "exampleSentences": [
-            "Main character.",
-            "Character development."
         ]
     },
     {
@@ -1557,6 +1521,990 @@
         "exampleSentences": [
             "Contribute to research.",
             "Everyone contributed."
+        ]
+    },
+    {
+        "word": "argument",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "claim with evidence",
+            "debate"
+        ],
+        "exampleSentences": [
+            "Present your argument.",
+            "Logical argument."
+        ]
+    },
+    {
+        "word": "assert",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to state confidently",
+            "to claim"
+        ],
+        "exampleSentences": [
+            "Assert your rights.",
+            "He asserted the truth."
+        ]
+    },
+    {
+        "word": "assignment",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "homework",
+            "task given"
+        ],
+        "exampleSentences": [
+            "Submit the assignment.",
+            "Difficult assignment."
+        ]
+    },
+    {
+        "word": "brainstorm",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to generate ideas",
+            "to think creatively"
+        ],
+        "exampleSentences": [
+            "Brainstorm solutions.",
+            "Let's brainstorm."
+        ]
+    },
+    {
+        "word": "challenge",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "difficult task",
+            "obstacle"
+        ],
+        "exampleSentences": [
+            "Accept the challenge.",
+            "A big challenge."
+        ]
+    },
+    {
+        "word": "chapter",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "book section",
+            "period"
+        ],
+        "exampleSentences": [
+            "Read the chapter.",
+            "A new chapter."
+        ]
+    },
+    {
+        "word": "collaborate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to work together",
+            "to cooperate"
+        ],
+        "exampleSentences": [
+            "Collaborate on projects.",
+            "Teams collaborate."
+        ]
+    },
+    {
+        "word": "curriculum",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "course of study",
+            "syllabus"
+        ],
+        "exampleSentences": [
+            "School curriculum.",
+            "New curriculum."
+        ]
+    },
+    {
+        "word": "deadline",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "due date",
+            "time limit"
+        ],
+        "exampleSentences": [
+            "Meet the deadline.",
+            "Strict deadline."
+        ]
+    },
+    {
+        "word": "debate",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "formal argument",
+            "discussion"
+        ],
+        "exampleSentences": [
+            "Hold a debate.",
+            "Debate the topic."
+        ]
+    },
+    {
+        "word": "deduce",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to conclude",
+            "to reason"
+        ],
+        "exampleSentences": [
+            "Deduce from clues.",
+            "Deduce the answer."
+        ]
+    },
+    {
+        "word": "define",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to explain meaning",
+            "to specify"
+        ],
+        "exampleSentences": [
+            "Define the term.",
+            "Define your goals."
+        ]
+    },
+    {
+        "word": "demonstrate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to show",
+            "to prove"
+        ],
+        "exampleSentences": [
+            "Demonstrate the process.",
+            "Demonstrate knowledge."
+        ]
+    },
+    {
+        "word": "derive",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to obtain from",
+            "to originate"
+        ],
+        "exampleSentences": [
+            "Derive a formula.",
+            "Derive meaning."
+        ]
+    },
+    {
+        "word": "determine",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to find out",
+            "to decide"
+        ],
+        "exampleSentences": [
+            "Determine the cause.",
+            "Determine a plan."
+        ]
+    },
+    {
+        "word": "diagnose",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to identify",
+            "to recognize"
+        ],
+        "exampleSentences": [
+            "Diagnose a problem.",
+            "Diagnose an illness."
+        ]
+    },
+    {
+        "word": "differentiate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to distinguish",
+            "to tell apart"
+        ],
+        "exampleSentences": [
+            "Differentiate between types.",
+            "Differentiate clearly."
+        ]
+    },
+    {
+        "word": "discipline",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "control",
+            "field of study"
+        ],
+        "exampleSentences": [
+            "Need discipline.",
+            "Scientific discipline."
+        ]
+    },
+    {
+        "word": "draft",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "rough version",
+            "first attempt"
+        ],
+        "exampleSentences": [
+            "Write a draft.",
+            "First draft."
+        ]
+    },
+    {
+        "word": "elaborate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to explain in detail",
+            "to add more"
+        ],
+        "exampleSentences": [
+            "Elaborate your answer.",
+            "Please elaborate."
+        ]
+    },
+    {
+        "word": "evaluate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to judge",
+            "to assess"
+        ],
+        "exampleSentences": [
+            "Evaluate results.",
+            "Evaluate the essay."
+        ]
+    },
+    {
+        "word": "expand",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to grow larger",
+            "to develop further"
+        ],
+        "exampleSentences": [
+            "Expand knowledge.",
+            "Expand the essay."
+        ]
+    },
+    {
+        "word": "faculty",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "teaching staff",
+            "ability"
+        ],
+        "exampleSentences": [
+            "Meet the faculty.",
+            "Faculty meeting."
+        ]
+    },
+    {
+        "word": "findings",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "results",
+            "discoveries"
+        ],
+        "exampleSentences": [
+            "Research findings.",
+            "Discuss the findings."
+        ]
+    },
+    {
+        "word": "focus",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to concentrate",
+            "to center on"
+        ],
+        "exampleSentences": [
+            "Focus on studies.",
+            "Focus your attention."
+        ]
+    },
+    {
+        "word": "foundation",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "base",
+            "fundamental principle"
+        ],
+        "exampleSentences": [
+            "Strong foundation.",
+            "Foundation of learning."
+        ]
+    },
+    {
+        "word": "framework",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "structure",
+            "system"
+        ],
+        "exampleSentences": [
+            "Theoretical framework.",
+            "Build a framework."
+        ]
+    },
+    {
+        "word": "generate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to produce",
+            "to create"
+        ],
+        "exampleSentences": [
+            "Generate ideas.",
+            "Generate income."
+        ]
+    },
+    {
+        "word": "grade",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "score",
+            "level"
+        ],
+        "exampleSentences": [
+            "Good grade.",
+            "Grade the papers."
+        ]
+    },
+    {
+        "word": "highlight",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to emphasize",
+            "to mark"
+        ],
+        "exampleSentences": [
+            "Highlight key points.",
+            "Highlight in yellow."
+        ]
+    },
+    {
+        "word": "illustrate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to show with examples",
+            "to draw"
+        ],
+        "exampleSentences": [
+            "Illustrate your point.",
+            "Illustrated textbook."
+        ]
+    },
+    {
+        "word": "implement",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to carry out",
+            "to put into action"
+        ],
+        "exampleSentences": [
+            "Implement the plan.",
+            "Implement changes."
+        ]
+    },
+    {
+        "word": "imply",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to suggest",
+            "to indicate"
+        ],
+        "exampleSentences": [
+            "What does this imply?",
+            "Imply without saying."
+        ]
+    },
+    {
+        "word": "infer",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to draw conclusions",
+            "to deduce"
+        ],
+        "exampleSentences": [
+            "Infer the meaning.",
+            "Infer from data."
+        ]
+    },
+    {
+        "word": "investigate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to research",
+            "to examine"
+        ],
+        "exampleSentences": [
+            "Investigate the topic.",
+            "Police investigated."
+        ]
+    },
+    {
+        "word": "journal",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "diary",
+            "academic publication"
+        ],
+        "exampleSentences": [
+            "Keep a journal.",
+            "Academic journal."
+        ]
+    },
+    {
+        "word": "justify",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to give reasons for",
+            "to prove"
+        ],
+        "exampleSentences": [
+            "Justify your answer.",
+            "Justify the decision."
+        ]
+    },
+    {
+        "word": "knowledge",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "understanding",
+            "information"
+        ],
+        "exampleSentences": [
+            "Build knowledge.",
+            "Share knowledge."
+        ]
+    },
+    {
+        "word": "lecture",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "formal talk",
+            "lesson"
+        ],
+        "exampleSentences": [
+            "Attend a lecture.",
+            "Guest lecture."
+        ]
+    },
+    {
+        "word": "literature",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "written works",
+            "research papers"
+        ],
+        "exampleSentences": [
+            "Review literature.",
+            "Classic literature."
+        ]
+    },
+    {
+        "word": "logic",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "reasoning",
+            "sense"
+        ],
+        "exampleSentences": [
+            "Use logic.",
+            "No logic."
+        ]
+    },
+    {
+        "word": "memorize",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to learn by heart",
+            "to commit to memory"
+        ],
+        "exampleSentences": [
+            "Memorize the formula.",
+            "Hard to memorize."
+        ]
+    },
+    {
+        "word": "method",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "procedure",
+            "technique"
+        ],
+        "exampleSentences": [
+            "Research method.",
+            "Choose a method."
+        ]
+    },
+    {
+        "word": "motive",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "reason",
+            "purpose"
+        ],
+        "exampleSentences": [
+            "What is the motive?",
+            "Understand motives."
+        ]
+    },
+    {
+        "word": "objective",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "goal",
+            "aim"
+        ],
+        "exampleSentences": [
+            "Clear objective.",
+            "State the objective."
+        ]
+    },
+    {
+        "word": "observation",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "watching",
+            "remark"
+        ],
+        "exampleSentences": [
+            "Scientific observation.",
+            "Make an observation."
+        ]
+    },
+    {
+        "word": "outline",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "summary plan",
+            "structure"
+        ],
+        "exampleSentences": [
+            "Write an outline.",
+            "Outline the essay."
+        ]
+    },
+    {
+        "word": "paraphrase",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to restate in own words",
+            "to rephrase"
+        ],
+        "exampleSentences": [
+            "Paraphrase the text.",
+            "Please paraphrase."
+        ]
+    },
+    {
+        "word": "peer",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "equal",
+            "classmate"
+        ],
+        "exampleSentences": [
+            "Peer review.",
+            "Learn from peers."
+        ]
+    },
+    {
+        "word": "perception",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "awareness",
+            "understanding"
+        ],
+        "exampleSentences": [
+            "Change perception.",
+            "Good perception."
+        ]
+    },
+    {
+        "word": "prerequisite",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "required condition",
+            "prior course"
+        ],
+        "exampleSentences": [
+            "Check prerequisites.",
+            "No prerequisites needed."
+        ]
+    },
+    {
+        "word": "primary",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "main",
+            "first"
+        ],
+        "exampleSentences": [
+            "Primary source.",
+            "Primary goal."
+        ]
+    },
+    {
+        "word": "process",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "series of steps",
+            "procedure"
+        ],
+        "exampleSentences": [
+            "Learning process.",
+            "Follow the process."
+        ]
+    },
+    {
+        "word": "professor",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "university teacher",
+            "expert"
+        ],
+        "exampleSentences": [
+            "Ask the professor.",
+            "Professor gave a lecture."
+        ]
+    },
+    {
+        "word": "proposal",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "suggestion",
+            "plan"
+        ],
+        "exampleSentences": [
+            "Research proposal.",
+            "Submit proposal."
+        ]
+    },
+    {
+        "word": "publish",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to print and release",
+            "to share publicly"
+        ],
+        "exampleSentences": [
+            "Publish a paper.",
+            "Published book."
+        ]
+    },
+    {
+        "word": "qualify",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to meet standards",
+            "to limit"
+        ],
+        "exampleSentences": [
+            "Qualify for entry.",
+            "Qualify the statement."
+        ]
+    },
+    {
+        "word": "question",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to ask",
+            "to doubt"
+        ],
+        "exampleSentences": [
+            "Question assumptions.",
+            "Never stop questioning."
+        ]
+    },
+    {
+        "word": "reflect",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to think deeply",
+            "to show"
+        ],
+        "exampleSentences": [
+            "Reflect on learning.",
+            "Reflect your thoughts."
+        ]
+    },
+    {
+        "word": "reinforce",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to strengthen",
+            "to support"
+        ],
+        "exampleSentences": [
+            "Reinforce knowledge.",
+            "Reinforce behavior."
+        ]
+    },
+    {
+        "word": "relevant",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "related",
+            "applicable"
+        ],
+        "exampleSentences": [
+            "Relevant information.",
+            "Stay relevant."
+        ]
+    },
+    {
+        "word": "research",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "investigation",
+            "study"
+        ],
+        "exampleSentences": [
+            "Conduct research.",
+            "Research findings."
+        ]
+    },
+    {
+        "word": "review",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to examine again",
+            "to assess"
+        ],
+        "exampleSentences": [
+            "Review notes.",
+            "Peer review."
+        ]
+    },
+    {
+        "word": "revise",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to edit",
+            "to study again"
+        ],
+        "exampleSentences": [
+            "Revise the essay.",
+            "Revise for exams."
+        ]
+    },
+    {
+        "word": "scholarship",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "financial award",
+            "academic study"
+        ],
+        "exampleSentences": [
+            "Win a scholarship.",
+            "Scholarship program."
+        ]
+    },
+    {
+        "word": "sequence",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "order",
+            "series"
+        ],
+        "exampleSentences": [
+            "In sequence.",
+            "DNA sequence."
+        ]
+    },
+    {
+        "word": "significant",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "important",
+            "meaningful"
+        ],
+        "exampleSentences": [
+            "Significant result.",
+            "Significant impact."
+        ]
+    },
+    {
+        "word": "simulation",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "imitation",
+            "model"
+        ],
+        "exampleSentences": [
+            "Run a simulation.",
+            "Computer simulation."
+        ]
+    },
+    {
+        "word": "solution",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "answer",
+            "mixture"
+        ],
+        "exampleSentences": [
+            "Find a solution.",
+            "Chemical solution."
+        ]
+    },
+    {
+        "word": "source",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "origin",
+            "reference"
+        ],
+        "exampleSentences": [
+            "Cite the source.",
+            "Reliable source."
+        ]
+    },
+    {
+        "word": "statement",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "declaration",
+            "sentence"
+        ],
+        "exampleSentences": [
+            "Thesis statement.",
+            "Make a statement."
+        ]
+    },
+    {
+        "word": "strategy",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "plan",
+            "approach"
+        ],
+        "exampleSentences": [
+            "Study strategy.",
+            "Good strategy."
+        ]
+    },
+    {
+        "word": "structure",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "organization",
+            "framework"
+        ],
+        "exampleSentences": [
+            "Essay structure.",
+            "Clear structure."
+        ]
+    },
+    {
+        "word": "subject",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "topic",
+            "school course"
+        ],
+        "exampleSentences": [
+            "Favorite subject.",
+            "Subject matter."
+        ]
+    },
+    {
+        "word": "summarize",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to give main points",
+            "to condense"
+        ],
+        "exampleSentences": [
+            "Summarize the text.",
+            "Please summarize."
+        ]
+    },
+    {
+        "word": "survey",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "questionnaire",
+            "overview"
+        ],
+        "exampleSentences": [
+            "Take a survey.",
+            "Survey results."
+        ]
+    },
+    {
+        "word": "syllabus",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "course plan",
+            "program of study"
+        ],
+        "exampleSentences": [
+            "Check the syllabus.",
+            "Course syllabus."
+        ]
+    },
+    {
+        "word": "test",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "exam",
+            "trial"
+        ],
+        "exampleSentences": [
+            "Pass the test.",
+            "Unit test."
+        ]
+    },
+    {
+        "word": "title",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "name",
+            "heading"
+        ],
+        "exampleSentences": [
+            "Book title.",
+            "Job title."
+        ]
+    },
+    {
+        "word": "topic",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "subject",
+            "theme"
+        ],
+        "exampleSentences": [
+            "Choose a topic.",
+            "Main topic."
+        ]
+    },
+    {
+        "word": "translate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to convert language",
+            "to explain"
+        ],
+        "exampleSentences": [
+            "Translate the sentence.",
+            "Translate ideas."
+        ]
+    },
+    {
+        "word": "verify",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to confirm",
+            "to check"
+        ],
+        "exampleSentences": [
+            "Verify the answer.",
+            "Verify your identity."
         ]
     }
 ]

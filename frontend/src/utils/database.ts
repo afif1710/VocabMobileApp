@@ -295,6 +295,7 @@ export async function getUserProgress(): Promise<UserProgress> {
 
   if (!result) {
     const defaultSettings: UserSettings = {
+      theme: 'dark',
       dailyTarget: 20,
       soundEnabled: true,
       hapticEnabled: true,

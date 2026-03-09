@@ -1,17 +1,20 @@
 import { Tabs } from 'expo-router';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { useTheme } from '../../src/theme/ThemeContext';
 
 export default function TabLayout() {
+  const { colors } = useTheme();
+  
   return (
     <Tabs
       screenOptions={{
         headerShown: false,
         tabBarStyle: {
-          backgroundColor: '#0c0c0c',
-          borderTopColor: '#333',
+          backgroundColor: colors.tabBar,
+          borderTopColor: colors.border,
         },
-        tabBarActiveTintColor: '#4da6ff',
-        tabBarInactiveTintColor: '#888',
+        tabBarActiveTintColor: colors.primary,
+        tabBarInactiveTintColor: colors.muted,
       }}>
       <Tabs.Screen
         name="practice"

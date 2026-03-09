@@ -756,18 +756,6 @@
         ]
     },
     {
-        "word": "adjacent",
-        "partOfSpeech": "adjective",
-        "meanings": [
-            "next to",
-            "neighboring"
-        ],
-        "exampleSentences": [
-            "Adjacent building.",
-            "Adjacent to the park."
-        ]
-    },
-    {
         "word": "opposite",
         "partOfSpeech": "preposition",
         "meanings": [
@@ -969,18 +957,6 @@
         "exampleSentences": [
             "Fresh ingredients.",
             "List of ingredients."
-        ]
-    },
-    {
-        "word": "reservation",
-        "partOfSpeech": "noun",
-        "meanings": [
-            "booking",
-            "table booking"
-        ],
-        "exampleSentences": [
-            "Dinner reservation.",
-            "Make a reservation."
         ]
     },
     {
@@ -1320,66 +1296,6 @@
         ]
     },
     {
-        "word": "phenomenon",
-        "partOfSpeech": "noun",
-        "meanings": [
-            "occurrence",
-            "event"
-        ],
-        "exampleSentences": [
-            "Natural phenomenon.",
-            "Cultural phenomenon."
-        ]
-    },
-    {
-        "word": "significant",
-        "partOfSpeech": "adjective",
-        "meanings": [
-            "important",
-            "notable"
-        ],
-        "exampleSentences": [
-            "Significant improvement.",
-            "Statistically significant."
-        ]
-    },
-    {
-        "word": "demonstrate",
-        "partOfSpeech": "verb",
-        "meanings": [
-            "to show",
-            "to prove"
-        ],
-        "exampleSentences": [
-            "Demonstrate knowledge.",
-            "The study demonstrates."
-        ]
-    },
-    {
-        "word": "establish",
-        "partOfSpeech": "verb",
-        "meanings": [
-            "to found",
-            "to set up"
-        ],
-        "exampleSentences": [
-            "Establish a connection.",
-            "Well established."
-        ]
-    },
-    {
-        "word": "maintain",
-        "partOfSpeech": "verb",
-        "meanings": [
-            "to keep",
-            "to preserve"
-        ],
-        "exampleSentences": [
-            "Maintain standards.",
-            "Maintain contact."
-        ]
-    },
-    {
         "word": "obtain",
         "partOfSpeech": "verb",
         "meanings": [
@@ -1401,18 +1317,6 @@
         "exampleSentences": [
             "Errors occur.",
             "When did it occur?"
-        ]
-    },
-    {
-        "word": "participate",
-        "partOfSpeech": "verb",
-        "meanings": [
-            "to take part",
-            "to join"
-        ],
-        "exampleSentences": [
-            "Participate in activities.",
-            "Active participation."
         ]
     },
     {
@@ -1452,30 +1356,6 @@
         ]
     },
     {
-        "word": "require",
-        "partOfSpeech": "verb",
-        "meanings": [
-            "to need",
-            "to demand"
-        ],
-        "exampleSentences": [
-            "Skills required.",
-            "This requires attention."
-        ]
-    },
-    {
-        "word": "respond",
-        "partOfSpeech": "verb",
-        "meanings": [
-            "to answer",
-            "to react"
-        ],
-        "exampleSentences": [
-            "Respond quickly.",
-            "How did she respond?"
-        ]
-    },
-    {
         "word": "retain",
         "partOfSpeech": "verb",
         "meanings": [
@@ -1497,18 +1377,6 @@
         "exampleSentences": [
             "Reveal the truth.",
             "Studies reveal."
-        ]
-    },
-    {
-        "word": "seek",
-        "partOfSpeech": "verb",
-        "meanings": [
-            "to look for",
-            "to try to find"
-        ],
-        "exampleSentences": [
-            "Seek advice.",
-            "Seek opportunities."
         ]
     },
     {
@@ -1557,6 +1425,822 @@
         "exampleSentences": [
             "Sufficient evidence.",
             "Not sufficient."
+        ]
+    },
+    {
+        "word": "adventure",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "exciting experience",
+            "journey"
+        ],
+        "exampleSentences": [
+            "Great adventure.",
+            "Adventure awaits."
+        ]
+    },
+    {
+        "word": "backpack",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "travel bag",
+            "rucksack"
+        ],
+        "exampleSentences": [
+            "Pack a backpack.",
+            "Backpack trip."
+        ]
+    },
+    {
+        "word": "border",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "country boundary",
+            "edge"
+        ],
+        "exampleSentences": [
+            "Cross the border.",
+            "Border control."
+        ]
+    },
+    {
+        "word": "budget",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "financial plan",
+            "limited money"
+        ],
+        "exampleSentences": [
+            "Travel budget.",
+            "Budget hotel."
+        ]
+    },
+    {
+        "word": "bus",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "public transport",
+            "vehicle"
+        ],
+        "exampleSentences": [
+            "Take the bus.",
+            "Bus schedule."
+        ]
+    },
+    {
+        "word": "campsite",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "camping area",
+            "outdoor stay"
+        ],
+        "exampleSentences": [
+            "Find a campsite.",
+            "Nice campsite."
+        ]
+    },
+    {
+        "word": "captain",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "ship commander",
+            "leader"
+        ],
+        "exampleSentences": [
+            "Ship captain.",
+            "The captain spoke."
+        ]
+    },
+    {
+        "word": "carry-on",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "cabin bag",
+            "hand luggage"
+        ],
+        "exampleSentences": [
+            "Check carry-on size.",
+            "Carry-on bag."
+        ]
+    },
+    {
+        "word": "charter",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "private hire",
+            "rental"
+        ],
+        "exampleSentences": [
+            "Charter a flight.",
+            "Charter a boat."
+        ]
+    },
+    {
+        "word": "climate",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "weather pattern",
+            "environment"
+        ],
+        "exampleSentences": [
+            "Warm climate.",
+            "Study the climate."
+        ]
+    },
+    {
+        "word": "coast",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "shoreline",
+            "seaside"
+        ],
+        "exampleSentences": [
+            "Beautiful coast.",
+            "Coastal town."
+        ]
+    },
+    {
+        "word": "compass",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "direction tool",
+            "navigational device"
+        ],
+        "exampleSentences": [
+            "Use a compass.",
+            "Lost without compass."
+        ]
+    },
+    {
+        "word": "connecting",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "linking",
+            "joining"
+        ],
+        "exampleSentences": [
+            "Connecting flight.",
+            "Connecting rooms."
+        ]
+    },
+    {
+        "word": "continent",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "large landmass",
+            "major region"
+        ],
+        "exampleSentences": [
+            "African continent.",
+            "Visit a continent."
+        ]
+    },
+    {
+        "word": "convenience",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "ease",
+            "accessibility"
+        ],
+        "exampleSentences": [
+            "For your convenience.",
+            "Travel convenience."
+        ]
+    },
+    {
+        "word": "countryside",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "rural area",
+            "landscape"
+        ],
+        "exampleSentences": [
+            "Beautiful countryside.",
+            "Drive through countryside."
+        ]
+    },
+    {
+        "word": "currency",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "money",
+            "local cash"
+        ],
+        "exampleSentences": [
+            "Exchange currency.",
+            "Local currency."
+        ]
+    },
+    {
+        "word": "depart",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to leave",
+            "to set off"
+        ],
+        "exampleSentences": [
+            "Depart at noon.",
+            "When do we depart?"
+        ]
+    },
+    {
+        "word": "directions",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "instructions for route",
+            "guidance"
+        ],
+        "exampleSentences": [
+            "Ask for directions.",
+            "Follow the directions."
+        ]
+    },
+    {
+        "word": "domestic",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "within a country",
+            "local"
+        ],
+        "exampleSentences": [
+            "Domestic flight.",
+            "Domestic tourism."
+        ]
+    },
+    {
+        "word": "dusk",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "twilight",
+            "evening time"
+        ],
+        "exampleSentences": [
+            "Beautiful dusk.",
+            "At dusk."
+        ]
+    },
+    {
+        "word": "embassy",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "diplomatic office",
+            "government building"
+        ],
+        "exampleSentences": [
+            "Visit the embassy.",
+            "Contact the embassy."
+        ]
+    },
+    {
+        "word": "embark",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to board",
+            "to begin journey"
+        ],
+        "exampleSentences": [
+            "Embark on adventure.",
+            "Embark the ship."
+        ]
+    },
+    {
+        "word": "estimate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to approximate",
+            "to calculate roughly"
+        ],
+        "exampleSentences": [
+            "Estimate travel time.",
+            "Rough estimate."
+        ]
+    },
+    {
+        "word": "fare",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "ticket price",
+            "cost of travel"
+        ],
+        "exampleSentences": [
+            "Bus fare.",
+            "Affordable fare."
+        ]
+    },
+    {
+        "word": "festival",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "celebration",
+            "cultural event"
+        ],
+        "exampleSentences": [
+            "Music festival.",
+            "Local festival."
+        ]
+    },
+    {
+        "word": "ferry",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "water transport",
+            "boat"
+        ],
+        "exampleSentences": [
+            "Take the ferry.",
+            "Ferry crossing."
+        ]
+    },
+    {
+        "word": "foreign",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "from another country",
+            "unfamiliar"
+        ],
+        "exampleSentences": [
+            "Foreign language.",
+            "Foreign country."
+        ]
+    },
+    {
+        "word": "GPS",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "navigation system",
+            "location tracker"
+        ],
+        "exampleSentences": [
+            "Use GPS.",
+            "GPS coordinates."
+        ]
+    },
+    {
+        "word": "harbor",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "port",
+            "shelter for ships"
+        ],
+        "exampleSentences": [
+            "Enter the harbor.",
+            "Harbor view."
+        ]
+    },
+    {
+        "word": "hiking",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "walking in nature",
+            "trekking"
+        ],
+        "exampleSentences": [
+            "Go hiking.",
+            "Hiking trail."
+        ]
+    },
+    {
+        "word": "hostel",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "budget accommodation",
+            "shared lodging"
+        ],
+        "exampleSentences": [
+            "Stay at hostel.",
+            "Youth hostel."
+        ]
+    },
+    {
+        "word": "insurance",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "protection plan",
+            "coverage"
+        ],
+        "exampleSentences": [
+            "Travel insurance.",
+            "Buy insurance."
+        ]
+    },
+    {
+        "word": "international",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "between countries",
+            "global"
+        ],
+        "exampleSentences": [
+            "International flight.",
+            "International travel."
+        ]
+    },
+    {
+        "word": "island",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "land surrounded by water",
+            "remote place"
+        ],
+        "exampleSentences": [
+            "Tropical island.",
+            "Small island."
+        ]
+    },
+    {
+        "word": "jetlag",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "time zone fatigue",
+            "travel exhaustion"
+        ],
+        "exampleSentences": [
+            "Severe jetlag.",
+            "Manage jetlag."
+        ]
+    },
+    {
+        "word": "jungle",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "tropical forest",
+            "dense vegetation"
+        ],
+        "exampleSentences": [
+            "Explore the jungle.",
+            "Jungle trek."
+        ]
+    },
+    {
+        "word": "local",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "from the area",
+            "nearby"
+        ],
+        "exampleSentences": [
+            "Local food.",
+            "Ask a local."
+        ]
+    },
+    {
+        "word": "map",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "diagram of area",
+            "guide"
+        ],
+        "exampleSentences": [
+            "Read a map.",
+            "City map."
+        ]
+    },
+    {
+        "word": "metro",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "subway",
+            "underground train"
+        ],
+        "exampleSentences": [
+            "Take the metro.",
+            "Metro station."
+        ]
+    },
+    {
+        "word": "nationality",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "country of origin",
+            "citizenship"
+        ],
+        "exampleSentences": [
+            "State nationality.",
+            "What is your nationality?"
+        ]
+    },
+    {
+        "word": "navigate",
+        "partOfSpeech": "verb",
+        "meanings": [
+            "to find way",
+            "to steer"
+        ],
+        "exampleSentences": [
+            "Navigate the city.",
+            "Navigate by stars."
+        ]
+    },
+    {
+        "word": "overnight",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "all night",
+            "the next morning"
+        ],
+        "exampleSentences": [
+            "Overnight stay.",
+            "Overnight train."
+        ]
+    },
+    {
+        "word": "peninsula",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "land with water on three sides",
+            "promontory"
+        ],
+        "exampleSentences": [
+            "Beautiful peninsula.",
+            "Korean peninsula."
+        ]
+    },
+    {
+        "word": "permit",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "official permission",
+            "license"
+        ],
+        "exampleSentences": [
+            "Work permit.",
+            "Entry permit."
+        ]
+    },
+    {
+        "word": "picturesque",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "beautiful",
+            "scenic"
+        ],
+        "exampleSentences": [
+            "Picturesque village.",
+            "Picturesque view."
+        ]
+    },
+    {
+        "word": "port",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "harbor",
+            "dock"
+        ],
+        "exampleSentences": [
+            "Cruise port.",
+            "Port city."
+        ]
+    },
+    {
+        "word": "resort",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "vacation place",
+            "holiday complex"
+        ],
+        "exampleSentences": [
+            "Beach resort.",
+            "Ski resort."
+        ]
+    },
+    {
+        "word": "roundtrip",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "there and back ticket",
+            "return journey"
+        ],
+        "exampleSentences": [
+            "Roundtrip ticket.",
+            "Book roundtrip."
+        ]
+    },
+    {
+        "word": "safari",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "wildlife expedition",
+            "nature tour"
+        ],
+        "exampleSentences": [
+            "African safari.",
+            "Safari jeep."
+        ]
+    },
+    {
+        "word": "scenic",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "beautiful view",
+            "picturesque"
+        ],
+        "exampleSentences": [
+            "Scenic route.",
+            "Scenic viewpoint."
+        ]
+    },
+    {
+        "word": "seaside",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "near the sea",
+            "coastal"
+        ],
+        "exampleSentences": [
+            "Seaside town.",
+            "Seaside holiday."
+        ]
+    },
+    {
+        "word": "sightseeing",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "visiting attractions",
+            "tourism"
+        ],
+        "exampleSentences": [
+            "Go sightseeing.",
+            "Sightseeing tour."
+        ]
+    },
+    {
+        "word": "taxi",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "hired car",
+            "cab"
+        ],
+        "exampleSentences": [
+            "Hail a taxi.",
+            "Taxi to hotel."
+        ]
+    },
+    {
+        "word": "timezone",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "regional time zone",
+            "clock zone"
+        ],
+        "exampleSentences": [
+            "Different timezone.",
+            "Adjust to timezone."
+        ]
+    },
+    {
+        "word": "toll",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "road fee",
+            "charge"
+        ],
+        "exampleSentences": [
+            "Pay the toll.",
+            "Toll booth."
+        ]
+    },
+    {
+        "word": "tourist",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "visitor",
+            "traveler"
+        ],
+        "exampleSentences": [
+            "Many tourists.",
+            "Tourist spot."
+        ]
+    },
+    {
+        "word": "trail",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "path",
+            "track"
+        ],
+        "exampleSentences": [
+            "Hiking trail.",
+            "Follow the trail."
+        ]
+    },
+    {
+        "word": "train",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "railway vehicle",
+            "series"
+        ],
+        "exampleSentences": [
+            "Board the train.",
+            "Train station."
+        ]
+    },
+    {
+        "word": "transit",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "passing through",
+            "transport"
+        ],
+        "exampleSentences": [
+            "In transit.",
+            "Transit visa."
+        ]
+    },
+    {
+        "word": "trek",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "long journey",
+            "hike"
+        ],
+        "exampleSentences": [
+            "Mountain trek.",
+            "Long trek."
+        ]
+    },
+    {
+        "word": "tropical",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "hot and humid",
+            "near equator"
+        ],
+        "exampleSentences": [
+            "Tropical island.",
+            "Tropical climate."
+        ]
+    },
+    {
+        "word": "tunnel",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "underground passage",
+            "highway tube"
+        ],
+        "exampleSentences": [
+            "Drive through tunnel.",
+            "Mountain tunnel."
+        ]
+    },
+    {
+        "word": "urban",
+        "partOfSpeech": "adjective",
+        "meanings": [
+            "city related",
+            "metropolitan"
+        ],
+        "exampleSentences": [
+            "Urban tourism.",
+            "Urban landscape."
+        ]
+    },
+    {
+        "word": "waterfall",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "falling water",
+            "cascade"
+        ],
+        "exampleSentences": [
+            "Beautiful waterfall.",
+            "Waterfall hike."
+        ]
+    },
+    {
+        "word": "wilderness",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "wild nature",
+            "uninhabited land"
+        ],
+        "exampleSentences": [
+            "Explore wilderness.",
+            "Wild wilderness."
+        ]
+    },
+    {
+        "word": "wildlife",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "wild animals",
+            "nature"
+        ],
+        "exampleSentences": [
+            "See wildlife.",
+            "Wildlife reserve."
+        ]
+    },
+    {
+        "word": "yacht",
+        "partOfSpeech": "noun",
+        "meanings": [
+            "luxury boat",
+            "sailing vessel"
+        ],
+        "exampleSentences": [
+            "Rent a yacht.",
+            "Yacht cruise."
         ]
     }
 ]

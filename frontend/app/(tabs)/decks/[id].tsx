@@ -6,8 +6,10 @@ import { ActivityIndicator, TextInput, Text as PaperText } from 'react-native-pa
 import { Button, Card } from '../../../src/components';
 
 import { useAppStore } from '../../../src/stores/appStore';
+import { useTheme } from '../../../src/theme/ThemeContext';
 
 export default function DeckDetailScreen() {
+  const { colors } = useTheme();
   const { id } = useLocalSearchParams<{ id: string }>();
 
   const isInitialized = useAppStore(s => s.isInitialized);
@@ -46,39 +48,39 @@ export default function DeckDetailScreen() {
 
   if (!isInitialized || isLoading) {
     return (
-      <SafeAreaView style={styles.container}>
+      <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
         <View style={styles.center}>
-          <ActivityIndicator animating />
-          <PaperText style={{ color: '#888' }}>Loading deck…</PaperText>
+          <ActivityIndicator animating color={colors.primary} />
+          <PaperText style={{ color: colors.muted }}>Loading deck…</PaperText>
         </View>
       </SafeAreaView>
     );
   }
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
       <View style={styles.header}>
         <Button mode="text" onPress={() => router.back()} style={{ marginVertical: 0 }}>← Back</Button>
-        <PaperText style={styles.title}>{currentDeck?.name ?? 'Deck'}</PaperText>
-        <PaperText style={styles.muted}>
+        <PaperText style={[styles.title, { color: colors.textPrimary }]}>{currentDeck?.name ?? 'Deck'}</PaperText>
+        <PaperText style={{ color: colors.muted }}>
           DB cards: {cards.length} • Shown: {filtered.length}
         </PaperText>
       </View>
 
       <Card style={styles.card}>
         <View style={{ gap: 10 }}>
-          {currentDeck?.description ? <PaperText style={styles.desc}>{currentDeck.description}</PaperText> : null}
+          {currentDeck?.description ? <PaperText style={[styles.desc, { color: colors.textSecondary }]}>{currentDeck.description}</PaperText> : null}
 
           <TextInput
             mode="outlined"
             value={q}
             onChangeText={setQ}
             placeholder="Search word, meaning, part of speech…"
-            textColor="#fff"
-            placeholderTextColor="#777"
-            outlineColor="#333"
-            activeOutlineColor="#4da6ff"
-            style={{ backgroundColor: '#0f0f0f' }}
+            textColor={colors.textPrimary}
+            placeholderTextColor={colors.muted}
+            outlineColor={colors.border}
+            activeOutlineColor={colors.primary}
+            style={{ backgroundColor: colors.surface }}
           />
 
           <Button
@@ -97,9 +99,9 @@ export default function DeckDetailScreen() {
         keyExtractor={(c: any, idx) => String(c.id ?? idx)}
         initialNumToRender={30}
         renderItem={({ item }: any) => (
-          <View style={styles.row}>
-            <PaperText style={styles.word}>{item.word}</PaperText>
-            <PaperText style={styles.meta} numberOfLines={2}>
+          <View style={[styles.row, { borderBottomColor: colors.border }]}>
+            <PaperText style={[styles.word, { color: colors.textPrimary }]}>{item.word}</PaperText>
+            <PaperText style={[styles.meta, { color: colors.muted }]} numberOfLines={2}>
               {item.partOfSpeech ?? ''}
               {Array.isArray(item.meanings) && item.meanings.length ? ` • ${item.meanings.join(' • ')}` : ''}
             </PaperText>
@@ -107,7 +109,7 @@ export default function DeckDetailScreen() {
         )}
         ListEmptyComponent={
           <View style={styles.center}>
-            <PaperText style={{ color: '#888' }}>No words match your search.</PaperText>
+            <PaperText style={{ color: colors.muted }}>No words match your search.</PaperText>
           </View>
         }
       />
@@ -116,18 +118,17 @@ export default function DeckDetailScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#0c0c0c' },
+  container: { flex: 1 },
   header: { paddingHorizontal: 16, paddingTop: 12, paddingBottom: 6, gap: 6 },
-  title: { color: '#fff', fontSize: 22, fontWeight: '900' },
-  muted: { color: '#888' },
+  title: { fontSize: 22, fontWeight: '900' },
 
   card: { marginHorizontal: 16, marginTop: 6 },
-  desc: { color: '#bbb', lineHeight: 20, marginBottom: 10 },
+  desc: { lineHeight: 20, marginBottom: 10 },
 
   list: { paddingHorizontal: 16, paddingBottom: 40, paddingTop: 10 },
-  row: { paddingVertical: 10, borderBottomColor: '#1f1f1f', borderBottomWidth: 1 },
-  word: { color: '#fff', fontSize: 16, fontWeight: '800' },
-  meta: { color: '#888', marginTop: 2 },
+  row: { paddingVertical: 10, borderBottomWidth: 1 },
+  word: { fontSize: 16, fontWeight: '800' },
+  meta: { marginTop: 2 },
 
   center: { flex: 1, alignItems: 'center', justifyContent: 'center', padding: 20, gap: 10 },
 });

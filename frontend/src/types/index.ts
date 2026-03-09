@@ -63,6 +63,7 @@ export interface Achievement {
 }
 
 export interface UserSettings {
+  theme?: string; // Add theme property
   dailyTarget: number;
   soundEnabled: boolean;
   hapticEnabled: boolean;

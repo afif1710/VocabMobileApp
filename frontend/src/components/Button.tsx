@@ -1,13 +1,14 @@
 import React from 'react';
 import { StyleSheet, TextStyle, ViewStyle } from 'react-native';
 import { Button as PaperButton } from 'react-native-paper';
+import { useTheme } from '../theme/ThemeContext';
 
 interface ButtonProps {
   onPress: () => void;
   children: React.ReactNode;
   mode?: 'text' | 'outlined' | 'contained' | 'elevated' | 'contained-tonal';
-  style?: ViewStyle;
-  labelStyle?: TextStyle;
+  style?: ViewStyle | ViewStyle[];
+  labelStyle?: TextStyle | TextStyle[];
   disabled?: boolean;
   loading?: boolean;
   icon?: string;
@@ -23,12 +24,26 @@ export function Button({
   loading,
   icon,
 }: ButtonProps) {
+  const { colors } = useTheme();
+
+  let buttonColor;
+  let textColor;
+
+  if (mode === 'contained') {
+    buttonColor = colors.primary;
+    textColor = colors.primaryText;
+  } else if (mode === 'outlined' || mode === 'text') {
+    textColor = colors.primary;
+  }
+
   return (
     <PaperButton
       onPress={onPress}
       mode={mode}
-      style={[styles.button, style]}
+      style={[styles.button, mode === 'outlined' && { borderColor: colors.primary }, style]}
       labelStyle={[styles.label, labelStyle]}
+      buttonColor={buttonColor}
+      textColor={textColor}
       disabled={disabled}
       loading={loading}
       icon={icon}
